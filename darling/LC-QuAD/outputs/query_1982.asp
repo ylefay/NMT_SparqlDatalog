@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/property/primeminister>("http://dbpedia.org/resource/Mike_Kelly_(Australian_politician)",uri),<http://dbpedia.org/property/primeminister>("http://dbpedia.org/resource/Martin_Ferguson",uri).

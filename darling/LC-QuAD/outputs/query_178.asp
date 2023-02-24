@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/MilitaryUnit>(uri),<http://dbpedia.org/property/branch>("http://dbpedia.org/resource/LeRoy_Collins",uri),<http://dbpedia.org/property/branch>("http://dbpedia.org/resource/George_G._Siebels,_Jr.",uri).

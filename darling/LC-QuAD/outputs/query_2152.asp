@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/locationCountry>("http://dbpedia.org/resource/Baku_Puppet_Theatre",uri),<http://dbpedia.org/ontology/locationCountry>("http://dbpedia.org/resource/Rashid_Behbudov_State_Song_Theatre",uri).

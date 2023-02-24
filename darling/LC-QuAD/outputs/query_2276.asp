@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/property/placeOfBurial>("http://dbpedia.org/resource/Isabel_of_Cambridge,_Countess_of_Essex",uri),<http://dbpedia.org/property/placeOfBurial>("http://dbpedia.org/resource/Elizabeth_of_Rhuddlan",uri).

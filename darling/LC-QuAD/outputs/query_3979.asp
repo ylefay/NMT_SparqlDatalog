@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/property/parent>("http://dbpedia.org/resource/Ford_Air_Transport_Service",uri),<http://dbpedia.org/ontology/manufacturer>("http://dbpedia.org/resource/Ford_Y-block_engine",uri).

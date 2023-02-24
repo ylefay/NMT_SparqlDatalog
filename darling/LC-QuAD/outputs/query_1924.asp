@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/property/placeOfBirth>("http://dbpedia.org/resource/Sarah_Walker_(badminton)",uri),<http://dbpedia.org/ontology/localAuthority>("http://dbpedia.org/resource/Trinity_School,_Brentwood",uri).

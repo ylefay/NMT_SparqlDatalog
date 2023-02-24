@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/relation>("http://dbpedia.org/resource/Maryanne_Trump_Barry",uri),<http://dbpedia.org/property/starring>("http://dbpedia.org/resource/Le_Cirque:_A_Table_in_Heaven",uri).

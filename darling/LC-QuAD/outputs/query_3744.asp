@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/property/writer>("http://dbpedia.org/resource/He's_a_Pirate",uri),<http://dbpedia.org/property/artist>("http://dbpedia.org/resource/Madagascar:_Operation_Penguin",uri).

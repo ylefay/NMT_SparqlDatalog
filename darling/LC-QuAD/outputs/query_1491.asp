@@ -1,1 +1,0 @@
-ans(count) :- <http://dbpedia.org/property/awards>(x,"http://dbpedia.org/resource/Croix_de_guerre_1939–1945_(France)"),<http://dbpedia.org/property/battles>(x,uri),<http://dbpedia.org/ontology/MilitaryConflict>(uri).

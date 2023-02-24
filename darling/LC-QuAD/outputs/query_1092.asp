@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/Scientist>(uri),<http://dbpedia.org/property/prizes>(uri,"http://dbpedia.org/resource/Norbert_Wiener_Award_for_Social_and_Professional_Responsibility"),<http://dbpedia.org/property/doctoralAdvisor>(uri,"http://dbpedia.org/resource/John_Robert_Woodyard").

@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/routeStart>("http://dbpedia.org/resource/Moscow-Kazan_high-speed_railway",uri),<http://dbpedia.org/ontology/homeStadium>("http://dbpedia.org/resource/2011–12_FC_Spartak_Moscow_season",uri).

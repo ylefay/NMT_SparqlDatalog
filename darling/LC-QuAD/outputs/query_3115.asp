@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/OfficeHolder>(uri),<http://dbpedia.org/property/predecessor>(uri,"http://dbpedia.org/resource/Henry_E._Catto,_Jr."),<http://dbpedia.org/property/restingPlace>(uri,"http://dbpedia.org/resource/Alta_Mesa_Memorial_Park").

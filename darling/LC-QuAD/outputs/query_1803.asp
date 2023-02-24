@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/Band>(uri),<http://dbpedia.org/property/currentMembers>(uri,x),<http://dbpedia.org/property/notableInstruments>(x,"http://dbpedia.org/resource/Fender_Stratocaster").

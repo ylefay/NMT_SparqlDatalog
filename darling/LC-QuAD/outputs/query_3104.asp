@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/Company>(uri),<http://dbpedia.org/ontology/product>(uri,"http://dbpedia.org/resource/Boeing_CH-47_Chinook"),<http://dbpedia.org/property/keyPeople>(uri,"http://dbpedia.org/resource/Dennis_Muilenburg").

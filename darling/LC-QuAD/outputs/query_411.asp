@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/TelevisionShow>(x),<http://dbpedia.org/property/showName>(x,uri),<http://dbpedia.org/property/themeMusicComposer>(x,"http://dbpedia.org/resource/Joel_Goodman").

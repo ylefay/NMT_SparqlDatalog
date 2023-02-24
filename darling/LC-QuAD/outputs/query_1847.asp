@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/property/placeOfDeath>("http://dbpedia.org/resource/Sergei_Ovchinnikov_(volleyball)",uri),<http://dbpedia.org/property/firstAired>("http://dbpedia.org/resource/Gümüş_(TV_series)",uri).

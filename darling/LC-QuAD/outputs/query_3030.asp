@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/Organisation>(uri),<http://dbpedia.org/ontology/foundationPlace>(uri,"http://dbpedia.org/resource/Dallas"),<http://dbpedia.org/ontology/foundationPlace>(uri,"http://dbpedia.org/resource/Texas").

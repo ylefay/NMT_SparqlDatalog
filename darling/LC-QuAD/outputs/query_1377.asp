@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/keyPerson>("http://dbpedia.org/resource/Trump_Entertainment_Resorts",uri),<http://dbpedia.org/ontology/relation>("http://dbpedia.org/resource/Maryanne_Trump_Barry",uri).

@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/TelevisionStation>(x),<http://dbpedia.org/property/country>(x,uri),<http://dbpedia.org/property/broadcastArea>(x,"http://dbpedia.org/resource/Southeast_Asia").

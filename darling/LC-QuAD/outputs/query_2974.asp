@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/TelevisionShow>(uri),<http://dbpedia.org/property/themeMusicComposer>(uri,x),<http://dbpedia.org/ontology/formerBandMember>(x,"http://dbpedia.org/resource/Jay_Lane").

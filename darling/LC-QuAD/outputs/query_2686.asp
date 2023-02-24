@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/EducationalInstitution>(uri),<http://dbpedia.org/ontology/campus>(uri,"http://dbpedia.org/resource/Indiana"),<http://dbpedia.org/ontology/campus>(uri,"http://dbpedia.org/resource/Iowa").

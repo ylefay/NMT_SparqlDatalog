@@ -1,1 +1,0 @@
-ans(count) :- <http://dbpedia.org/ontology/usedInWar>("http://dbpedia.org/resource/QF_6-pounder_Hotchkiss",x),<http://dbpedia.org/ontology/territory>(x,uri),<http://dbpedia.org/ontology/MilitaryConflict>(x).

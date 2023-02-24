@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/Stadium>(x),<http://dbpedia.org/ontology/builder>(x,uri),<http://dbpedia.org/ontology/stadium>("http://dbpedia.org/resource/Costa_Rica_women's_national_football_team",x).

@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/property/birthPlace>("http://dbpedia.org/resource/Ricardo_Alfonso_Cerna",uri),<http://dbpedia.org/ontology/country>("http://dbpedia.org/resource/Apostolic_Vicariate_of_El_Petén",uri).

@@ -1,1 +1,0 @@
-ans(count) :- <http://dbpedia.org/ontology/college>(x,"http://dbpedia.org/resource/Illinois_Fighting_Illini_men's_basketball"),<http://dbpedia.org/property/placeOfBirth>(x,uri),<http://dbpedia.org/ontology/Place>(uri).

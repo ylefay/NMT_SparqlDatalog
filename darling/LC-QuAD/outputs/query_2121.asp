@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/Person>(uri),<http://dbpedia.org/ontology/militaryUnit>(uri,"http://dbpedia.org/resource/USS_Kittiwake_(ASR-13)"),<http://dbpedia.org/property/constituency>(uri,"http://dbpedia.org/resource/Duboce_Triangle,_San_Francisco").

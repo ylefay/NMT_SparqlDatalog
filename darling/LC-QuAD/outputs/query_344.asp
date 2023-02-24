@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/destination>("http://dbpedia.org/resource/Emerald_Air_(United_States)",uri),<http://dbpedia.org/property/shipBuilder>("http://dbpedia.org/resource/USS_Camp_(DE-251)",uri).

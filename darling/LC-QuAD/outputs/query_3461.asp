@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/River>(uri),<http://dbpedia.org/property/mouthLocation>(uri,x),<http://dbpedia.org/ontology/countySeat>(x,"http://dbpedia.org/resource/Heathsville,_Virginia").

@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/Scientist>(x),<http://dbpedia.org/property/doctoralStudents>(x,uri),<http://dbpedia.org/property/doctoralStudents>(x,"http://dbpedia.org/resource/Mary_Ainsworth").

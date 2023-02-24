@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/designer>("http://dbpedia.org/resource/Language_Integrated_Query",uri),<http://dbpedia.org/ontology/designer>("http://dbpedia.org/resource/Microsoft_BASIC",uri).

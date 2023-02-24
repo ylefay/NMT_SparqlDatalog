@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/deathCause>("http://dbpedia.org/resource/John_Thomson_Mason_(1787–1850)",uri),<http://dbpedia.org/ontology/deathCause>("http://dbpedia.org/resource/Martino_Martini",uri).

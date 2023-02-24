@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/RecordLabel>(x),<http://dbpedia.org/property/founder>(x,uri),<http://dbpedia.org/property/founder>(x,"http://dbpedia.org/resource/Frank_Rogers_(record_producer)").

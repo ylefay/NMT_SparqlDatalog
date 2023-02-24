@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/Person>(x),<http://dbpedia.org/property/notableworks>(x,uri),<http://dbpedia.org/ontology/producer>("http://dbpedia.org/resource/Queer_as_Folk_(UK_TV_series)",x).

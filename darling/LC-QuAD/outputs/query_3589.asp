@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/nearestCity>("http://dbpedia.org/resource/David_W._Brown_House",uri),<http://dbpedia.org/ontology/nearestCity>("http://dbpedia.org/resource/LoDaisKa_Site",uri).

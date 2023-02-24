@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/property/restingplace>(uri,"http://dbpedia.org/resource/Montpelier_(Orange,_Virginia)"),<http://dbpedia.org/property/rank>(uri,"http://dbpedia.org/resource/Colonel_(United_States)").

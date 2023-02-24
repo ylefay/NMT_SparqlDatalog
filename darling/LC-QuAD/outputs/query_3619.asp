@@ -1,1 +1,0 @@
-ans(count) :- <http://dbpedia.org/ontology/officialLanguage>(x,"http://dbpedia.org/resource/French_language"),<http://dbpedia.org/ontology/currency>(x,uri),<http://dbpedia.org/ontology/Currency>(uri).

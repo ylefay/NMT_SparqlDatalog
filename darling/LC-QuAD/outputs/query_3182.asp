@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/child>(uri,"http://dbpedia.org/resource/John_Scott_Harrison"),<http://dbpedia.org/property/restingplace>(uri,"http://dbpedia.org/resource/William_Henry_Harrison_Tomb_State_Memorial").

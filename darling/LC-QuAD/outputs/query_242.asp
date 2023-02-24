@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/OfficeHolder>(uri),<http://dbpedia.org/ontology/associate>(uri,"http://dbpedia.org/resource/Marcus_Calpurnius_Bibulus"),<http://dbpedia.org/ontology/predecessor>(uri,"http://dbpedia.org/resource/Lucius_Cornelius_Lentulus_Crus").

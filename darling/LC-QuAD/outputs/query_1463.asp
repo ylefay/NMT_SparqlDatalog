@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/leaderName>(uri,"http://dbpedia.org/resource/Luigi_Brugnaro"),<http://dbpedia.org/property/province>(uri,"http://dbpedia.org/resource/Metropolitan_City_of_Venice").

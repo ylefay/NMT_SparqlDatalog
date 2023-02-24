@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/property/line>("http://dbpedia.org/resource/Vadodara_Junction_railway_station",uri),<http://dbpedia.org/ontology/routeEnd>("http://dbpedia.org/resource/Mumbai_Vadodara_Expressway",uri).

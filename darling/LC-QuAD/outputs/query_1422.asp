@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/Station>(x),<http://dbpedia.org/ontology/servingRailwayLine>(x,uri),<http://dbpedia.org/ontology/type>(x,"http://dbpedia.org/resource/North_Caucasus_Railway").

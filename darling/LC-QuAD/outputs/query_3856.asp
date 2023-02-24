@@ -1,1 +1,0 @@
-ans(count) :- <http://dbpedia.org/ontology/hubAirport>(uri,x),<http://dbpedia.org/ontology/Airline>(uri),<http://dbpedia.org/ontology/operator>(x,"http://dbpedia.org/resource/Los_Angeles_World_Airports").

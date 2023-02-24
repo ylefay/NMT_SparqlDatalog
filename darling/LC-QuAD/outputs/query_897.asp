@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/FigureSkater>(x),<http://dbpedia.org/ontology/formerPartner>(x,uri),<http://dbpedia.org/ontology/currentPartner>(x,"http://dbpedia.org/resource/Alexa_Scimeca").

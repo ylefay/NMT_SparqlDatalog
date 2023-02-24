@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/product>("http://dbpedia.org/resource/Apple_Productivity_Experience_Group",uri),<http://dbpedia.org/ontology/license>("http://dbpedia.org/resource/Microsoft_Office_Picture_Manager",uri).

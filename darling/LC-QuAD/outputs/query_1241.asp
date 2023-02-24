@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/residence>(uri,"http://dbpedia.org/resource/Colts_Neck_Township,_New_Jersey"),<http://dbpedia.org/ontology/residence>(uri,"http://dbpedia.org/resource/Beverly_Hills,_California").

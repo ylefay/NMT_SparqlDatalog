@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/School>(uri),<http://dbpedia.org/property/programmingLanguage>(uri,x),<http://dbpedia.org/property/designer>(x,"http://dbpedia.org/resource/Bjarne_Stroustrup").

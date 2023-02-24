@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/property/influencedBy>("http://dbpedia.org/resource/Dorothea_Sharp",uri),<http://dbpedia.org/property/artist>("http://dbpedia.org/resource/Charing_Cross_Bridge_(Monet_series)",uri).

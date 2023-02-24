@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/property/residence>("http://dbpedia.org/resource/Christopher_Díaz_Figueroa",uri),<http://dbpedia.org/ontology/country>("http://dbpedia.org/resource/Cruce_a_Nado_Internacional",uri).

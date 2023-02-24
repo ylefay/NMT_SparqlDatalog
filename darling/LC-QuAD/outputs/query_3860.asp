@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/TelevisionShow>(uri),<http://dbpedia.org/ontology/network>(uri,x),<http://dbpedia.org/ontology/keyPerson>(x,"http://dbpedia.org/resource/Steve_Burke_(businessman)").

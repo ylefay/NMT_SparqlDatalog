@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/Architect>(x),<http://dbpedia.org/ontology/significantBuilding>(x,uri),<http://dbpedia.org/ontology/significantBuilding>(x,"http://dbpedia.org/resource/Government_Building,_Kiev").

@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/Medician>(x),<http://dbpedia.org/property/workInstitutions>(x,uri),<http://dbpedia.org/property/workInstitutions>(x,"http://dbpedia.org/resource/University_of_Miami").

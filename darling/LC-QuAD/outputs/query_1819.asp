@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/property/education>("http://dbpedia.org/resource/Philip_W._Pillsbury",uri),<http://dbpedia.org/property/training>("http://dbpedia.org/resource/William_Anthony_(artist)",uri).

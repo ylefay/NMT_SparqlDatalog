@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/AmericanFootballTeam>(x),<http://dbpedia.org/ontology/locationCity>(x,uri),<http://dbpedia.org/property/pastteams>("http://dbpedia.org/resource/Matt_Snorton",x).

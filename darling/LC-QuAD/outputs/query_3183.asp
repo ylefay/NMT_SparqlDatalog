@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/property/deathCause>("http://dbpedia.org/resource/Sextus_Barbour",uri),<http://dbpedia.org/ontology/deathCause>("http://dbpedia.org/resource/Letitia_MacTavish_Hargrave",uri).

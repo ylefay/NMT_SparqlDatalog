@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/associate>(uri,"http://dbpedia.org/resource/Marcus_Calpurnius_Bibulus"),<http://dbpedia.org/ontology/associate>(uri,"http://dbpedia.org/resource/Publius_Servilius_Vatia_Isauricus_(consul_48_BC)").

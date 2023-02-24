@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/incumbent>("http://dbpedia.org/resource/Al_Gore_presidential_campaign,_2000",uri),<http://dbpedia.org/ontology/president>("http://dbpedia.org/resource/Mike_McCurry_(press_secretary)",uri).

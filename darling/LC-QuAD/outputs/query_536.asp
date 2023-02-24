@@ -1,1 +1,0 @@
-ans(count) :- <http://dbpedia.org/property/programmingLanguage>(uri,"http://dbpedia.org/resource/C++"),<http://dbpedia.org/ontology/operatingSystem>(uri,"http://dbpedia.org/resource/Microsoft_Windows").

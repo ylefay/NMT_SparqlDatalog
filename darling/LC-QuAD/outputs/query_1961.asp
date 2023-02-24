@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/OfficeHolder>(uri),<http://dbpedia.org/property/office>(uri,"http://dbpedia.org/resource/Massachusetts_House_of_Representatives"),<http://dbpedia.org/property/predecessor>(uri,"http://dbpedia.org/resource/Samuel_W._McCall").

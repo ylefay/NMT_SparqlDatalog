@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/property/director>(uri,"http://dbpedia.org/resource/Tim_Burton"),<http://dbpedia.org/property/screenplay>(uri,"http://dbpedia.org/resource/Daniel_Waters_(screenwriter)").

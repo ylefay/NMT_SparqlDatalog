@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/developer>(uri,"http://dbpedia.org/resource/J._Michael_Straczynski"),<http://dbpedia.org/ontology/executiveProducer>(uri,"http://dbpedia.org/resource/Douglas_Netter"),<http://dbpedia.org/ontology/TelevisionShow>(uri).

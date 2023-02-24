@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/property/country>("http://dbpedia.org/resource/Pioneer_Corporation",uri),<http://dbpedia.org/property/country>("http://dbpedia.org/resource/Major_All_Stars_Season_1",uri).

@@ -1,5 +1,0 @@
-/darling/outputs/query*
-/darling/inputs/query*
-/trained_models/*
-/datasets/LC-QuAD2/
-poetry.lock

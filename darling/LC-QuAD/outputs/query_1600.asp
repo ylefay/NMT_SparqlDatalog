@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/manager>("http://dbpedia.org/resource/2006–07_Middlesbrough_F.C._season",uri),<http://dbpedia.org/property/coach>("http://dbpedia.org/resource/England_national_under-21_football_team",uri).

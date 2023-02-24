@@ -1,1 +1,0 @@
-ans(count) :- <http://dbpedia.org/ontology/foundationPlace>(x,"http://dbpedia.org/resource/City_of_Newcastle"),<http://dbpedia.org/ontology/regionServed>(x,uri),<http://dbpedia.org/ontology/Place>(uri).

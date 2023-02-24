@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/Road>(x),<http://dbpedia.org/ontology/state>(x,uri),<http://dbpedia.org/ontology/routeJunction>(x,"http://dbpedia.org/resource/East_Whiteland_Township,_Chester_County,_Pennsylvania").

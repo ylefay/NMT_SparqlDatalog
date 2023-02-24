@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/Station>(x),<http://dbpedia.org/ontology/servingRailwayLine>(x,uri),<http://dbpedia.org/ontology/owningOrganisation>(x,"http://dbpedia.org/resource/Public_Transport_Authority_(Western_Australia)").

@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/Writer>(uri),<http://dbpedia.org/property/children>(uri,"http://dbpedia.org/resource/Julian_Hawthorne"),<http://dbpedia.org/property/children>(uri,"http://dbpedia.org/resource/Mother_Mary_Alphonsa").

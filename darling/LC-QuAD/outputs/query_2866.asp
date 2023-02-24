@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/property/parent>("http://dbpedia.org/resource/Syracuse_University_Press",uri),<http://dbpedia.org/ontology/team>("http://dbpedia.org/resource/Michael_Powell_(lacrosse)",uri).

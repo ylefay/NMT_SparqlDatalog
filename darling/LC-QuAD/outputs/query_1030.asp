@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/Person>(x),<http://dbpedia.org/property/president>(x,uri),<http://dbpedia.org/property/leader>("http://dbpedia.org/resource/United_States_House_of_Representatives_elections,_1790",x).

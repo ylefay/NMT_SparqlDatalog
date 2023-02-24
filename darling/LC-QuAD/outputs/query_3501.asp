@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/TelevisionShow>(uri),<http://dbpedia.org/ontology/executiveProducer>(uri,"http://dbpedia.org/resource/Glen_and_Les_Charles"),<http://dbpedia.org/ontology/network>(uri,"http://dbpedia.org/resource/NBC").

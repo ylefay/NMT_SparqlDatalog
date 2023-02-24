@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/AcademicJournal>(x),<http://dbpedia.org/ontology/academicDiscipline>(x,uri),<http://dbpedia.org/property/publisher>(x,"http://dbpedia.org/resource/SAGE_Publications").

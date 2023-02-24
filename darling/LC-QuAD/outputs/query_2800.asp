@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/sourceMountain>(uri,"http://dbpedia.org/resource/Baikal_Mountains"),<http://dbpedia.org/ontology/riverMouth>(uri,"http://dbpedia.org/resource/Lena_Delta_Wildlife_Reserve"),<http://dbpedia.org/ontology/River>(uri).

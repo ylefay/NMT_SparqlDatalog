@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/operatedBy>("http://dbpedia.org/resource/Twin_Cities_400",uri),<http://dbpedia.org/ontology/operatedBy>("http://dbpedia.org/resource/South_Side_Elevated_Railroad",uri).

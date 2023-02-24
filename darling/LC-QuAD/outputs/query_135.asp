@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/TelevisionShow>(uri),<http://dbpedia.org/property/channel>(uri,"http://dbpedia.org/resource/Fox_Broadcasting_Company"),<http://dbpedia.org/property/themeMusicComposer>(uri,"http://dbpedia.org/resource/Julian_Gingell").

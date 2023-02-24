@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/property/religion>("http://dbpedia.org/resource/Hirunika_Premachandra",uri),<http://dbpedia.org/ontology/religion>("http://dbpedia.org/resource/South_Asians_in_Hong_Kong",uri).

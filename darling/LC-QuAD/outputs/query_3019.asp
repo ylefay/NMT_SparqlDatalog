@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/MilitaryConflict>(uri),<http://dbpedia.org/ontology/place>(uri,"http://dbpedia.org/resource/Israel"),<http://dbpedia.org/ontology/commander>(uri,"http://dbpedia.org/resource/Colin_Powell").

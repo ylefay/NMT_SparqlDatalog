@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/OfficeHolder>(uri),<http://dbpedia.org/property/constituency>(uri,x),<http://dbpedia.org/property/leaderTitle>(x,"http://dbpedia.org/resource/San_Francisco_Board_of_Supervisors").

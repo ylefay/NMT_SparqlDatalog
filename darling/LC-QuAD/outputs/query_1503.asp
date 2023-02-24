@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/TelevisionShow>(uri),<http://dbpedia.org/property/themeMusicComposer>(uri,x),<http://dbpedia.org/ontology/recordLabel>(x,"http://dbpedia.org/resource/Prawn_Song_Records").

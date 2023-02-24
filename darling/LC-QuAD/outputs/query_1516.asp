@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/OfficeHolder>(x),<http://dbpedia.org/property/office>(x,uri),<http://dbpedia.org/property/allegiance>(x,"http://dbpedia.org/resource/Union_(American_Civil_War)").

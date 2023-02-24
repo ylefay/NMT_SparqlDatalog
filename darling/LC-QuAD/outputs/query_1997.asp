@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/property/products>(uri,"http://dbpedia.org/resource/Marionette_(software)"),<http://dbpedia.org/property/keyPeople>(uri,"http://dbpedia.org/resource/Edwin_Catmull"),<http://dbpedia.org/ontology/Company>(uri).

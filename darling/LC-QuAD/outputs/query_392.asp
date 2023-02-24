@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/property/mascot>("http://dbpedia.org/resource/Seneca_Academy_and_Circle_School",uri),<http://dbpedia.org/property/species>("http://dbpedia.org/resource/The_Fox_and_the_Cat",uri).

@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/president>("http://dbpedia.org/resource/Charles_Evans_Hughes",uri),<http://dbpedia.org/ontology/vicePresident>("http://dbpedia.org/resource/Warren_G._Harding",uri).

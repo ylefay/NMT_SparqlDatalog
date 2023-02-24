@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/property/placeOfBirth>("http://dbpedia.org/resource/Vijay_Chavan",uri),<http://dbpedia.org/property/location>("http://dbpedia.org/resource/Eka_Lagnachi_Teesri_Goshta",uri).

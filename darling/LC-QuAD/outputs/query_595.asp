@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/TelevisionShow>(uri),<http://dbpedia.org/ontology/composer>(uri,"http://dbpedia.org/resource/Murray_Gold"),<http://dbpedia.org/ontology/creator>(uri,"http://dbpedia.org/resource/C._E._Webber").

@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/MilitaryUnit>(uri),<http://dbpedia.org/ontology/commandStructure>(uri,x),<http://dbpedia.org/property/headquarters>(x,"http://dbpedia.org/resource/The_Pentagon").

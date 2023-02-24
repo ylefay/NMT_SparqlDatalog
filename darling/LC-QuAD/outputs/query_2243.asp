@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/Continent>(uri),<http://dbpedia.org/property/destinations>("http://dbpedia.org/resource/Novair_International_Airways",uri),<http://dbpedia.org/property/destinations>("http://dbpedia.org/resource/Air_2000",uri).

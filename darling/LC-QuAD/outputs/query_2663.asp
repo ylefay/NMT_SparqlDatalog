@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/Non-ProfitOrganisation>(x),<http://dbpedia.org/ontology/foundedBy>(x,uri),<http://dbpedia.org/ontology/foundedBy>(x,"http://dbpedia.org/resource/David_Pressman").

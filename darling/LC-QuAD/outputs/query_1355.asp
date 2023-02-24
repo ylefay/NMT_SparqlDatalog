@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/property/creator>(uri,"http://dbpedia.org/resource/Josh_Friedman"),<http://dbpedia.org/ontology/portrayer>(uri,"http://dbpedia.org/resource/Terminator_2:_Judgment_Day").

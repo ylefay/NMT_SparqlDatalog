@@ -1,1 +1,0 @@
-ans(count) :- <https://dbpedia.org/ontology/C>(x,"https://dbpedia.org/resource/C"),<https://dbpedia.org/ontology/C>(x,

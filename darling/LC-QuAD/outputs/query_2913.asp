@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/OfficeHolder>(uri),<http://dbpedia.org/property/constituency>(uri,"http://dbpedia.org/resource/Haight-Ashbury"),<http://dbpedia.org/property/constituency>(uri,"http://dbpedia.org/resource/Castro_District,_San_Francisco").

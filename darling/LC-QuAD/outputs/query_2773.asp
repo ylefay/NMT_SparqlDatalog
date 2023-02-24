@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/Band>(uri),<http://dbpedia.org/property/pastMembers>(uri,"http://dbpedia.org/resource/Kevin_Jonas"),<http://dbpedia.org/property/pastMembers>(uri,"http://dbpedia.org/resource/Nick_Jonas").

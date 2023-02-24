@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/OfficeHolder>(x),<http://dbpedia.org/ontology/otherParty>(x,uri),<http://dbpedia.org/ontology/otherParty>(x,"http://dbpedia.org/resource/Congress_Socialist_Party").

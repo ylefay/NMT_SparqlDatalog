@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/OfficeHolder>(uri),<http://dbpedia.org/property/constituency>(uri,"http://dbpedia.org/resource/Castro_District,_San_Francisco"),<http://dbpedia.org/ontology/militaryUnit>(uri,"http://dbpedia.org/resource/USS_Kittiwake_(ASR-13)").

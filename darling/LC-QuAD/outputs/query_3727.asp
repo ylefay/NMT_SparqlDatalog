@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/cpu>(uri,"http://dbpedia.org/resource/Freescale_Semiconductor"),<http://dbpedia.org/ontology/cpu>(uri,"http://dbpedia.org/resource/Marvell_Technology_Group"),<http://dbpedia.org/ontology/InformationAppliance>(uri).

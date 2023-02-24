@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/Newspaper>(x),<http://dbpedia.org/property/editor>(x,uri),<http://dbpedia.org/property/owners>(x,"http://dbpedia.org/resource/Government_of_the_United_Kingdom").

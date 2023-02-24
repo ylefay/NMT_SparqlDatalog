@@ -1,1 +1,0 @@
-ans(count) :- <http://dbpedia.org/ontology/predecessor>(x,"http://dbpedia.org/resource/The_Comedy_Channel_(United_States)"),<http://dbpedia.org/property/network>(uri,x),<http://dbpedia.org/ontology/TelevisionShow>(uri).

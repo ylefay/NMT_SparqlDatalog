@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/related>(uri,"http://dbpedia.org/resource/Doctor_Who_Confidential"),<http://dbpedia.org/ontology/related>(uri,"http://dbpedia.org/resource/The_Sarah_Jane_Adventures").

@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/Entomologist>(x),<http://dbpedia.org/ontology/citizenship>(x,uri),<http://dbpedia.org/ontology/binomialAuthority>("http://dbpedia.org/resource/Smerinthus_saliceti",x).

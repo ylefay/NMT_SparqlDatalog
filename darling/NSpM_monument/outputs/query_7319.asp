@@ -1,1 +1,0 @@
-ans(a) :- <http://purl.org/dc/terms/subject>("https://dbpedia.org/resource/Statue_of_Robert_Burns_(Albany,_New_York)",a).

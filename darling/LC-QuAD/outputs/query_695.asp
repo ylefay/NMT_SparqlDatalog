@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/OfficeHolder>(uri),<http://dbpedia.org/property/branch>(uri,"http://dbpedia.org/resource/Indiana_Territory"),<http://dbpedia.org/ontology/battle>(uri,"http://dbpedia.org/resource/Siege_of_Fort_Recovery").

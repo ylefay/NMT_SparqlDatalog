@@ -1,1 +1,0 @@
-ans(count) :- <http://dbpedia.org/ontology/hometown>(x,"http://dbpedia.org/resource/New_York"),<http://dbpedia.org/property/themeMusicComposer>(uri,x),<http://dbpedia.org/ontology/TelevisionShow>(uri).

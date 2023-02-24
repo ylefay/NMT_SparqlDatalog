@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/property/destinations>("http://dbpedia.org/resource/Airtours_International_Airways",uri),<http://dbpedia.org/ontology/division>("http://dbpedia.org/resource/Runewaker_Entertainment",uri).

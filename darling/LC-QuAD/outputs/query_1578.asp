@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/property/placeOfDeath>("http://dbpedia.org/resource/Haile_Selassie_Gugsa",uri),<http://dbpedia.org/ontology/majorShrine>("http://dbpedia.org/resource/Tekle_Haymanot",uri).

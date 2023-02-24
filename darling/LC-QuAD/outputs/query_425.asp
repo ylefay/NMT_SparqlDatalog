@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/Astronaut>(uri),<http://dbpedia.org/property/type>(uri,"http://dbpedia.org/resource/NASA"),<http://dbpedia.org/property/mission>(uri,"http://dbpedia.org/resource/Apollo_11").

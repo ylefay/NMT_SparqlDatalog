@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/Person>(x),<http://dbpedia.org/property/awards>(x,uri),<http://dbpedia.org/property/binomialAuthority>("http://dbpedia.org/resource/Latania_verschaffeltii",x).

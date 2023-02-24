@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/RailwayLine>(x),<http://dbpedia.org/property/owner>(x,uri),<http://dbpedia.org/ontology/routeEnd>(x,"http://dbpedia.org/resource/Union_Station_(Washington,_D.C.)").

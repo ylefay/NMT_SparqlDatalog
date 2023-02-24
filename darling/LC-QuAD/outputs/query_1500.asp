@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/GovernmentAgency>(x),<http://dbpedia.org/property/headquarters>(x,uri),<http://dbpedia.org/ontology/parentOrganisation>(x,"http://dbpedia.org/resource/Colorado_Department_of_Natural_Resources").

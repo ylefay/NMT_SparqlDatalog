@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/Artist>(x),<http://dbpedia.org/ontology/restingPlace>(x,uri),<http://dbpedia.org/ontology/training>(x,"http://dbpedia.org/resource/Art_Students_League_of_New_York").

@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/TelevisionShow>(uri),<http://dbpedia.org/ontology/network>(uri,"http://dbpedia.org/resource/Prime_Time_Entertainment_Network"),<http://dbpedia.org/ontology/related>(uri,"http://dbpedia.org/resource/Babylon_5:_The_Lost_Tales").

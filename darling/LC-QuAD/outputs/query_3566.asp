@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/Company>(uri),<http://dbpedia.org/property/services>(uri,"http://dbpedia.org/resource/OneDrive"),<http://dbpedia.org/ontology/product>(uri,"http://dbpedia.org/resource/Microsoft_Azure").

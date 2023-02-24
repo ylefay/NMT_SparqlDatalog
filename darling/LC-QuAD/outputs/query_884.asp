@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/Organisation>(x),<http://dbpedia.org/property/currency>(x,uri),<http://dbpedia.org/ontology/distributingLabel>("http://dbpedia.org/resource/VDE-Gallo_Records",x).

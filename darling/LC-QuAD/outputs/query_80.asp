@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/musicComposer>("http://dbpedia.org/resource/Kenny_Dies",uri),<http://dbpedia.org/property/currentMembers>("http://dbpedia.org/resource/Insects_vs_Robots",uri).

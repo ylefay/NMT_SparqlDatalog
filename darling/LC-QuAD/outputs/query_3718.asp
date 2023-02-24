@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/property/locationCountry>("http://dbpedia.org/resource/Mauritius_Bank",uri),<http://dbpedia.org/property/locationCountry>("http://dbpedia.org/resource/National_Commercial_Bank_Mauritius",uri).

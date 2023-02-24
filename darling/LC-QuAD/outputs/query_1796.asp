@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/TelevisionShow>(uri),<http://dbpedia.org/ontology/starring>(uri,"http://dbpedia.org/resource/Jeff_Conaway"),<http://dbpedia.org/property/network>(uri,"http://dbpedia.org/resource/TNT_(TV_channel)").

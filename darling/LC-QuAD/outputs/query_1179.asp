@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/property/place>("http://dbpedia.org/resource/Geography_Club_(play)",uri),<http://dbpedia.org/property/locationTown>("http://dbpedia.org/resource/Seattle_Great_Wheel",uri).

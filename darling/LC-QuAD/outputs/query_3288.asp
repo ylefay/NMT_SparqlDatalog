@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/TelevisionShow>(uri),<http://dbpedia.org/property/company>(uri,"http://dbpedia.org/resource/Paramount_Television"),<http://dbpedia.org/ontology/composer>(uri,"http://dbpedia.org/resource/Judy_Hart_Angelo").

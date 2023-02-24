@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/AmericanFootballPlayer>(x),<http://dbpedia.org/ontology/formerTeam>(x,uri),<http://dbpedia.org/property/coach>("http://dbpedia.org/resource/2006_Oakland_Raiders_season",x).

@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/developer>("http://dbpedia.org/resource/Go_(programming_language)",uri),<http://dbpedia.org/ontology/developer>("http://dbpedia.org/resource/Dart_(programming_language)",uri).

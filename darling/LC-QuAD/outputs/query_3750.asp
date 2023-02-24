@@ -1,1 +1,0 @@
-ans(count) :- <http://dbpedia.org/ontology/relatedMeanOfTransportation>("http://dbpedia.org/resource/Pontiac_G8",x),<http://dbpedia.org/ontology/predecessor>(x,uri),<http://dbpedia.org/ontology/Automobile>(x).

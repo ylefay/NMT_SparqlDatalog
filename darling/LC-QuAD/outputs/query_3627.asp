@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/property/allegiance>("http://dbpedia.org/resource/Gabriel_París_Gordillo",uri),<http://dbpedia.org/property/allegiance>("http://dbpedia.org/resource/Gustavo_Rojas_Pinilla",uri).

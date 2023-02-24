@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/property/placeOfDeath>("http://dbpedia.org/resource/Haile_Selassie_Gugsa",uri),<http://dbpedia.org/ontology/residence>("http://dbpedia.org/resource/Helen_Getachew",uri).

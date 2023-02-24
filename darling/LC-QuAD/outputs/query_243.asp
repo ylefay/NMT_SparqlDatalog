@@ -1,1 +1,0 @@
-ans(count) :- <http://dbpedia.org/ontology/formerChoreographer>(x,"http://dbpedia.org/resource/Catarina_Lindgren"),<http://dbpedia.org/ontology/formerPartner>(x,uri),<http://dbpedia.org/ontology/Person>(uri).

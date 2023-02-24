@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/Settlement>(uri),<http://dbpedia.org/property/neighboringMunicipalities>(uri,"http://dbpedia.org/resource/Cologny"),<http://dbpedia.org/ontology/neighboringMunicipality>(uri,"http://dbpedia.org/resource/Pregny-Chambésy").

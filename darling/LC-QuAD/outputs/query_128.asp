@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/River>(uri),<http://dbpedia.org/property/sourceLocation>(uri,"http://dbpedia.org/resource/Itasca_State_Park"),<http://dbpedia.org/ontology/riverMouth>(uri,"http://dbpedia.org/resource/Gulf_of_Mexico").

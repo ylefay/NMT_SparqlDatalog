@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/Location>(uri),<http://dbpedia.org/property/neighboringMunicipalities>(uri,"http://dbpedia.org/resource/Lancy"),<http://dbpedia.org/ontology/neighboringMunicipality>(uri,"http://dbpedia.org/resource/Pregny-Chambésy").

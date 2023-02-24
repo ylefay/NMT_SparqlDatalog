@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/Writer>(uri),<http://dbpedia.org/ontology/deathPlace>(uri,"http://dbpedia.org/resource/Redding,_Connecticut"),<http://dbpedia.org/ontology/notableWork>(uri,"http://dbpedia.org/resource/Adventures_of_Huckleberry_Finn").

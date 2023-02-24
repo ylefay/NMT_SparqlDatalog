@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/region>("http://dbpedia.org/resource/Joseph_Case_High_School",uri),<http://dbpedia.org/property/style>("http://dbpedia.org/resource/Providence_Chapel,_Charlwood",uri).

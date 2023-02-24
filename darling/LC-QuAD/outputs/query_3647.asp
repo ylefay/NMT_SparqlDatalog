@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/routeEnd>("http://dbpedia.org/resource/Birmingham_and_Oxford_Junction_Railway",uri),<http://dbpedia.org/property/borough>("http://dbpedia.org/resource/Bordesley_railway_station",uri).

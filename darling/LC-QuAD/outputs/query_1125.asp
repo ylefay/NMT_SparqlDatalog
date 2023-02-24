@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/MusicalArtist>(uri),<http://dbpedia.org/property/label>(uri,"http://dbpedia.org/resource/Victor_Entertainment"),<http://dbpedia.org/property/label>(uri,"http://dbpedia.org/resource/Celluloid_Records").

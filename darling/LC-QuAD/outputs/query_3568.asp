@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/property/deathPlace>("http://dbpedia.org/resource/Lyudmila_Buldakova",uri),<http://dbpedia.org/property/deathPlace>("http://dbpedia.org/resource/Anatoly_Kharlampiyev",uri).

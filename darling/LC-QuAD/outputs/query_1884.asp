@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/Bank>(x),<http://dbpedia.org/property/products>(x,uri),<http://dbpedia.org/ontology/parentCompany>(x,"http://dbpedia.org/resource/Ministry_of_Finance_(Norway)").

@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/GridironFootballPlayer>(x),<http://dbpedia.org/property/debutteam>(x,uri),<http://dbpedia.org/ontology/coach>("http://dbpedia.org/resource/1931_Staten_Island_Stapletons_season",x).

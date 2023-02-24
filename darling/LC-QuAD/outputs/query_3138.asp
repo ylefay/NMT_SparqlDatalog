@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/Scientist>(uri),<http://dbpedia.org/ontology/academicAdvisor>(uri,"http://dbpedia.org/resource/Karl_Ewald_Hasse"),<http://dbpedia.org/ontology/knownFor>(uri,"http://dbpedia.org/resource/Anthrax").

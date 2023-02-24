@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/School>(x),<http://dbpedia.org/ontology/region>(x,uri),<http://dbpedia.org/ontology/rival>(x,"http://dbpedia.org/resource/Somerset_Berkley_Regional_High_School").

@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/Award>(uri),<http://dbpedia.org/ontology/country>(uri,"http://dbpedia.org/resource/Norway"),<http://dbpedia.org/ontology/presenter>(uri,"http://dbpedia.org/resource/Swedish_Academy").

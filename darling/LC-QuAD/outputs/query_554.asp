@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/River>(uri),<http://dbpedia.org/ontology/riverMouth>(uri,"http://dbpedia.org/resource/Thames_Estuary"),<http://dbpedia.org/ontology/riverMouth>(uri,"http://dbpedia.org/resource/North_Sea").

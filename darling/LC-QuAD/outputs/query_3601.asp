@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/TelevisionShow>(uri),<http://dbpedia.org/property/location>(uri,"http://dbpedia.org/resource/Cheers_Beacon_Hill"),<http://dbpedia.org/property/company>(uri,"http://dbpedia.org/resource/Paramount_Television").

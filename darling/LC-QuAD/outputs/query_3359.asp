@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/sourceCountry>("http://dbpedia.org/resource/Samur–Absheron_channel",uri),<http://dbpedia.org/property/placeOfBirth>("http://dbpedia.org/resource/Anar_Salmanov",uri).

@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/property/name>("http://dbpedia.org/resource/2000–01_Aston_Villa_F.C._season",uri),<http://dbpedia.org/ontology/manager>("http://dbpedia.org/resource/2009–10_Middlesbrough_F.C._season",uri).

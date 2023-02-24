@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/River>(uri),<http://dbpedia.org/property/sourceLocation>(uri,"http://dbpedia.org/resource/Ikelenge_District"),<http://dbpedia.org/property/sourceRegion>(uri,"http://dbpedia.org/resource/North-Western_Province,_Zambia").

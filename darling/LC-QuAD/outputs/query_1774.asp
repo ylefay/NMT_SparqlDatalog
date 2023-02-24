@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/OfficeHolder>(uri),<http://dbpedia.org/ontology/predecessor>(uri,"http://dbpedia.org/resource/Alexander_Downer"),<http://dbpedia.org/property/deputy>(uri,"http://dbpedia.org/resource/Andrew_Peacock").

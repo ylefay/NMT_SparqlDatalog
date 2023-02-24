@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/country>("http://dbpedia.org/resource/Malaysia_Junior_Hockey_League",uri),<http://dbpedia.org/ontology/maintainedBy>("http://dbpedia.org/resource/Pandaruan_Bridge",uri).

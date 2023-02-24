@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/Work>(uri),<http://dbpedia.org/property/distributor>(uri,"http://dbpedia.org/resource/RKO_Pictures"),<http://dbpedia.org/property/director>(uri,"http://dbpedia.org/resource/Orson_Welles").

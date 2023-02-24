@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/River>(uri),<http://dbpedia.org/ontology/source>(uri,"http://dbpedia.org/resource/Columbia_Lake"),<http://dbpedia.org/ontology/riverMouth>(uri,"http://dbpedia.org/resource/Clatsop_County,_Oregon").

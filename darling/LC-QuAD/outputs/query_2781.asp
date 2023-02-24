@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/developer>("http://dbpedia.org/resource/Sherlock_(software)",uri),<http://dbpedia.org/ontology/occupation>("http://dbpedia.org/resource/Arthur_D._Levinson",uri).

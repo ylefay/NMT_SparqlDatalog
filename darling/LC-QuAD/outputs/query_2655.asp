@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/deathPlace>("http://dbpedia.org/resource/Laszlo_Bellak",uri),<http://dbpedia.org/property/cities>("http://dbpedia.org/resource/American_Mediterranean_Sea",uri).

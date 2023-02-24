@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/PublicTransitSystem>(x),<http://dbpedia.org/property/headquarters>(x,uri),<http://dbpedia.org/ontology/owningOrganisation>("http://dbpedia.org/resource/American_Boulevard_(Metro_Transit_station)",x).

@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/Island>(uri),<http://dbpedia.org/property/archipelago>(uri,"http://dbpedia.org/resource/Society_Islands"),<http://dbpedia.org/ontology/largestCity>(uri,"http://dbpedia.org/resource/Faaa").

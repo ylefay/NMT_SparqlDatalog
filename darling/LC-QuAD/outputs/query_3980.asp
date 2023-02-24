@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/militaryBranch>("http://dbpedia.org/resource/Jimmy_Quillen",uri),<http://dbpedia.org/property/governingBody>("http://dbpedia.org/resource/Oahu_Railway_and_Land_Company",uri).

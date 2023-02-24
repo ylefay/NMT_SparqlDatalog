@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/Architect>(x),<http://dbpedia.org/property/education>(x,uri),<http://dbpedia.org/property/knownFor>(x,"http://dbpedia.org/resource/Terminal_Station_(Chattanooga)").

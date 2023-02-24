@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/VideoGame>(uri),<http://dbpedia.org/property/composer>(uri,"http://dbpedia.org/resource/Hirokazu_Tanaka"),<http://dbpedia.org/ontology/computingPlatform>(uri,"http://dbpedia.org/resource/Virtual_Console").

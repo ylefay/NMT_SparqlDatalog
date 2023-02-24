@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/property/starring>("http://dbpedia.org/resource/Nothing_in_Common",uri),<http://dbpedia.org/ontology/executiveProducer>("http://dbpedia.org/resource/From_the_Earth_to_the_Moon_(miniseries)",uri).

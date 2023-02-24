@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/TelevisionShow>(uri),<http://dbpedia.org/property/themeMusicComposer>(uri,"http://dbpedia.org/resource/Gary_Portnoy"),<http://dbpedia.org/property/company>(uri,"http://dbpedia.org/resource/Paramount_Television").

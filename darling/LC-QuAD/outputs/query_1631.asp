@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/property/country>("http://dbpedia.org/resource/Montañas_Mayas_Chiquibul",uri),<http://dbpedia.org/property/birthPlace>("http://dbpedia.org/resource/José_Bernardo_Escobar",uri).

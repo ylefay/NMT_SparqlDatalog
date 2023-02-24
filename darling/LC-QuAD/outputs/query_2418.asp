@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/Film>(uri),<http://dbpedia.org/ontology/distributor>(uri,"http://dbpedia.org/resource/Cinema_International_Corporation"),<http://dbpedia.org/ontology/musicComposer>(uri,"http://dbpedia.org/resource/Geoffrey_Burgon").

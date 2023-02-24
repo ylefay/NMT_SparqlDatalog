@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/OfficeHolder>(uri),<http://dbpedia.org/property/allegiance>(uri,"http://dbpedia.org/resource/Colony_of_Virginia"),<http://dbpedia.org/property/spouse>(uri,"http://dbpedia.org/resource/Dolley_Madison").

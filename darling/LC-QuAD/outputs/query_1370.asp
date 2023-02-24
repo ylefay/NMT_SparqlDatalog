@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/property/mascot>("http://dbpedia.org/resource/Celal_Bayar_University",uri),<http://dbpedia.org/property/nickname>("http://dbpedia.org/resource/Korea_Presbyterian_Theological_Seminary",uri).

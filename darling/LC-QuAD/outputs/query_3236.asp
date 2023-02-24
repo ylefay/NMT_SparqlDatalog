@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/Organisation>(x),<http://dbpedia.org/property/agencyName>(x,uri),<http://dbpedia.org/ontology/headquarter>(x,"http://dbpedia.org/resource/Chaeng_Watthana_Government_Complex").

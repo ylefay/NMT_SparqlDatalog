@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/nationality>("http://dbpedia.org/resource/Jeyhun_Abiyev",uri),<http://dbpedia.org/ontology/binomialAuthority>("http://dbpedia.org/resource/Menetries's_warbler",uri).

@@ -1,1 +1,0 @@
-ans(count) :- <http://dbpedia.org/property/leaderName>(x,"http://dbpedia.org/resource/Venkatraman_Ramakrishnan"),<http://dbpedia.org/property/prizes>(uri,x),<http://dbpedia.org/ontology/Scientist>(uri).

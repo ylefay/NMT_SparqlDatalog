@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/property/placeOfDeath>("http://dbpedia.org/resource/Louis_LeCocq",uri),<http://dbpedia.org/ontology/location>("http://dbpedia.org/resource/Kurt_Vonnegut_Memorial_Library",uri).

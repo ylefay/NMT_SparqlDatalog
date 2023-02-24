@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/TelevisionShow>(uri),<http://dbpedia.org/ontology/network>(uri,"http://dbpedia.org/resource/BBC_HD"),<http://dbpedia.org/property/themeMusicComposer>(uri,"http://dbpedia.org/resource/Ron_Grainer").

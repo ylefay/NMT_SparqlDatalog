@@ -1,2 +1,0 @@
-select ?a where{?a <http://www.w3.org/1999/02/22-rdf-syntax-ns#> <B> . ?a <http://dbpedia.org/property/height> ?b}order by desc (?b) limit <https://dbpedia.org/resource/Lincoln_Monument_(Philadelphia ) 
-

@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/property/office>("http://dbpedia.org/resource/Walter_Evans_Edge",uri),<http://dbpedia.org/ontology/part>("http://dbpedia.org/resource/Atlantic_Seaboard_fall_line",uri).

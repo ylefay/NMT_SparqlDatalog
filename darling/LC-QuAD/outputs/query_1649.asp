@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/Person>(x),<http://dbpedia.org/ontology/birthPlace>(x,uri),<http://dbpedia.org/ontology/starring>("http://dbpedia.org/resource/Dhoondte_Reh_Jaaoge!_(1998_film)",x).

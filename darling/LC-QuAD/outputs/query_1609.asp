@@ -1,1 +1,0 @@
-ans(count) :- <http://dbpedia.org/property/line>(x,"http://dbpedia.org/resource/Zürich–Affoltern_am_Albis–Zug_railway_line"),<http://dbpedia.org/ontology/Country>(uri),<http://dbpedia.org/ontology/country>(x,uri).

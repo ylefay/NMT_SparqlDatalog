@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/country>("http://dbpedia.org/resource/CitiTrends_(radio_show)",uri),<http://dbpedia.org/property/constituency>("http://dbpedia.org/resource/Malik_Al-Hassan_Yakubu",uri).

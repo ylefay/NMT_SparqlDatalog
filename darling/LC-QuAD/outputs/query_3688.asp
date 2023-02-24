@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/associatedMusicalArtist>("http://dbpedia.org/resource/Q-Tip_(musician)",uri),<http://dbpedia.org/ontology/associatedBand>("http://dbpedia.org/resource/Afrika_Baby_Bam",uri).

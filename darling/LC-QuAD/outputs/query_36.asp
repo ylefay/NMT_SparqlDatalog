@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/officialLanguage>("http://dbpedia.org/resource/Empire_of_Atlantium",uri),<http://dbpedia.org/ontology/officialLanguage>("http://dbpedia.org/resource/Ladonia_(micronation)",uri).

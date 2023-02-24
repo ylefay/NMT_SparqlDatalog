@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/Film>(uri),<http://dbpedia.org/ontology/cinematography>(uri,"http://dbpedia.org/resource/Jordan_Cronenweth"),<http://dbpedia.org/ontology/producer>(uri,"http://dbpedia.org/resource/Michael_Deeley").

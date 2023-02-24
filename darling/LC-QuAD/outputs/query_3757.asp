@@ -1,1 +1,0 @@
-ans(count) :- <http://dbpedia.org/ontology/league>(x,"http://dbpedia.org/resource/2015_North_American_Soccer_League_season"),<http://dbpedia.org/ontology/ground>(x,uri),<http://dbpedia.org/ontology/Stadium>(uri).

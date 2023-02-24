@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/Saint>(uri),<http://dbpedia.org/property/canonizedBy>(uri,"http://dbpedia.org/resource/Pope_Benedict_XVI"),<http://dbpedia.org/ontology/majorShrine>(uri,"http://dbpedia.org/resource/Canada").

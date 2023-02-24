@@ -1,1 +1,0 @@
-ans(count) :- <http://dbpedia.org/ontology/owningOrganisation>(x,"http://dbpedia.org/resource/Rhaetian_Railway"),<http://dbpedia.org/ontology/country>(x,uri),<http://dbpedia.org/ontology/Country>(uri).

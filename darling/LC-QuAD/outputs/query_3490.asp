@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/property/placeofburial>(uri,"http://dbpedia.org/resource/St_Mary's_Church,_Battersea"),<http://dbpedia.org/ontology/battle>(uri,"http://dbpedia.org/resource/Benedict_Arnold's_expedition_to_Quebec").

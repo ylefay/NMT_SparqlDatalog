@@ -1,1 +1,0 @@
-ans(count) :- <http://dbpedia.org/ontology/creator>(uri,"http://dbpedia.org/resource/Greg_Daniels"),<http://dbpedia.org/ontology/series>(uri,"http://dbpedia.org/resource/The_Office_(U.S._TV_series)").

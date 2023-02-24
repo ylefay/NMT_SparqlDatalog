@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/Royalty>(uri),<http://dbpedia.org/ontology/parent>(uri,"http://dbpedia.org/resource/Ptolemy_XII_Auletes"),<http://dbpedia.org/property/mother>(uri,"http://dbpedia.org/resource/Cleopatra_V_of_Egypt").

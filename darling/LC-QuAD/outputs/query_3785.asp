@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/Film>(uri),<http://dbpedia.org/property/music>(uri,"http://dbpedia.org/resource/Vangelis"),<http://dbpedia.org/ontology/producer>(uri,"http://dbpedia.org/resource/Michael_Deeley").

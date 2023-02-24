@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/SoccerClubSeason>(x),<http://dbpedia.org/ontology/ground>(x,uri),<http://dbpedia.org/property/stadium>(x,"http://dbpedia.org/resource/Fort_Lauderdale,_Florida").

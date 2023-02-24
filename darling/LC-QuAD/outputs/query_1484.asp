@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/musicalBand>("http://dbpedia.org/resource/Take_Me_There_(Blackstreet_&_Mýa_song)",uri),<http://dbpedia.org/ontology/musicalBand>("http://dbpedia.org/resource/Tonight's_the_Night_(Blackstreet_song)",uri).

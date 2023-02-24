@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/property/distributor>("http://dbpedia.org/resource/Riddim_Ribbon_feat._The_Black_Eyed_Peas",uri),<http://dbpedia.org/property/developer>("http://dbpedia.org/resource/Batch_Monitor",uri).

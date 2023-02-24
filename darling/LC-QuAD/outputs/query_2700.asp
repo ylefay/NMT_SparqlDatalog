@@ -1,1 +1,0 @@
-ans(count) :- <http://dbpedia.org/property/editing>(uri,"http://dbpedia.org/resource/Mark_Stevens_(film_editor)"),<http://dbpedia.org/ontology/director>(uri,"http://dbpedia.org/resource/Joel_Schumacher").

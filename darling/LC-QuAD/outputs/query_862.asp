@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/EducationalInstitution>(x),<http://dbpedia.org/ontology/sport>(x,uri),<http://dbpedia.org/ontology/affiliation>(x,"http://dbpedia.org/resource/Association_of_Southeast_Asian_Institutions_of_Higher_Learning").

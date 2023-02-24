@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/property/placeOfBirth>("http://dbpedia.org/resource/George_Karrys",uri),<http://dbpedia.org/ontology/municipality>("http://dbpedia.org/resource/Brown's_Corners,_Toronto",uri).

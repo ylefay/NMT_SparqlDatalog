@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/Person>(x),<http://dbpedia.org/property/awards>(x,uri),<http://dbpedia.org/property/education>(x,"http://dbpedia.org/resource/Everton_Park_State_High_School").

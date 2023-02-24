@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/broadcastArea>("http://dbpedia.org/resource/Comcast_SportsNet_Chicago",uri),<http://dbpedia.org/property/location>("http://dbpedia.org/resource/Michigan_Renaissance_Festival",uri).

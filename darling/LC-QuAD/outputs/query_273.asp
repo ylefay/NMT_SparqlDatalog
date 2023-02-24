@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/almaMater>("http://dbpedia.org/resource/Duncan_U._Fletcher",uri),<http://dbpedia.org/property/affiliation>("http://dbpedia.org/resource/Monroe_Carell_Jr._Children's_Hospital_at_Vanderbilt",uri).

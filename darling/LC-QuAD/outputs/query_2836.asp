@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/TelevisionShow>(uri),<http://dbpedia.org/property/network>(uri,"http://dbpedia.org/resource/Comedy_Central"),<http://dbpedia.org/ontology/distributor>(uri,"http://dbpedia.org/resource/Broadcast_syndication").

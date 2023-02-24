@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/property/writer>("http://dbpedia.org/resource/Come_On_Over_(Bee_Gees_song)",uri),<http://dbpedia.org/ontology/writer>("http://dbpedia.org/resource/Alan_Freeman_Days",uri).

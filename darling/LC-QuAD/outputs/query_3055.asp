@@ -1,1 +1,0 @@
-ans(uri) :- <http://dbpedia.org/ontology/River>(uri),<http://dbpedia.org/ontology/sourceRegion>(uri,"http://dbpedia.org/resource/North-Western_Province,_Zambia"),<http://dbpedia.org/property/mouthCountry>(uri,"http://dbpedia.org/resource/Mozambique").
