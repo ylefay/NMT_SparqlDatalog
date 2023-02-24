@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/property/distributor>(uri,"http://dbpedia.org/resource/Cinema_International_Corporation"),<http://dbpedia.org/property/editing>(uri,"http://dbpedia.org/resource/Julian_Doyle_(filmmaker)"),<http://dbpedia.org/ontology/Film>(uri).

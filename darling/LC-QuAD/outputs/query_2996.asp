@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/Person>(x),<http://dbpedia.org/ontology/ethnicity>(x,uri),<http://dbpedia.org/ontology/occupation>(x,"http://dbpedia.org/resource/House_of_Representatives_of_the_Philippines").

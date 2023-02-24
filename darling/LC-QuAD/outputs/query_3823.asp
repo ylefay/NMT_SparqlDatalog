@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/localAuthority>("http://dbpedia.org/resource/Buckhurst_Hill_County_High_School",uri),<http://dbpedia.org/property/placeOfBurial>("http://dbpedia.org/resource/Elizabeth_of_Rhuddlan",uri).

@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/RoadTunnel>(x),<http://dbpedia.org/property/owner>(x,uri),<http://dbpedia.org/ontology/operatedBy>(x,"http://dbpedia.org/resource/Massachusetts_Department_of_Transportation").

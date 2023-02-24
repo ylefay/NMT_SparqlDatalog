@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/ComicsCharacter>(uri),<http://dbpedia.org/property/creators>(uri,"http://dbpedia.org/resource/Paul_Dini"),<http://dbpedia.org/ontology/creator>(uri,"http://dbpedia.org/resource/Bruce_Timm").

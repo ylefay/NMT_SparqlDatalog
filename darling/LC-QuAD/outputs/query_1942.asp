@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/TelevisionShow>(uri),<http://dbpedia.org/property/themeMusicComposer>(uri,"http://dbpedia.org/resource/Julian_Gingell"),<http://dbpedia.org/ontology/presenter>(uri,"http://dbpedia.org/resource/Ryan_Seacrest").

@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/TelevisionShow>(uri),<http://dbpedia.org/ontology/openingTheme>(uri,x),<http://dbpedia.org/ontology/subsequentWork>(x,"http://dbpedia.org/resource/If_We_Were_a_Movie").

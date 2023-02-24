@@ -1,0 +1,1 @@
+ans(a) :- <http://purl.org/dc/terms/subject>("https://dbpedia.org/resource/Temple_of_Divus_Augustus,_Nola",a).

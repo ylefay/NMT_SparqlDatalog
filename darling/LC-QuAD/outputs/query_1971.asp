@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/MilitaryUnit>(uri),<http://dbpedia.org/ontology/type>("http://dbpedia.org/resource/Naval_Support_Activity_Naples",uri),<http://dbpedia.org/ontology/type>("http://dbpedia.org/resource/Naval_Station_Mobile",uri).

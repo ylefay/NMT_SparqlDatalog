@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/property/city>("http://dbpedia.org/resource/The_Ultimate_Fighter:_Team_Rousey_vs._Team_Tate",uri),<http://dbpedia.org/property/city>("http://dbpedia.org/resource/The_Ultimate_Fighter:_A_Champion_Will_Be_Crowned",uri).

@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/TelevisionShow>(uri),<http://dbpedia.org/ontology/related>(uri,"http://dbpedia.org/resource/The_Sarah_Jane_Adventures"),<http://dbpedia.org/ontology/starring>(uri,"http://dbpedia.org/resource/Companion_(Doctor_Who)").

@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/Software>(x),<http://dbpedia.org/property/developer>(x,uri),<http://dbpedia.org/property/distributor>("http://dbpedia.org/resource/Batman:_Arkham_City_Lockdown",x).

@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/Group>(uri),<http://dbpedia.org/property/pastMembers>(uri,"http://dbpedia.org/resource/Kevin_Jonas"),<http://dbpedia.org/property/pastMembers>(uri,"http://dbpedia.org/resource/Joe_Jonas").

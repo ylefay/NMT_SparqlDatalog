@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/FictionalCharacter>(uri),<http://dbpedia.org/ontology/species>(uri,"http://dbpedia.org/resource/Human"),<http://dbpedia.org/ontology/relative>(uri,"http://dbpedia.org/resource/Uncle_Henry_(Oz)").

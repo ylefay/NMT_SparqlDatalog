@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/Scientist>(uri),<http://dbpedia.org/property/knownFor>(uri,"http://dbpedia.org/resource/Manhattan_Project"),<http://dbpedia.org/ontology/doctoralAdvisor>(uri,"http://dbpedia.org/resource/Ernest_Rutherford").

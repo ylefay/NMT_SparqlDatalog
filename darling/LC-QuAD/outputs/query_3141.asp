@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/denomination>("http://dbpedia.org/resource/T.I._Ahmadiyya_Senior_High_School,_Kumasi",uri),<http://dbpedia.org/property/locations>("http://dbpedia.org/resource/INKAS",uri).

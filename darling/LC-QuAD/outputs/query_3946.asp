@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/religion>("http://dbpedia.org/resource/Josiah_Idowu-Fearon",uri),<http://dbpedia.org/ontology/canonizedBy>("http://dbpedia.org/resource/John_of_Damascus",uri).

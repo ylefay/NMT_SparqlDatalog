@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/animator>("http://dbpedia.org/resource/The_Skeleton_Dance",uri),<http://dbpedia.org/property/animator>("http://dbpedia.org/resource/Tommy_Tucker's_Tooth",uri).

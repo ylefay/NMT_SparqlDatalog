@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/chairman>("http://dbpedia.org/resource/2015_Fort_Lauderdale_Strikers_season",uri),<http://dbpedia.org/ontology/chairman>("http://dbpedia.org/resource/Fort_Lauderdale_Strikers",uri).

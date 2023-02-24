@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/developer>("http://dbpedia.org/resource/Oddworld:_Munch's_Oddysee",uri),<http://dbpedia.org/property/predecessor>("http://dbpedia.org/resource/PlayStation_4",uri).

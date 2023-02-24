@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/Stadium>(x),<http://dbpedia.org/ontology/tenant>(x,uri),<http://dbpedia.org/property/operator>(x,"http://dbpedia.org/resource/Maple_Leaf_Sports_&_Entertainment").

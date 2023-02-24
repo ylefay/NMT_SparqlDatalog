@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/property/author>("http://dbpedia.org/resource/Karakuri_Dôji_Ultimo",uri),<http://dbpedia.org/property/narrated>("http://dbpedia.org/resource/The_Incredible_Hulk_(1982_TV_series)",uri).

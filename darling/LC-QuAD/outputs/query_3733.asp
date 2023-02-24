@@ -1,0 +1,1 @@
+ans(count) :- <http://dbpedia.org/ontology/associatedMusicalArtist>(x,"http://dbpedia.org/resource/Oysterhead"),<http://dbpedia.org/property/themeMusicComposer>(uri,x),<http://dbpedia.org/ontology/TelevisionShow>(uri).

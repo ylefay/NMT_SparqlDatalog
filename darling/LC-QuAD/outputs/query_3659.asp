@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/Company>(uri),<http://dbpedia.org/property/products>(uri,x),<http://dbpedia.org/ontology/predecessor>(x,"http://dbpedia.org/resource/Boeing_Vertol_CH-46_Sea_Knight").

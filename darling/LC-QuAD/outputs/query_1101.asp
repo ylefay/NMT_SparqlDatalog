@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/publisher>(x,"http://dbpedia.org/resource/Doubleday_(publisher)"),<http://dbpedia.org/ontology/nonFictionSubject>(x,uri),<http://dbpedia.org/ontology/Book>(x).

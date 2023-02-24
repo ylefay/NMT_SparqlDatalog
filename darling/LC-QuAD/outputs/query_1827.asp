@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/property/office>(uri,"http://dbpedia.org/resource/Massachusetts_House_of_Representatives"),<http://dbpedia.org/ontology/restingPlace>(uri,"http://dbpedia.org/resource/Plymouth,_Vermont").

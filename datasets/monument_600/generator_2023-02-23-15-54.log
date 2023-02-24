@@ -1,0 +1,169 @@
+DEBUG:root:1. attempt generator_query: select distinct(?a) ?b  (str(?laba) as ?la)  (str(?labb) as ?lb) where { ?b rdfs:label ?labb . FILTER(lang(?labb) = 'en') . ?a a dbo:Monument . ?a rdfs:label ?laba . FILTER(lang(?laba) = 'en') . ?a a ?b }
+DEBUG:root:4043 matches for 1
+DEBUG:root:1. attempt generator_query: select distinct(?a)  (str(?laba) as ?la) where { ?a a dbo:Monument . ?a rdfs:label ?laba . FILTER(lang(?laba) = 'en') . ?a dbo:abstract [] }
+DEBUG:root:1764 matches for 2
+DEBUG:root:1764 matches for 3
+DEBUG:root:1. attempt generator_query: select distinct(?a)  (str(?laba) as ?la) where { ?a a dbo:Monument . ?a rdfs:label ?laba . FILTER(lang(?laba) = 'en') . ?a dbo:location [] }
+DEBUG:root:1605 matches for 4
+DEBUG:root:1605 matches for 5
+DEBUG:root:1605 matches for 6
+DEBUG:root:1605 matches for 7
+DEBUG:root:1605 matches for 8
+DEBUG:root:1. attempt generator_query: select distinct(?a)  (str(?laba) as ?la) where { ?a a dbo:Monument . ?a rdfs:label ?laba . FILTER(lang(?laba) = 'en') . ?a dbo:designer [] }
+DEBUG:root:567 matches for 9
+DEBUG:root:1. attempt generator_query: select distinct(?a)  (str(?laba) as ?la) where { ?a a dbo:Monument . ?a rdfs:label ?laba . FILTER(lang(?laba) = 'en') . ?a dbp:complete [] }
+DEBUG:root:649 matches for 10
+DEBUG:root:1. attempt generator_query: select distinct(?a)  (str(?laba) as ?la) where { ?a a dbo:Monument . ?a rdfs:label ?laba . FILTER(lang(?laba) = 'en') . ?a dbp:nativeName [] }
+DEBUG:root:781 matches for 11
+DEBUG:root:1. attempt generator_query: select distinct(?a)  (str(?laba) as ?la) where { ?a a dbo:Monument . ?a rdfs:label ?laba . FILTER(lang(?laba) = 'en') . ?a dct:subject [] }
+DEBUG:root:1780 matches for 12
+DEBUG:root:1780 matches for 13
+DEBUG:root:1780 matches for 14
+DEBUG:root:1. attempt generator_query: select distinct(?a)  (str(?laba) as ?la) where { ?a a dbo:Monument . ?a rdfs:label ?laba . FILTER(lang(?laba) = 'en') . ?a georss:point [] }
+DEBUG:root:1528 matches for 15
+DEBUG:root:1. attempt generator_query: select distinct(?a)  (str(?laba) as ?la) where { ?a a dbo:Monument . ?a rdfs:label ?laba . FILTER(lang(?laba) = 'en') . ?a geo:lat [] }
+DEBUG:root:1528 matches for 16
+DEBUG:root:1528 matches for 17
+DEBUG:root:1. attempt generator_query: select distinct(?a)  (str(?laba) as ?la) where { ?a a dbo:Monument . ?a rdfs:label ?laba . FILTER(lang(?laba) = 'en') . ?a geo:long [] }
+DEBUG:root:1528 matches for 18
+DEBUG:root:649 matches for 19
+DEBUG:root:649 matches for 20
+DEBUG:root:1. attempt generator_query: select distinct(?a) ?b  (str(?laba) as ?la)  (str(?labb) as ?lb) where { ?b rdfs:label ?labb . FILTER(lang(?labb) = 'en') . ?a a dbo:Monument . ?a rdfs:label ?laba . FILTER(lang(?laba) = 'en') . ?a dbp:complete [] . ?b dbp:complete [] . FILTER(?a != ?b) }
+DEBUG:root:10000 matches for 21
+DEBUG:root:1. attempt generator_query: select distinct(?a)  (str(?laba) as ?la) where { ?a a dbo:Monument . ?a rdfs:label ?laba . FILTER(lang(?laba) = 'en') . ?a dbp:length [] }
+DEBUG:root:2. attempt generator_query: select distinct(?a)  (str(?laba) as ?la) where { ?a a dbo:Monument . ?a rdfs:label ?laba . FILTER(lang(?laba) = 'en') . ?a dbp:length [] }
+DEBUG:root:3. attempt generator_query: select distinct(?a)  (str(?laba) as ?la) where { ?a rdfs:label ?laba . FILTER(lang(?laba) = 'en') . ?a dbp:length [] }
+DEBUG:root:10000 matches for 22
+DEBUG:root:1. attempt generator_query: select distinct(?a) ?b  (str(?laba) as ?la)  (str(?labb) as ?lb) where { ?b rdfs:label ?labb . FILTER(lang(?labb) = 'en') . ?a a dbo:Monument . ?a rdfs:label ?laba . FILTER(lang(?laba) = 'en') . ?a dbo:location ?b }
+DEBUG:root:3285 matches for 23
+DEBUG:root:1. attempt generator_query: select distinct(?a)  (str(?laba) as ?la) where { ?a rdfs:subClassOf dbo:Monument . ?a rdfs:label ?laba . FILTER(lang(?laba) = 'en') . ?a rdf:type ?a . ?a dbp:height [] }
+DEBUG:root:2. attempt generator_query: select distinct(?a)  (str(?laba) as ?la) where { ?a rdfs:subClassOf dbo:Monument . ?a rdfs:label ?laba . FILTER(lang(?laba) = 'en') . ?a rdf:type ?a . ?a dbp:height [] }
+DEBUG:root:3. attempt generator_query: select distinct(?a)  (str(?laba) as ?la) where { ?a rdfs:label ?laba . FILTER(lang(?laba) = 'en') . ?a rdf:type ?a . ?a dbp:height [] }
+DEBUG:root:0 matches for 24
+DEBUG:root:no data for 24
+DEBUG:root:1. attempt generator_query: select distinct(?a)  (str(?laba) as ?la) where { ?a rdfs:subClassOf dbo:Monument . ?a rdfs:label ?laba . FILTER(lang(?laba) = 'en') . ?a rdf:type ?a . ?a dbp:length [] }
+DEBUG:root:2. attempt generator_query: select distinct(?a)  (str(?laba) as ?la) where { ?a rdfs:subClassOf dbo:Monument . ?a rdfs:label ?laba . FILTER(lang(?laba) = 'en') . ?a rdf:type ?a . ?a dbp:length [] }
+DEBUG:root:3. attempt generator_query: select distinct(?a)  (str(?laba) as ?la) where { ?a rdfs:label ?laba . FILTER(lang(?laba) = 'en') . ?a rdf:type ?a . ?a dbp:length [] }
+DEBUG:root:0 matches for 25
+DEBUG:root:no data for 25
+DEBUG:root:649 matches for 26
+DEBUG:root:10000 matches for 27
+DEBUG:root:1. attempt generator_query: select distinct(?a) ?b  (str(?laba) as ?la)  (str(?labb) as ?lb) where { ?b rdfs:label ?labb . FILTER(lang(?labb) = 'en') . ?a a dbo:Monument . ?a rdfs:label ?laba . FILTER(lang(?laba) = 'en') . ?a dbp:height [] . ?b dbp:height [] }
+DEBUG:root:10000 matches for 28
+DEBUG:root:1. attempt generator_query: select distinct(?a) ?b  (str(?laba) as ?la)  (str(?labb) as ?lb) where { ?b rdfs:label ?labb . FILTER(lang(?labb) = 'en') . ?a a dbo:Monument . ?a rdfs:label ?laba . FILTER(lang(?laba) = 'en') . ?a dbp:length [] . ?b dbp:height [] }
+DEBUG:root:10000 matches for 29
+DEBUG:root:1. attempt generator_query: select distinct(?a)  (str(?laba) as ?la) where { ?a a dbo:Monument . ?a rdfs:label ?laba . FILTER(lang(?laba) = 'en') . ?a dbp:height [] }
+DEBUG:root:265 matches for 30
+DEBUG:root:1. attempt generator_query: select distinct(?a) ?b  (str(?laba) as ?la)  (str(?labb) as ?lb) where { ?b rdfs:label ?labb . FILTER(lang(?labb) = 'en') . ?a rdfs:label ?laba . FILTER(lang(?laba) = 'en') . ?a a dbo:Monument . ?a rdf:type ?a . ?a dbo:location ?b }
+DEBUG:root:2. attempt generator_query: select distinct(?a) ?b  (str(?laba) as ?la)  (str(?labb) as ?lb) where { ?b rdfs:label ?labb . FILTER(lang(?labb) = 'en') . ?a rdfs:label ?laba . FILTER(lang(?laba) = 'en') . ?a a dbo:Monument . ?a rdf:type ?a . ?a dbo:location ?b }
+DEBUG:root:3. attempt generator_query: select distinct(?a) ?b  (str(?laba) as ?la)  (str(?labb) as ?lb) where { ?b rdfs:label ?labb . FILTER(lang(?labb) = 'en') . ?a rdfs:label ?laba . FILTER(lang(?laba) = 'en') . ?a a dbo:Monument . ?a rdf:type ?a . ?a dbo:location ?b }
+DEBUG:root:0 matches for 31
+DEBUG:root:no data for 31
+DEBUG:root:1. attempt generator_query: select distinct(?a) ?b  (str(?laba) as ?la)  (str(?labb) as ?lb) where { ?b rdfs:label ?labb . FILTER(lang(?labb) = 'en') . ?a rdfs:label ?laba . FILTER(lang(?laba) = 'en') . ?a a dbo:Monument . ?a rdf:type ?a . ?a dbo:location ?b }
+DEBUG:root:2. attempt generator_query: select distinct(?a) ?b  (str(?laba) as ?la)  (str(?labb) as ?lb) where { ?b rdfs:label ?labb . FILTER(lang(?labb) = 'en') . ?a rdfs:label ?laba . FILTER(lang(?laba) = 'en') . ?a a dbo:Monument . ?a rdf:type ?a . ?a dbo:location ?b }
+DEBUG:root:3. attempt generator_query: select distinct(?a) ?b  (str(?laba) as ?la)  (str(?labb) as ?lb) where { ?b rdfs:label ?labb . FILTER(lang(?labb) = 'en') . ?a rdfs:label ?laba . FILTER(lang(?laba) = 'en') . ?a a dbo:Monument . ?a rdf:type ?a . ?a dbo:location ?b }
+DEBUG:root:0 matches for 32
+DEBUG:root:no data for 32
+DEBUG:root:1. attempt generator_query: select distinct(?a) ?b  (str(?laba) as ?la)  (str(?labb) as ?lb) where { ?b rdfs:label ?labb . FILTER(lang(?labb) = 'en') . ?a a dbo:Monument . ?a rdfs:label ?laba . FILTER(lang(?laba) = 'en') . { ?a ?a ?b . ?b ?a ?b } UNION { ?c ?d ?a . ?c ?d ?b } }
+DEBUG:root:10000 matches for 33
+DEBUG:root:1. attempt generator_query: select distinct(?a) ?b  (str(?laba) as ?la)  (str(?labb) as ?lb) where { ?b rdfs:label ?labb . FILTER(lang(?labb) = 'en') . ?a rdfs:label ?laba . FILTER(lang(?laba) = 'en') . ?a a dbo:Monument . ?a rdf:type ?a . ?a dbo:location ?b . ?a dbp:complete [] }
+DEBUG:root:2. attempt generator_query: select distinct(?a) ?b  (str(?laba) as ?la)  (str(?labb) as ?lb) where { ?b rdfs:label ?labb . FILTER(lang(?labb) = 'en') . ?a rdfs:label ?laba . FILTER(lang(?laba) = 'en') . ?a a dbo:Monument . ?a rdf:type ?a . ?a dbo:location ?b . ?a dbp:complete [] }
+DEBUG:root:3. attempt generator_query: select distinct(?a) ?b  (str(?laba) as ?la)  (str(?labb) as ?lb) where { ?b rdfs:label ?labb . FILTER(lang(?labb) = 'en') . ?a rdfs:label ?laba . FILTER(lang(?laba) = 'en') . ?a a dbo:Monument . ?a rdf:type ?a . ?a dbo:location ?b . ?a dbp:complete [] }
+DEBUG:root:0 matches for 34
+DEBUG:root:no data for 34
+DEBUG:root:1. attempt generator_query: select distinct(?a) ?b  (str(?laba) as ?la)  (str(?labb) as ?lb) where { ?b rdfs:label ?labb . FILTER(lang(?labb) = 'en') . ?a rdfs:label ?laba . FILTER(lang(?laba) = 'en') . ?a a dbo:Monument . ?a rdf:type ?a . ?a dbo:location ?b . ?a dbp:complete [] }
+DEBUG:root:2. attempt generator_query: select distinct(?a) ?b  (str(?laba) as ?la)  (str(?labb) as ?lb) where { ?b rdfs:label ?labb . FILTER(lang(?labb) = 'en') . ?a rdfs:label ?laba . FILTER(lang(?laba) = 'en') . ?a a dbo:Monument . ?a rdf:type ?a . ?a dbo:location ?b . ?a dbp:complete [] }
+DEBUG:root:3. attempt generator_query: select distinct(?a) ?b  (str(?laba) as ?la)  (str(?labb) as ?lb) where { ?b rdfs:label ?labb . FILTER(lang(?labb) = 'en') . ?a rdfs:label ?laba . FILTER(lang(?laba) = 'en') . ?a a dbo:Monument . ?a rdf:type ?a . ?a dbo:location ?b . ?a dbp:complete [] }
+DEBUG:root:0 matches for 35
+DEBUG:root:no data for 35
+DEBUG:root:1. attempt generator_query: select distinct(?a)  (str(?laba) as ?la) where { ?a rdfs:label ?laba . FILTER(lang(?laba) = 'en') . ?a a dbo:Monument . ?a rdf:type ?a . ?a geo:lat [] }
+DEBUG:root:2. attempt generator_query: select distinct(?a)  (str(?laba) as ?la) where { ?a rdfs:label ?laba . FILTER(lang(?laba) = 'en') . ?a a dbo:Monument . ?a rdf:type ?a . ?a geo:lat [] }
+DEBUG:root:3. attempt generator_query: select distinct(?a)  (str(?laba) as ?la) where { ?a rdfs:label ?laba . FILTER(lang(?laba) = 'en') . ?a a dbo:Monument . ?a rdf:type ?a . ?a geo:lat [] }
+DEBUG:root:0 matches for 36
+DEBUG:root:no data for 36
+DEBUG:root:1. attempt generator_query: select distinct(?a)  (str(?laba) as ?la) where { ?a rdfs:label ?laba . FILTER(lang(?laba) = 'en') . ?a a dbo:Monument . ?a rdf:type ?a . ?a geo:lat [] }
+DEBUG:root:2. attempt generator_query: select distinct(?a)  (str(?laba) as ?la) where { ?a rdfs:label ?laba . FILTER(lang(?laba) = 'en') . ?a a dbo:Monument . ?a rdf:type ?a . ?a geo:lat [] }
+DEBUG:root:3. attempt generator_query: select distinct(?a)  (str(?laba) as ?la) where { ?a rdfs:label ?laba . FILTER(lang(?laba) = 'en') . ?a a dbo:Monument . ?a rdf:type ?a . ?a geo:lat [] }
+DEBUG:root:0 matches for 37
+DEBUG:root:no data for 37
+DEBUG:root:1. attempt generator_query: select distinct(?a) ?b  (str(?laba) as ?la)  (str(?labb) as ?lb) where { ?b rdfs:label ?labb . FILTER(lang(?labb) = 'en') . ?a rdfs:label ?laba . FILTER(lang(?laba) = 'en') . ?a a dbo:Monument . ?a rdf:type ?a . ?b rdf:type ?b . ?b [] ?a }
+DEBUG:root:2. attempt generator_query: select distinct(?a) ?b  (str(?laba) as ?la)  (str(?labb) as ?lb) where { ?b rdfs:label ?labb . FILTER(lang(?labb) = 'en') . ?a rdfs:label ?laba . FILTER(lang(?laba) = 'en') . ?a a dbo:Monument . ?a rdf:type ?a . ?b rdf:type ?b . ?b [] ?a }
+DEBUG:root:3. attempt generator_query: select distinct(?a) ?b  (str(?laba) as ?la)  (str(?labb) as ?lb) where { ?b rdfs:label ?labb . FILTER(lang(?labb) = 'en') . ?a rdfs:label ?laba . FILTER(lang(?laba) = 'en') . ?a a dbo:Monument . ?a rdf:type ?a . ?b rdf:type ?b . ?b [] ?a }
+DEBUG:root:0 matches for 38
+DEBUG:root:no data for 38
+DEBUG:root:1. attempt generator_query: select distinct(?a) ?b  (str(?laba) as ?la)  (str(?labb) as ?lb) where { ?b rdfs:label ?labb . FILTER(lang(?labb) = 'en') . ?a rdfs:label ?laba . FILTER(lang(?laba) = 'en') . ?a a dbo:Monument . ?a rdf:type ?a . ?b rdf:type ?b . ?b [] ?a }
+DEBUG:root:2. attempt generator_query: select distinct(?a) ?b  (str(?laba) as ?la)  (str(?labb) as ?lb) where { ?b rdfs:label ?labb . FILTER(lang(?labb) = 'en') . ?a rdfs:label ?laba . FILTER(lang(?laba) = 'en') . ?a a dbo:Monument . ?a rdf:type ?a . ?b rdf:type ?b . ?b [] ?a }
+DEBUG:root:3. attempt generator_query: select distinct(?a) ?b  (str(?laba) as ?la)  (str(?labb) as ?lb) where { ?b rdfs:label ?labb . FILTER(lang(?labb) = 'en') . ?a rdfs:label ?laba . FILTER(lang(?laba) = 'en') . ?a a dbo:Monument . ?a rdf:type ?a . ?b rdf:type ?b . ?b [] ?a }
+DEBUG:root:0 matches for 39
+DEBUG:root:no data for 39
+INFO:root:  2707 used resources in 21232 placeholder positions
+INFO:root:    33 resources occur 	    21 times 	(  1.22 %) 
+INFO:root:     1 resources occur 	   279 times 	(  0.04 %) 
+INFO:root:     2 resources occur 	    38 times 	(  0.07 %) 
+INFO:root:    62 resources occur 	    14 times 	(  2.29 %) 
+INFO:root:     1 resources occur 	   250 times 	(  0.04 %) 
+INFO:root:    54 resources occur 	     6 times 	(  1.99 %) 
+INFO:root:    66 resources occur 	    13 times 	(  2.44 %) 
+INFO:root:    32 resources occur 	    23 times 	(  1.18 %) 
+INFO:root:   111 resources occur 	    10 times 	(  4.10 %) 
+INFO:root:    37 resources occur 	    18 times 	(  1.37 %) 
+INFO:root:     7 resources occur 	    37 times 	(  0.26 %) 
+INFO:root:    85 resources occur 	    11 times 	(  3.14 %) 
+INFO:root:    15 resources occur 	    25 times 	(  0.55 %) 
+INFO:root:    35 resources occur 	    22 times 	(  1.29 %) 
+INFO:root:    34 resources occur 	    17 times 	(  1.26 %) 
+INFO:root:    51 resources occur 	    16 times 	(  1.88 %) 
+INFO:root:    73 resources occur 	    15 times 	(  2.70 %) 
+INFO:root:    32 resources occur 	    19 times 	(  1.18 %) 
+INFO:root:    79 resources occur 	     3 times 	(  2.92 %) 
+INFO:root:    70 resources occur 	     2 times 	(  2.59 %) 
+INFO:root:    64 resources occur 	     7 times 	(  2.36 %) 
+INFO:root:    75 resources occur 	     4 times 	(  2.77 %) 
+INFO:root:    13 resources occur 	    27 times 	(  0.48 %) 
+INFO:root:    24 resources occur 	    20 times 	(  0.89 %) 
+INFO:root:     7 resources occur 	    28 times 	(  0.26 %) 
+INFO:root:  1232 resources occur 	     1 times 	( 45.51 %) 
+INFO:root:    74 resources occur 	     8 times 	(  2.73 %) 
+INFO:root:    78 resources occur 	    12 times 	(  2.88 %) 
+INFO:root:    93 resources occur 	     9 times 	(  3.44 %) 
+INFO:root:     2 resources occur 	    42 times 	(  0.07 %) 
+INFO:root:     6 resources occur 	    35 times 	(  0.22 %) 
+INFO:root:     1 resources occur 	    46 times 	(  0.04 %) 
+INFO:root:    71 resources occur 	     5 times 	(  2.62 %) 
+INFO:root:    14 resources occur 	    26 times 	(  0.52 %) 
+INFO:root:     5 resources occur 	    33 times 	(  0.18 %) 
+INFO:root:     8 resources occur 	    29 times 	(  0.30 %) 
+INFO:root:    17 resources occur 	    24 times 	(  0.63 %) 
+INFO:root:     4 resources occur 	    39 times 	(  0.15 %) 
+INFO:root:     1 resources occur 	    61 times 	(  0.04 %) 
+INFO:root:     5 resources occur 	    31 times 	(  0.18 %) 
+INFO:root:     1 resources occur 	    84 times 	(  0.04 %) 
+INFO:root:     9 resources occur 	    32 times 	(  0.33 %) 
+INFO:root:     3 resources occur 	    30 times 	(  0.11 %) 
+INFO:root:     1 resources occur 	    52 times 	(  0.04 %) 
+INFO:root:     1 resources occur 	   269 times 	(  0.04 %) 
+INFO:root:     1 resources occur 	    63 times 	(  0.04 %) 
+INFO:root:     1 resources occur 	    68 times 	(  0.04 %) 
+INFO:root:     1 resources occur 	   226 times 	(  0.04 %) 
+INFO:root:     1 resources occur 	    45 times 	(  0.04 %) 
+INFO:root:     1 resources occur 	   254 times 	(  0.04 %) 
+INFO:root:     2 resources occur 	    44 times 	(  0.07 %) 
+INFO:root:     2 resources occur 	    43 times 	(  0.07 %) 
+INFO:root:     2 resources occur 	    40 times 	(  0.07 %) 
+INFO:root:     2 resources occur 	    41 times 	(  0.07 %) 
+INFO:root:     3 resources occur 	    36 times 	(  0.11 %) 
+INFO:root:     2 resources occur 	    34 times 	(  0.07 %) 
+INFO:root:dbo:Person contains: <http://dbpedia.org/class/yago/Wikicat21st-centuryActors>, <http://dbpedia.org/class/yago/WikicatEnglishMusicians>, <http://dbpedia.org/class/yago/Wikicat20th-centuryNovelists>, <http://dbpedia.org/class/yago/Honoree110183757>, dbo:LacrossePlayer
+INFO:root:dbo:Athlete contains: dbo:LacrossePlayer
+INFO:root:dbo:SportsTeam contains: dboBasketballTeam
+INFO:root:    10 not instanciated templates:
+INFO:root:24
+INFO:root:25
+INFO:root:31
+INFO:root:32
+INFO:root:34
+INFO:root:35
+INFO:root:36
+INFO:root:37
+INFO:root:38
+INFO:root:39

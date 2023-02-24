@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/manufacturer>("http://dbpedia.org/resource/Ford_Straight-6_engine",uri),<http://dbpedia.org/ontology/automobilePlatform>("http://dbpedia.org/resource/Chiva_bus",uri).

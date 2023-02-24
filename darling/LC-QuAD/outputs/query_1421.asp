@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/Film>(uri),<http://dbpedia.org/property/music>(uri,"http://dbpedia.org/resource/Akira_Ifukube"),<http://dbpedia.org/property/starring>(uri,"http://dbpedia.org/resource/Momoko_Kōchi").

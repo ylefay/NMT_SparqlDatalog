@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/OfficeHolder>(x),<http://dbpedia.org/property/restingplace>(x,uri),<http://dbpedia.org/property/predecessor>(x,"http://dbpedia.org/resource/George_Whitefield_Davis").

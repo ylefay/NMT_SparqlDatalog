@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/OfficeHolder>(uri),<http://dbpedia.org/ontology/militaryUnit>(uri,"http://dbpedia.org/resource/USS_Kittiwake_(ASR-13)"),<http://dbpedia.org/property/constituency>(uri,"http://dbpedia.org/resource/Noe_Valley,_San_Francisco").

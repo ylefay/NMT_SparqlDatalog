@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/country>("http://dbpedia.org/resource/American_Mediterranean_Sea",uri),<http://dbpedia.org/ontology/birthPlace>("http://dbpedia.org/resource/Jeffrey_Werleman",uri).

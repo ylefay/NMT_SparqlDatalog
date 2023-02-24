@@ -1,0 +1,1 @@
+ans(count) :- <http://dbpedia.org/ontology/recordLabel>(x,"http://dbpedia.org/resource/Sony_Music_Entertainment"),<http://dbpedia.org/ontology/musicComposer>(uri,x),<http://dbpedia.org/ontology/Film>(uri).

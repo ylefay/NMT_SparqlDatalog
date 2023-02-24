@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/ComicsCreator>(x),<http://dbpedia.org/ontology/award>(x,uri),<http://dbpedia.org/ontology/author>("http://dbpedia.org/resource/A_Barrel_of_Laughs,_a_Vale_of_Tears",x).

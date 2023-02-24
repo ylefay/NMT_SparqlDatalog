@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/Company>(uri),<http://dbpedia.org/ontology/keyPerson>(uri,"http://dbpedia.org/resource/Edwin_Catmull"),<http://dbpedia.org/ontology/product>(uri,"http://dbpedia.org/resource/Pixar_Image_Computer").

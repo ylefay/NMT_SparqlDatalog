@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/TelevisionShow>(x),<http://dbpedia.org/property/narrated>(x,uri),<http://dbpedia.org/ontology/composer>(x,"http://dbpedia.org/resource/John_Douglas_(conductor)").

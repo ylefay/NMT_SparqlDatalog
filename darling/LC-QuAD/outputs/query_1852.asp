@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/MemberOfParliament>(x),<http://dbpedia.org/ontology/religion>(x,uri),<http://dbpedia.org/ontology/region>(x,"http://dbpedia.org/resource/Kalutara_Electoral_District").

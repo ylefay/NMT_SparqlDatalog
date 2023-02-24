@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/FictionalCharacter>(x),<http://dbpedia.org/property/nationality>(x,uri),<http://dbpedia.org/property/last>(x,"http://dbpedia.org/resource/The_Avengers_(1998_film)").

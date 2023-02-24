@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/RadioStation>(x),<http://dbpedia.org/ontology/programmeFormat>(x,uri),<http://dbpedia.org/property/affiliations>(x,"http://dbpedia.org/resource/Baltimore_Ravens").

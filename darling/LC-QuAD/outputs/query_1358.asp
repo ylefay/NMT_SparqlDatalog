@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/PoliticalParty>(x),<http://dbpedia.org/property/international>(x,uri),<http://dbpedia.org/property/leader>(x,"http://dbpedia.org/resource/Jose_Cha_Cha_Jimenez").

@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/TelevisionShow>(x),<http://dbpedia.org/property/starring>(x,uri),<http://dbpedia.org/property/series>("http://dbpedia.org/resource/The_Five_(The_Vampire_Diaries)",x).

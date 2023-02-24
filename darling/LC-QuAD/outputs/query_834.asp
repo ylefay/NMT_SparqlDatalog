@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/property/restingplace>("http://dbpedia.org/resource/Willem_Cornelis_Janse_van_Rensburg",uri),<http://dbpedia.org/property/restingplace>("http://dbpedia.org/resource/Thomas_François_Burgers",uri).

@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/almaMater>("http://dbpedia.org/resource/John_Michael_Seabright",uri),<http://dbpedia.org/ontology/institution>("http://dbpedia.org/resource/Alton_Ochsner",uri).

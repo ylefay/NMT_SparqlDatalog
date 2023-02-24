@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/currency>("http://dbpedia.org/resource/French_Southern_and_Antarctic_Lands",uri),<http://dbpedia.org/property/currency>("http://dbpedia.org/resource/Republic_of_Montenegro_(1992–2006)",uri).

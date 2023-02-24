@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/property/workInstitutions>("http://dbpedia.org/resource/Andrew_Schally",uri),<http://dbpedia.org/property/almaMater>("http://dbpedia.org/resource/María_Eugenia_Rojas_Correa",uri).

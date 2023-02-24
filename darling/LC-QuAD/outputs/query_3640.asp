@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/deathPlace>("http://dbpedia.org/resource/John_McTaggart_(jockey)",uri),<http://dbpedia.org/ontology/residence>("http://dbpedia.org/resource/Lula_J._Davis",uri).

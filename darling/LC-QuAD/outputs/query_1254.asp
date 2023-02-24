@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/predecessor>("http://dbpedia.org/resource/Chevrolet_Caprice",uri),<http://dbpedia.org/ontology/destination>("http://dbpedia.org/resource/Novair_International_Airways",uri).

@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/starring>("http://dbpedia.org/resource/55_Days_at_Peking",uri),<http://dbpedia.org/property/starring>("http://dbpedia.org/resource/The_Awakening_(1980_film)",uri).

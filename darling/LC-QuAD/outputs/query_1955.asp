@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/formerTeam>("http://dbpedia.org/resource/Carlos_Emmons_(American_football)",uri),<http://dbpedia.org/property/pastteams>("http://dbpedia.org/resource/Marv_McFadden",uri).

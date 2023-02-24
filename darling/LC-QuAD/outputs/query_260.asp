@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/property/governingBody>("http://dbpedia.org/resource/Oahu_Railway_and_Land_Company",uri),<http://dbpedia.org/property/governingBody>("http://dbpedia.org/resource/Naval_Air_Facility_Adak",uri).

@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/AcademicJournal>(x),<http://dbpedia.org/ontology/academicDiscipline>(x,uri),<http://dbpedia.org/ontology/academicDiscipline>(x,"http://dbpedia.org/resource/Cerebral_blood_flow").

@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/President>(uri),<http://dbpedia.org/ontology/lieutenant>(uri,"http://dbpedia.org/resource/Joe_Purcell"),<http://dbpedia.org/ontology/lieutenant>(uri,"http://dbpedia.org/resource/Winston_Bryant").

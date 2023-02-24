@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/FictionalCharacter>(uri),<http://dbpedia.org/property/family>(uri,"http://dbpedia.org/resource/Darth_Vader"),<http://dbpedia.org/property/family>(uri,"http://dbpedia.org/resource/Padmé_Amidala").

@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/successor>("http://dbpedia.org/resource/PlayStation_2",uri),<http://dbpedia.org/ontology/developer>("http://dbpedia.org/resource/Spider-Man:_Edge_of_Time",uri).

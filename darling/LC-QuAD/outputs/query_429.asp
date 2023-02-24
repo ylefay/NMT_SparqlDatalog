@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/OfficeHolder>(uri),<http://dbpedia.org/property/restingPlace>(uri,"http://dbpedia.org/resource/Alta_Mesa_Memorial_Park"),<http://dbpedia.org/property/successor>(uri,"http://dbpedia.org/resource/Adrian_A._Basora").

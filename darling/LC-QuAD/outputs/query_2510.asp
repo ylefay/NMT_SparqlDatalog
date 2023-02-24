@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/OfficeHolder>(uri),<http://dbpedia.org/ontology/successor>(uri,x),<http://dbpedia.org/ontology/deathPlace>(x,"http://dbpedia.org/resource/Morristown,_New_Jersey").

@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/Newspaper>(uri),<http://dbpedia.org/property/headquarters>(uri,x),<http://dbpedia.org/ontology/timeZone>(x,"http://dbpedia.org/resource/Central_European_Summer_Time").

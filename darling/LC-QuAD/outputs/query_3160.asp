@@ -1,0 +1,1 @@
+ans(count) :- <http://dbpedia.org/property/locationCity>(x,"http://dbpedia.org/resource/Taiwan"),<http://dbpedia.org/ontology/manufacturer>(uri,x),<http://dbpedia.org/ontology/InformationAppliance>(uri).

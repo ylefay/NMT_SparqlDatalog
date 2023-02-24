@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/property/junction>("http://dbpedia.org/resource/U.S._Route_59_in_Texas",uri),<http://dbpedia.org/property/placeofburial>("http://dbpedia.org/resource/Benjamin_Franklin_Terry",uri).

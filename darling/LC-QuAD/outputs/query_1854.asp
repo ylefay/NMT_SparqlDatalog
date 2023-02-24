@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/institution>("http://dbpedia.org/resource/Erica_Frank",uri),<http://dbpedia.org/ontology/institution>("http://dbpedia.org/resource/Robert_Hall_(economist)",uri).

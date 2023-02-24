@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/birthPlace>("http://dbpedia.org/resource/The_Okee_Dokee_Brothers",uri),<http://dbpedia.org/property/city>("http://dbpedia.org/resource/2015_MLS_All-Star_Game",uri).

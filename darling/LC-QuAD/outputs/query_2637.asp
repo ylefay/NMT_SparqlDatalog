@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/owningCompany>(x,"http://dbpedia.org/resource/Turner_Broadcasting_System"),<http://dbpedia.org/property/network>(uri,x),<http://dbpedia.org/ontology/TelevisionShow>(uri).

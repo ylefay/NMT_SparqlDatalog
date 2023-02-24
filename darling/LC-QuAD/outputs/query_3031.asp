@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/property/voices>(uri,"http://dbpedia.org/resource/April_Stewart"),<http://dbpedia.org/property/themeMusicComposer>(uri,"http://dbpedia.org/resource/Primus_(band)"),<http://dbpedia.org/ontology/TelevisionShow>(uri).

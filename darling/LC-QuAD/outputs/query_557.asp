@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/property/placeOfDeath>("http://dbpedia.org/resource/Phil_Lumpkin",uri),<http://dbpedia.org/ontology/countySeat>("http://dbpedia.org/resource/King_County,_Washington",uri).

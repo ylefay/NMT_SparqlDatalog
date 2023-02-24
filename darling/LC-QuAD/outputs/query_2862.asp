@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/doctoralStudent>(uri,"http://dbpedia.org/resource/Șerban_Țițeica"),<http://dbpedia.org/ontology/doctoralStudent>(uri,"http://dbpedia.org/resource/Erich_Bagge").

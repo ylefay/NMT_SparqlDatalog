@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/Building>(x),<http://dbpedia.org/property/district>(x,uri),<http://dbpedia.org/ontology/part>(x,"http://dbpedia.org/resource/Martin_AN/GSG-5_Battery_Integration_and_Radar_Display_Equipment").

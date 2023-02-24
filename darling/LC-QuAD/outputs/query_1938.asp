@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/university>("http://dbpedia.org/resource/Vanderbilt_Commodores",uri),<http://dbpedia.org/ontology/almaMater>("http://dbpedia.org/resource/Duncan_U._Fletcher",uri).

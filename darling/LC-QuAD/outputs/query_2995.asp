@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/Athlete>(x),<http://dbpedia.org/ontology/club>(x,"http://dbpedia.org/resource/Atlético_Petróleos_de_Luanda_(handball)"),<http://dbpedia.org/ontology/nationality>(x,uri).

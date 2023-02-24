@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/property/city>("http://dbpedia.org/resource/Channel_9_MCOT_HD",uri),<http://dbpedia.org/property/agencyName>("http://dbpedia.org/resource/Ministry_of_Information_and_Communication_Technology_(Thailand)",uri).

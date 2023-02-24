@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/Rocket>(x),<http://dbpedia.org/ontology/launchSite>(x,uri),<http://dbpedia.org/ontology/launchSite>(x,"http://dbpedia.org/resource/Cape_Canaveral_Air_Force_Station_Launch_Complex_5").

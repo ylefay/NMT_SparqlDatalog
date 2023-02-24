@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/Saint>(x),<http://dbpedia.org/ontology/majorShrine>(x,uri),<http://dbpedia.org/property/majorShrine>(x,"http://dbpedia.org/resource/St._Takla_Haymanot's_Church_(Alexandria)").

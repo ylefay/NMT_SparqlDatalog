@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/property/nationalOrigin>("http://dbpedia.org/resource/Start_+_Flug_H-101",uri),<http://dbpedia.org/property/nationalOrigin>("http://dbpedia.org/resource/Lemberger_LD20b",uri).

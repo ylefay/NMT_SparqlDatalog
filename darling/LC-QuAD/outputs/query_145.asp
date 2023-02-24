@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/University>(uri),<http://dbpedia.org/property/mascot>(uri,"http://dbpedia.org/resource/Gyrfalcon"),<http://dbpedia.org/ontology/superintendent>(uri,"http://dbpedia.org/resource/Lieutenant_general_(United_States)").

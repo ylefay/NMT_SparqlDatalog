@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/RailwayLine>(x),<http://dbpedia.org/ontology/routeStart>(x,uri),<http://dbpedia.org/property/system>(x,"http://dbpedia.org/resource/Chicago_and_North_Western_Transportation_Company").

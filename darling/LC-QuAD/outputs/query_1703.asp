@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/property/governingBody>("http://dbpedia.org/resource/Oahu_Railway_and_Land_Company",uri),<http://dbpedia.org/ontology/profession>("http://dbpedia.org/resource/Chris_Myers_(New_Jersey)",uri).

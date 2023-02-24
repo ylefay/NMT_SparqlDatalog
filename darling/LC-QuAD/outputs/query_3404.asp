@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/associate>(uri,"http://dbpedia.org/resource/Publius_Servilius_Vatia_Isauricus_(consul_48_BC)"),<http://dbpedia.org/property/children>(uri,"http://dbpedia.org/resource/Augustus").

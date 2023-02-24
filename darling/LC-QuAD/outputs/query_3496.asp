@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/property/successor>(x,"http://dbpedia.org/resource/Peter_Thorneycroft"),<http://dbpedia.org/ontology/relation>(x,uri),<http://dbpedia.org/ontology/MemberOfParliament>(x).

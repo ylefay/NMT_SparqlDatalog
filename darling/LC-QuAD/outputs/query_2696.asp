@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/Person>(uri),<http://dbpedia.org/property/restingplace>(uri,x),<http://dbpedia.org/property/governingBody>(x,"http://dbpedia.org/resource/United_States_Department_of_the_Interior").

@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/property/college>("http://dbpedia.org/resource/Kyle_Fuller_(basketball)",uri),<http://dbpedia.org/ontology/college>("http://dbpedia.org/resource/Malik_Ausean_Evans",uri).

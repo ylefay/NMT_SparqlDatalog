@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/property/party>("http://dbpedia.org/resource/Arunachal_Pradesh_Legislative_Assembly_election,_2014",uri),<http://dbpedia.org/property/party>("http://dbpedia.org/resource/Fourth_Legislative_Assembly_of_Delhi",uri).

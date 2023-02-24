@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/property/foundation>("http://dbpedia.org/resource/Temenos_Group",uri),<http://dbpedia.org/property/placeOfDeath>("http://dbpedia.org/resource/Jerzy_Józef_Potocki",uri).

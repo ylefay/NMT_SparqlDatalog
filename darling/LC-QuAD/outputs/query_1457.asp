@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/OfficeHolder>(uri),<http://dbpedia.org/ontology/child>(uri,"http://dbpedia.org/resource/Charles_Phelps_Taft_II"),<http://dbpedia.org/ontology/predecessor>(uri,"http://dbpedia.org/resource/Edward_Douglass_White").

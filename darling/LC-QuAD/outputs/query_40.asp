@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/MemberOfParliament>(x),<http://dbpedia.org/ontology/religion>(x,uri),<http://dbpedia.org/ontology/relation>(x,"http://dbpedia.org/resource/Sarathchandra_Rajakaruna").

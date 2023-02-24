@@ -1,0 +1,1 @@
+ans(count) :- <http://dbpedia.org/ontology/usedInWar>("http://dbpedia.org/resource/Fusil_Gras_mle_1874",x),<http://dbpedia.org/ontology/territory>(x,uri),<http://dbpedia.org/ontology/MilitaryConflict>(x).

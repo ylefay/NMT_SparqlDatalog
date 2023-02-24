@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/OfficeHolder>(uri),<http://dbpedia.org/property/restingplace>(uri,x),<http://dbpedia.org/property/nearestCity>(x,"http://dbpedia.org/resource/Orange,_Virginia").

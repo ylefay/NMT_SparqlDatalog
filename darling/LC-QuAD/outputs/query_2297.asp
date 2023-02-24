@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/property/relatives>(uri,"http://dbpedia.org/resource/Clan_McDuck"),<http://dbpedia.org/ontology/species>(uri,"http://dbpedia.org/resource/American_Pekin_duck"),<http://dbpedia.org/ontology/FictionalCharacter>(uri).

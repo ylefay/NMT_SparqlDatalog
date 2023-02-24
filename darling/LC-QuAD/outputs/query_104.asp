@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/TelevisionShow>(uri),<http://dbpedia.org/ontology/related>(uri,x),<http://dbpedia.org/ontology/subsequentWork>(x,"http://dbpedia.org/resource/Doctor_Who_Extra").

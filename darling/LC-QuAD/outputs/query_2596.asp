@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/property/coach>("http://dbpedia.org/resource/England_national_under-21_football_team",uri),<http://dbpedia.org/property/name>("http://dbpedia.org/resource/2000–01_Aston_Villa_F.C._season",uri).

@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/TelevisionShow>(uri),<http://dbpedia.org/property/themeMusicComposer>(uri,"http://dbpedia.org/resource/Primus_(band)"),<http://dbpedia.org/property/developer>(uri,"http://dbpedia.org/resource/Brian_Graden").

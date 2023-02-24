@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/Artist>(x),<http://dbpedia.org/ontology/associatedMusicalArtist>(x,uri),<http://dbpedia.org/ontology/associatedMusicalArtist>(x,"http://dbpedia.org/resource/Sanremo_Music_Festival").

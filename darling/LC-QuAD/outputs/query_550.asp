@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/property/religion>("http://dbpedia.org/resource/Katyayana_(Buddhist)",uri),<http://dbpedia.org/property/religion>("http://dbpedia.org/resource/Gamini_Seneviratne",uri).

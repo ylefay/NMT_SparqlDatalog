@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "NMT"
+version = "0.1.0"
+description = "English to Datalog/Sparql"
+authors = ["LE FAY Yvann <yvann.le-fay@inria.fr>"]
+
+[tool.poetry.dependencies]
+python = "3.6.9"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

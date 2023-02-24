@@ -1,0 +1,123 @@
+@prefix dbo:	<http://dbpedia.org/ontology/> .
+@prefix dbr:	<http://dbpedia.org/resource/> .
+dbr:Qianshou_Qianyan_Guanyin_of_Weishan	dbo:wikiPageWikiLink	dbr:Guishan_Guanyin ;
+	dbo:wikiPageRedirects	dbr:Guishan_Guanyin .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix wikipedia-en:	<http://en.wikipedia.org/wiki/> .
+wikipedia-en:Guishan_Guanyin	foaf:primaryTopic	dbr:Guishan_Guanyin .
+dbr:Chinese_Buddhist_sculpture	dbo:wikiPageWikiLink	dbr:Guishan_Guanyin .
+dbr:Guanyin_of_Nanshan	dbo:wikiPageWikiLink	dbr:Guishan_Guanyin .
+dbr:List_of_tallest_statues	dbo:wikiPageWikiLink	dbr:Guishan_Guanyin .
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+dbr:Guishan_Guanyin	rdf:type	owl:Thing .
+@prefix geo:	<http://www.w3.org/2003/01/geo/wgs84_pos#> .
+dbr:Guishan_Guanyin	rdf:type	geo:SpatialThing ,
+		dbo:Monument .
+@prefix wikidata:	<http://www.wikidata.org/entity/> .
+dbr:Guishan_Guanyin	rdf:type	wikidata:Q4989906 ,
+		dbo:ArchitecturalStructure .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+dbr:Guishan_Guanyin	rdfs:label	"\u6CA9\u5C71\u5343\u624B\u5343\u773C\u89C2\u97F3\u5723\u50CF"@zh ,
+		"\u063A\u0648\u064A\u0634\u0627\u0646 \u063A\u0648\u0627\u0646\u064A\u064A\u0646"@ar ,
+		"Guanyin aux Mille Mains et aux Mille Yeux"@fr ,
+		"Guishan Guanyin"@pt ,
+		"Guishan Guanyin"@en ,
+		"Guanyin de Mil Manos y Mil Ojos"@es ,
+		"Guishan Guanyin"@nl ;
+	rdfs:comment	"The Guishan Guanyin of the Thousand Hands and Eyes is located in Ningxiang, Hunan province, and is the fourth-tallest statue in China, and the sixth-tallest in the world, found at Miyin Temple, a Chan Buddhist temple. It is a gilded bronze monument depicting a manifestation of the Bodhisattva Guanyin known as Shiyimian Qianshou Guanyin (Traditional Chinese: \u5341\u4E00\u9762\u5343\u624B\u89C0\u97F3, Simplified Chinese: \u5341\u4E00\u9762\u5343\u624B\u89C2\u97F3), meaning the \"Eleven-headed Thousand-armed Guanyin\", which stands at 99 m (325 ft) tall. The Ningshan County Government, with the help of local business and religious organizations, invested 260 million yuan to complete its construction in 2009."@en ,
+		"De Guishan Guanyin van de duizend handen en ogen is een kolossaal standbeeld in Weishan in de stad Changsha in de Chinese provincie Hunan."@nl ,
+		"\u6CA9\u5C71\u5343\u624B\u5343\u773C\u89C2\u97F3\u5723\u50CF\u4F4D\u4E8E\u6E56\u5357\u7701\u957F\u6C99\u5E02\uFF0C\u662F\u4E2D\u534E\u4EBA\u6C11\u5171\u548C\u56FD\u7B2C\u56DB\u9AD8\uFF0C\u4E16\u754C\u7B2C\u516B\u9AD8\u7684\u96D5\u50CF\u3002 \u5723\u50CF\u4E3A\u4E16\u754C\u6700\u5927\u7684\u5343\u624B\u5343\u773C\u89C2\u97F3\u50CF\uFF0C\u9AD899.19\u7C73\uFF08325.4\u82F1\u5C3A\uFF09\uFF0C\u8C61\u5F81\u7740\u89C2\u97F3\u83E9\u8428\u7684\u51FA\u5BB6\u65E59\u670819\u65E5\u3002\u6574\u4E2A\u5723\u50CF\u5171\u7528\u94DC600\u591A\u5428\uFF0C\u75281440\u5757\u94DC\u710A\u63A5\u800C\u6210\uFF0C\u4E3A\u94DC\u9540\u91D1\u6750\u8D28\uFF1B\u5723\u50CF\u7709\u5FC3\u7684\u7EA2\u5B9D\u77F3\u4EA7\u81EA\u4E8E\u6FB3\u5927\u5229\u4E9A\uFF0C\u76F4\u5F8425\u5398\u7C73\u3002\u5B81\u4E61\u5E02\u4EBA\u6C11\u653F\u5E9C\uFF0C\u5728\u5F53\u5730\u5546\u4EBA\u548C\u4F5B\u6559\u56E2\u4F53\u7684\u8D44\u52A9\u4E0B\u6295\u8D442.6\u4EBF\u5143\u4EBA\u6C11\u5E01\u4FEE\u5EFA\u8FD9\u5EA7\u96D5\u50CF\u3002\u96D5\u50CF\u4E8E2009\u5E746\u6708\u5B8C\u5DE5\u843D\u6210\u3002\u6574\u4E2A\u96D5\u50CF\u517111\u4E2A\u5934\uFF0C\u8C61\u5F8133\u4E2A\u5E94\u53D8\u5316\u8EAB\uFF0C\u5DE6\u53F318\u53EA\u624B\uFF0C\u4E2D\u95F44\u53EA\u624B\uFF0C\u4E00\u517140\u53EA\u624B\uFF0C\u6BCF\u53EA\u624B\u5FC3\u6709\u4E00\u4E2A\u773C\u775B\uFF0C\u6BCF\u53EA\u773C\u775B\u670925\u79CD\u6CD5\u529B\uFF0C\u56E0\u6B64\u79F0\u4F5C\u201C\u5343\u624B\u5343\u773C\u89C2\u97F3\u201D\u3002\u96D5\u50CF\u4E0B\u65B9\u4E09\u5C42\u5EFA\u7B51\u662F\u987B\u5F25\u5EA7\uFF0C\u603B\u5EFA\u7B51\u9762\u79EF3999\u5E73\u65B9\u7C73\uFF0C\u5730\u9762\u9AD8\u5EA621.9\u7C73\uFF0872\u82F1\u5C3A\uFF09\uFF0C\u8C61\u5F81\u89C2\u97F3\u83E9\u8428\u7684\u751F\u65E5\u30022015\u5E747\u6708\uFF0C\u6CA9\u5C71\u5343\u624B\u5343\u773C\u89C2\u97F3\u5723\u50CF\u6B63\u5F0F\u5BF9\u5916\u5F00\u653E\u3002"@zh ,
+		"La Guanyin de Mil Manos y Mil Ojos (en chino simplificado, \u6CA9\u5C71\u5343\u624B\u5343\u773C\u89C2\u97F3\u5723\u50CF; pinyin, w\u00E9ish\u0101n qi\u0101n sh\u01D2u qi\u0101n y\u01CEn gu\u0101ny\u012Bn sh\u00E8ngxi\u00E0ng) es una gigantesca estatua monumental budista en China de 99 m de altura; en el momento de su finalizaci\u00F3n, en 2009, la cuarta estatua m\u00E1s alta del pa\u00EDs y la sexta del mundo. Se encuentra en el municipio de Weishan xiang (\u6CA9\u5C71\u4E61, , ciudad-prefectura de Changsha, Hunan. El gobierno del condado de Ningshan, con la ayuda de organizaciones empresariales y religiosas locales, invirti\u00F3 260 millones de yuanes para completar su construcci\u00F3n en 2009.\u200B \n* \n* \n* \n*"@es ,
+		"La Guanyin aux Mille Mains et aux Mille Yeux (chinois simplifi\u00E9 : \u6CA9\u5C71\u5343\u624B\u5343\u773C\u89C2\u97F3\u5723\u50CF ; pinyin : w\u00E9ish\u0101n qi\u0101n sh\u01D2u qi\u0101n y\u01CEn gu\u0101ny\u012Bn sh\u00E8ngxi\u00E0ng) est une statue de 99 m\u00E8tres de haut, 7e plus grande statue au monde. Elle se trouve dans le canton de Weishan (\u6CA9\u5C71\u4E61), Xian de Ningxiang, ville-pr\u00E9fecture de Changsha, dans le Hunan, en R\u00E9publique populaire de Chine. Guanyin est le bodhisattva de la mis\u00E9ricorde. Son nom complet est Guan Shi Yin, ce qui signifie \u00AB Celle qui \u00E9coute les plaintes du Monde \u00BB."@fr ,
+		"O Guishan Guanyin das cem m\u00E3os e olhos \u00E9 uma est\u00E1tua que est\u00E1 localizada em Ningxiang, provincia de Hunan, sendo a 4a estatua mais alta na China e a 7a mais alta do mundo. \u00C9 um monumento de bronze dourada que representa Avalokiteshvara e tem uma altura de 99 m. O governo de Jingshan, com a ajuda dos com\u00E9rcios locais e organiza\u00E7\u00F5es religiosas, investiram 260 milh\u00F5es de yuan para completar a constru\u00E7\u00E3o em 2009."@pt ;
+	foaf:name	"Guishan Guanyin of the Thousand Hands and Eyes"@en .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+dbr:Guishan_Guanyin	geo:lat	"28.177675247192382812"^^xsd:float ;
+	geo:long	"111.97016143798828125"^^xsd:float ;
+	foaf:depiction	<http://commons.wikimedia.org/wiki/Special:FilePath/\u0421\u0442\u0430\u0442\u0443\u044F_\u0431\u043E\u0433\u0438\u043D\u0438_\u0413\u0443\u0430\u043D\u044C\u0438\u043D\u044C_\u0432_\u0427\u0430\u043D\u0448\u0435.jpg> .
+@prefix dct:	<http://purl.org/dc/terms/> .
+@prefix dbc:	<http://dbpedia.org/resource/Category:> .
+dbr:Guishan_Guanyin	dct:subject	dbc:Colossal_statues_in_China ,
+		dbc:Cultural_infrastructure_completed_in_2009 ,
+		dbc:Tourist_attractions_in_Changsha ,
+		dbc:Buildings_and_structures_in_Hunan ,
+		dbc:Outdoor_sculptures_in_China ,
+		dbc:Bronze_sculptures_in_China ,
+		dbc:Colossal_Guanyin_statues ,
+		<http://dbpedia.org/resource/Category:2009_sculptures> .
+@prefix georss:	<http://www.georss.org/georss/> .
+dbr:Guishan_Guanyin	georss:point	"28.177675 111.970165" .
+@prefix dbpedia-nl:	<http://nl.dbpedia.org/resource/> .
+dbr:Guishan_Guanyin	owl:sameAs	dbpedia-nl:Guishan_Guanyin .
+@prefix dbpedia-pt:	<http://pt.dbpedia.org/resource/> .
+dbr:Guishan_Guanyin	owl:sameAs	dbpedia-pt:Guishan_Guanyin .
+@prefix ns15:	<http://my.dbpedia.org/resource/> .
+dbr:Guishan_Guanyin	owl:sameAs	ns15:Guishan_Guanyin_of_the_Thousand_Hands_and_Eyes ,
+		<https://global.dbpedia.org/id/2tixr> ,
+		<http://ar.dbpedia.org/resource/\u063A\u0648\u064A\u0634\u0627\u0646_\u063A\u0648\u0627\u0646\u064A\u064A\u0646> ,
+		wikidata:Q3118755 .
+@prefix dbpedia-tr:	<http://tr.dbpedia.org/resource/> .
+dbr:Guishan_Guanyin	owl:sameAs	dbpedia-tr:Guishan_Guanyin_of_the_Thousand_Hands_and_Eyes .
+@prefix dbpedia-es:	<http://es.dbpedia.org/resource/> .
+dbr:Guishan_Guanyin	owl:sameAs	dbpedia-es:Guanyin_de_Mil_Manos_y_Mil_Ojos ,
+		dbr:Guishan_Guanyin ,
+		<http://arz.dbpedia.org/resource/\u062C\u0648\u064A\u0634\u0627\u0646_\u062C\u0648\u0627\u0646\u064A\u064A\u0646> .
+@prefix dbpedia-fr:	<http://fr.dbpedia.org/resource/> .
+dbr:Guishan_Guanyin	owl:sameAs	dbpedia-fr:Guanyin_aux_Mille_Mains_et_aux_Mille_Yeux ,
+		<http://zh.dbpedia.org/resource/\u6CA9\u5C71\u5343\u624B\u5343\u773C\u89C2\u97F3\u5723\u50CF> ,
+		<http://th.dbpedia.org/resource/\u0E1E\u0E23\u0E30\u0E42\u0E1E\u0E18\u0E34\u0E2A\u0E31\u0E15\u0E27\u0E4C\u0E01\u0E27\u0E19\u0E2D\u0E34\u0E21\u0E1E\u0E31\u0E19\u0E21\u0E37\u0E2D\u0E41\u0E2B\u0E48\u0E07\u0E40\u0E2B\u0E27\u0E22\u0E4C\u0E0A\u0E32\u0E19> .
+@prefix prov:	<http://www.w3.org/ns/prov#> .
+dbr:Guishan_Guanyin	prov:wasDerivedFrom	<http://en.wikipedia.org/wiki/Guishan_Guanyin?oldid=1106696424&ns=0> ;
+	foaf:isPrimaryTopicOf	wikipedia-en:Guishan_Guanyin .
+@prefix virtrdf:	<http://www.openlinksw.com/schemas/virtrdf#> .
+dbr:Guishan_Guanyin	geo:geometry	"POINT(111.97016143799 28.177675247192)"^^virtrdf:Geometry .
+@prefix dbp:	<http://dbpedia.org/property/> .
+dbr:Guishan_Guanyin	dbp:material	"gilded bronze"@en ;
+	dbp:nativeNameLang	"zh-Hans"@en ;
+	dbp:complete	2009 ;
+	dbp:location	"Weishan Township, Ningxiang, Hunan, China"@en ;
+	dbo:location	dbr:Ningxiang ,
+		dbr:Hunan ,
+		<http://dbpedia.org/resource/Weishan_Township,_Ningxiang> ;
+	dbp:nativeName	"\u6CA9\u5C71\u5343\u624B\u5343\u773C\u89C2\u97F3\u5723\u50CF"@en ;
+	dbp:monumentName	"Guishan Guanyin of the Thousand Hands and Eyes"@en ;
+	dbo:wikiPageWikiLink	<http://dbpedia.org/resource/Category:2009_sculptures> ,
+		dbr:Ningxiang ,
+		dbr:List_of_tallest_statues ,
+		<http://dbpedia.org/resource/Weishan_Township,_Ningxiang> ,
+		dbc:Outdoor_sculptures_in_China ,
+		dbc:Colossal_statues_in_China ,
+		dbc:Colossal_Guanyin_statues ,
+		dbc:Buildings_and_structures_in_Hunan ,
+		dbc:Cultural_infrastructure_completed_in_2009 ,
+		dbr:Guanyin ,
+		dbr:Chan_Buddhist ,
+		dbc:Bronze_sculptures_in_China ,
+		dbr:Miyin_Temple ,
+		dbc:Tourist_attractions_in_Changsha ,
+		dbr:Hunan ;
+	dbo:wikiPageID	30764822 ;
+	dbo:wikiPageRevisionID	1106696424 ;
+	dbo:abstract	"O Guishan Guanyin das cem m\u00E3os e olhos \u00E9 uma est\u00E1tua que est\u00E1 localizada em Ningxiang, provincia de Hunan, sendo a 4a estatua mais alta na China e a 7a mais alta do mundo. \u00C9 um monumento de bronze dourada que representa Avalokiteshvara e tem uma altura de 99 m. O governo de Jingshan, com a ajuda dos com\u00E9rcios locais e organiza\u00E7\u00F5es religiosas, investiram 260 milh\u00F5es de yuan para completar a constru\u00E7\u00E3o em 2009."@pt ,
+		"De Guishan Guanyin van de duizend handen en ogen is een kolossaal standbeeld in Weishan in de stad Changsha in de Chinese provincie Hunan."@nl ,
+		"La Guanyin aux Mille Mains et aux Mille Yeux (chinois simplifi\u00E9 : \u6CA9\u5C71\u5343\u624B\u5343\u773C\u89C2\u97F3\u5723\u50CF ; pinyin : w\u00E9ish\u0101n qi\u0101n sh\u01D2u qi\u0101n y\u01CEn gu\u0101ny\u012Bn sh\u00E8ngxi\u00E0ng) est une statue de 99 m\u00E8tres de haut, 7e plus grande statue au monde. Elle se trouve dans le canton de Weishan (\u6CA9\u5C71\u4E61), Xian de Ningxiang, ville-pr\u00E9fecture de Changsha, dans le Hunan, en R\u00E9publique populaire de Chine. Guanyin est le bodhisattva de la mis\u00E9ricorde. Son nom complet est Guan Shi Yin, ce qui signifie \u00AB Celle qui \u00E9coute les plaintes du Monde \u00BB. La multiplicit\u00E9 de ses yeux lui permet de voir les malheurs de chacun, et, ses 20 paires de bras, de venir en aide au plus grand nombre. Elle arbore plusieurs visages, signe de profonde humilit\u00E9, chacun pouvant reconnaitre en l'un ou l'autre visage la repr\u00E9sentation qu'il se fait de la d\u00E9esse."@fr ,
+		"\u6CA9\u5C71\u5343\u624B\u5343\u773C\u89C2\u97F3\u5723\u50CF\u4F4D\u4E8E\u6E56\u5357\u7701\u957F\u6C99\u5E02\uFF0C\u662F\u4E2D\u534E\u4EBA\u6C11\u5171\u548C\u56FD\u7B2C\u56DB\u9AD8\uFF0C\u4E16\u754C\u7B2C\u516B\u9AD8\u7684\u96D5\u50CF\u3002 \u5723\u50CF\u4E3A\u4E16\u754C\u6700\u5927\u7684\u5343\u624B\u5343\u773C\u89C2\u97F3\u50CF\uFF0C\u9AD899.19\u7C73\uFF08325.4\u82F1\u5C3A\uFF09\uFF0C\u8C61\u5F81\u7740\u89C2\u97F3\u83E9\u8428\u7684\u51FA\u5BB6\u65E59\u670819\u65E5\u3002\u6574\u4E2A\u5723\u50CF\u5171\u7528\u94DC600\u591A\u5428\uFF0C\u75281440\u5757\u94DC\u710A\u63A5\u800C\u6210\uFF0C\u4E3A\u94DC\u9540\u91D1\u6750\u8D28\uFF1B\u5723\u50CF\u7709\u5FC3\u7684\u7EA2\u5B9D\u77F3\u4EA7\u81EA\u4E8E\u6FB3\u5927\u5229\u4E9A\uFF0C\u76F4\u5F8425\u5398\u7C73\u3002\u5B81\u4E61\u5E02\u4EBA\u6C11\u653F\u5E9C\uFF0C\u5728\u5F53\u5730\u5546\u4EBA\u548C\u4F5B\u6559\u56E2\u4F53\u7684\u8D44\u52A9\u4E0B\u6295\u8D442.6\u4EBF\u5143\u4EBA\u6C11\u5E01\u4FEE\u5EFA\u8FD9\u5EA7\u96D5\u50CF\u3002\u96D5\u50CF\u4E8E2009\u5E746\u6708\u5B8C\u5DE5\u843D\u6210\u3002\u6574\u4E2A\u96D5\u50CF\u517111\u4E2A\u5934\uFF0C\u8C61\u5F8133\u4E2A\u5E94\u53D8\u5316\u8EAB\uFF0C\u5DE6\u53F318\u53EA\u624B\uFF0C\u4E2D\u95F44\u53EA\u624B\uFF0C\u4E00\u517140\u53EA\u624B\uFF0C\u6BCF\u53EA\u624B\u5FC3\u6709\u4E00\u4E2A\u773C\u775B\uFF0C\u6BCF\u53EA\u773C\u775B\u670925\u79CD\u6CD5\u529B\uFF0C\u56E0\u6B64\u79F0\u4F5C\u201C\u5343\u624B\u5343\u773C\u89C2\u97F3\u201D\u3002\u96D5\u50CF\u4E0B\u65B9\u4E09\u5C42\u5EFA\u7B51\u662F\u987B\u5F25\u5EA7\uFF0C\u603B\u5EFA\u7B51\u9762\u79EF3999\u5E73\u65B9\u7C73\uFF0C\u5730\u9762\u9AD8\u5EA621.9\u7C73\uFF0872\u82F1\u5C3A\uFF09\uFF0C\u8C61\u5F81\u89C2\u97F3\u83E9\u8428\u7684\u751F\u65E5\u30022015\u5E747\u6708\uFF0C\u6CA9\u5C71\u5343\u624B\u5343\u773C\u89C2\u97F3\u5723\u50CF\u6B63\u5F0F\u5BF9\u5916\u5F00\u653E\u3002"@zh ,
+		"The Guishan Guanyin of the Thousand Hands and Eyes is located in Ningxiang, Hunan province, and is the fourth-tallest statue in China, and the sixth-tallest in the world, found at Miyin Temple, a Chan Buddhist temple. It is a gilded bronze monument depicting a manifestation of the Bodhisattva Guanyin known as Shiyimian Qianshou Guanyin (Traditional Chinese: \u5341\u4E00\u9762\u5343\u624B\u89C0\u97F3, Simplified Chinese: \u5341\u4E00\u9762\u5343\u624B\u89C2\u97F3), meaning the \"Eleven-headed Thousand-armed Guanyin\", which stands at 99 m (325 ft) tall. The Ningshan County Government, with the help of local business and religious organizations, invested 260 million yuan to complete its construction in 2009."@en ,
+		"La Guanyin de Mil Manos y Mil Ojos (en chino simplificado, \u6CA9\u5C71\u5343\u624B\u5343\u773C\u89C2\u97F3\u5723\u50CF; pinyin, w\u00E9ish\u0101n qi\u0101n sh\u01D2u qi\u0101n y\u01CEn gu\u0101ny\u012Bn sh\u00E8ngxi\u00E0ng) es una gigantesca estatua monumental budista en China de 99 m de altura; en el momento de su finalizaci\u00F3n, en 2009, la cuarta estatua m\u00E1s alta del pa\u00EDs y la sexta del mundo. Se encuentra en el municipio de Weishan xiang (\u6CA9\u5C71\u4E61, , ciudad-prefectura de Changsha, Hunan. El gobierno del condado de Ningshan, con la ayuda de organizaciones empresariales y religiosas locales, invirti\u00F3 260 millones de yuanes para completar su construcci\u00F3n en 2009.\u200B Guanyin es la bodhisattva de la misericordia. Su nombre completo es Guan Shi Yin, que significa \u00ABaquella que escucha las quejas del Mundo\u00BB. La multiplicidad de sus ojos le permite ver las desgracias de cada uno, y sus 20 pares de brazos, acudir en ayuda del mayor n\u00FAmero. Tiene muchos rostros, un signo de profunda humildad, y cada uno puede reconocer en una u otra cara la representaci\u00F3n que se hace de la diosa. \n* \n* \n* \n*"@es .
+@prefix dbt:	<http://dbpedia.org/resource/Template:> .
+dbr:Guishan_Guanyin	dbp:wikiPageUsesTemplate	dbt:Infobox_monument ,
+		dbt:China-struct-stub ,
+		dbt:Linktext ,
+		dbt:Short_description ,
+		dbt:Reflist ,
+		dbt:Colossal_Buddha_statues ,
+		dbt:Infobox_Chinese ,
+		dbt:Convert ,
+		dbt:Coord ;
+	dbo:wikiPageLength	"2696"^^xsd:nonNegativeInteger ;
+	dbo:wikiPageExternalLink	<https://web.archive.org/web/20091106215711/http:/www.weishan.hn.cn/wM_ReadNews.asp%3Fnewsid=144> ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/\u0421\u0442\u0430\u0442\u0443\u044F_\u0431\u043E\u0433\u0438\u043D\u0438_\u0413\u0443\u0430\u043D\u044C\u0438\u043D\u044C_\u0432_\u0427\u0430\u043D\u0448\u0435.jpg?width=300> ;
+	dbp:type	"statue"@en .
+dbr:Guishan_Guanyin_of_the_Thousand_Hands_and_Eyes	dbo:wikiPageWikiLink	dbr:Guishan_Guanyin ;
+	dbo:wikiPageRedirects	dbr:Guishan_Guanyin .

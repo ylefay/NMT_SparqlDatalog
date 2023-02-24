@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/MusicalArtist>(x),<http://dbpedia.org/property/associatedActs>(x,uri),<http://dbpedia.org/ontology/producer>("http://dbpedia.org/resource/Spotlight_(Jennifer_Hudson_song)",x).

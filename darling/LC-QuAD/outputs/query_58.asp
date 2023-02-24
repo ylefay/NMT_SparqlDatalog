@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/property/placeOfBirth>("http://dbpedia.org/resource/William_C._Cramer",uri),<http://dbpedia.org/ontology/locationCity>("http://dbpedia.org/resource/Denver_Broncos",uri).

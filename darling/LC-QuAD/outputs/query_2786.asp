@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/TelevisionStation>(x),<http://dbpedia.org/property/city>(x,uri),<http://dbpedia.org/ontology/broadcastNetwork>(x,"http://dbpedia.org/resource/SCOLA_(TV_service)").

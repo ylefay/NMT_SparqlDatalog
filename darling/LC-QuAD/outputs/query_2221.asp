@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/Medician>(x),<http://dbpedia.org/ontology/birthPlace>(x,uri),<http://dbpedia.org/ontology/institution>(x,"http://dbpedia.org/resource/Harvard_Medical_School").

@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/series>("http://dbpedia.org/resource/Doctor_Who:_Destiny_of_the_Doctors",uri),<http://dbpedia.org/property/notableworks>("http://dbpedia.org/resource/Russell_T_Davies",uri).

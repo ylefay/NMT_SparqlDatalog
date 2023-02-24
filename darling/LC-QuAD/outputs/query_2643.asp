@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/MusicalArtist>(x),<http://dbpedia.org/ontology/hometown>(x,uri),<http://dbpedia.org/property/currentMembers>("http://dbpedia.org/resource/Slapstick_(band)",x).

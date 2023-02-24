@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/InformationAppliance>(uri),<http://dbpedia.org/property/os>(uri,"http://dbpedia.org/resource/PlayStation_3_system_software"),<http://dbpedia.org/ontology/manufacturer>(uri,"http://dbpedia.org/resource/Foxconn").

@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/Film>(uri),<http://dbpedia.org/ontology/director>(uri,"http://dbpedia.org/resource/Stanley_Kubrick"),<http://dbpedia.org/ontology/editing>(uri,"http://dbpedia.org/resource/Anthony_Harvey").

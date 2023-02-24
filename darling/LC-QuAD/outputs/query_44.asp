@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/FormulaOneRacer>(uri),<http://dbpedia.org/ontology/child>(uri,"http://dbpedia.org/resource/Mick_Schumacher"),<http://dbpedia.org/property/relatives>(uri,"http://dbpedia.org/resource/Ralf_Schumacher").

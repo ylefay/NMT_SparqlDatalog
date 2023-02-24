@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/Person>(x),<http://dbpedia.org/property/employer>(x,uri),<http://dbpedia.org/ontology/knownFor>(x,"http://dbpedia.org/resource/Boeing_F/A-18E/F_Super_Hornet").

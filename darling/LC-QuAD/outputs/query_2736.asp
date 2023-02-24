@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/MemberOfParliament>(x),<http://dbpedia.org/ontology/restingPlace>(x,uri),<http://dbpedia.org/ontology/vicePresident>(x,"http://dbpedia.org/resource/James_Roberts_(trade_unionist)").

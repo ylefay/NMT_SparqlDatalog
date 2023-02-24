@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/property/motto>("http://dbpedia.org/resource/American_Classical_League",uri),<http://dbpedia.org/ontology/academicDiscipline>("http://dbpedia.org/resource/Probus_(journal)",uri).

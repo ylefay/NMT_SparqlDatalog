@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/PoliticalParty>(uri),<http://dbpedia.org/ontology/leader>(uri,x),<http://dbpedia.org/ontology/residence>(x,"http://dbpedia.org/resource/Prime_Minister's_House_(Colombo)").

@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/GolfPlayer>(x),<http://dbpedia.org/ontology/nationality>(x,uri),<http://dbpedia.org/ontology/champion>("http://dbpedia.org/resource/2002_Players_Championship",x).

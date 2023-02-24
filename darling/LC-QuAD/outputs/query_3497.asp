@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/River>(uri),<http://dbpedia.org/property/mouthCountry>(uri,"http://dbpedia.org/resource/Mozambique"),<http://dbpedia.org/ontology/sourceCountry>(uri,"http://dbpedia.org/resource/Zambia").

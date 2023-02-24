@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/AdministrativeRegion>(uri),<http://dbpedia.org/ontology/founder>(uri,"http://dbpedia.org/resource/Rama_I"),<http://dbpedia.org/ontology/leaderName>(uri,"http://dbpedia.org/resource/Sukhumbhand_Paribatra").

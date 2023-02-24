@@ -1,0 +1,1 @@
+ans(count) :- <http://dbpedia.org/property/system>(x,"http://dbpedia.org/resource/Norfolk_Southern_Railway"),<http://dbpedia.org/property/owner>(x,uri),<http://dbpedia.org/ontology/Organisation>(uri).

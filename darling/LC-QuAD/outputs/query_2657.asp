@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/TelevisionShow>(uri),<http://dbpedia.org/property/writer>(uri,"http://dbpedia.org/resource/John_Orloff"),<http://dbpedia.org/ontology/producer>(uri,"http://dbpedia.org/resource/Stephen_E._Ambrose").

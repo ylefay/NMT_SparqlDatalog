@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/property/associatedActs>(uri,"http://dbpedia.org/resource/Kris_Kristofferson"),<http://dbpedia.org/property/associatedActs>(uri,"http://dbpedia.org/resource/Johnny_Cash").

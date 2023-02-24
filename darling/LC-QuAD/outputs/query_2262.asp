@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/FictionalCharacter>(uri),<http://dbpedia.org/ontology/relative>(uri,"http://dbpedia.org/resource/Duck_family_(Disney)"),<http://dbpedia.org/property/relatives>(uri,"http://dbpedia.org/resource/Huey,_Dewey,_and_Louie").

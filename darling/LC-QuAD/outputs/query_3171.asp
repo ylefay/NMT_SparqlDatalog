@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/Single>(x),<http://dbpedia.org/ontology/musicalArtist>(x,uri),<http://dbpedia.org/ontology/album>(x,"http://dbpedia.org/resource/Elton_John_and_Tim_Rice's_Aida").

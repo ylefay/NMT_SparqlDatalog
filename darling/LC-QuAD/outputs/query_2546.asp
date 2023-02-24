@@ -1,0 +1,1 @@
+ans(count) :- <http://dbpedia.org/property/battles>("http://dbpedia.org/resource/Richard_Taylor_(colonel)",x),<http://dbpedia.org/property/combatant>(x,uri),<http://dbpedia.org/ontology/MilitaryConflict>(x).

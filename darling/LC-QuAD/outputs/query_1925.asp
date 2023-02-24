@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/training>("http://dbpedia.org/resource/William_Anthony_(artist)",uri),<http://dbpedia.org/ontology/education>("http://dbpedia.org/resource/Jack_McGregor",uri).

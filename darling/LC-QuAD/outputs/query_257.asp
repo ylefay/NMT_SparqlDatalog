@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/Politician>(x),<http://dbpedia.org/ontology/restingPlace>(x,uri),<http://dbpedia.org/ontology/successor>("http://dbpedia.org/resource/Samuel_Hayes_(settler)",x).

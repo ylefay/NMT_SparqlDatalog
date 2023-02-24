@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/property/products>(uri,"http://dbpedia.org/resource/Boeing_F/A-18E/F_Super_Hornet"),<http://dbpedia.org/property/keyPeople>(uri,"http://dbpedia.org/resource/Dennis_Muilenburg").

@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/MilitaryConflict>(uri),<http://dbpedia.org/ontology/commander>(uri,"http://dbpedia.org/resource/John_McEwen"),<http://dbpedia.org/ontology/commander>(uri,"http://dbpedia.org/resource/Phạm_Văn_Đồng").

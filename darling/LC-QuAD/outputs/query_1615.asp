@@ -1,0 +1,1 @@
+ans(count) :- <http://dbpedia.org/property/director>(uri,x),<http://dbpedia.org/ontology/Film>(uri),<http://dbpedia.org/property/education>(x,"http://dbpedia.org/resource/Burbank_High_School_(Burbank,_California)").

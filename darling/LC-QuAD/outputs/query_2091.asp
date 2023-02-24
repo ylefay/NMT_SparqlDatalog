@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/property/prizes>(uri,"http://dbpedia.org/resource/Lovelace_Medal"),<http://dbpedia.org/property/doctoralAdvisor>(uri,"http://dbpedia.org/resource/John_Robert_Woodyard").

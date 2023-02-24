@@ -1,0 +1,1 @@
+ans(count) :- <http://dbpedia.org/property/keyPeople>(x,"http://dbpedia.org/resource/George_Beauchamp"),<http://dbpedia.org/ontology/instrument>(uri,x),<http://dbpedia.org/ontology/MusicalArtist>(uri).

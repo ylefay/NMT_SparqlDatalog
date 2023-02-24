@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/starring>(uri,"http://dbpedia.org/resource/Companion_(Doctor_Who)"),<http://dbpedia.org/ontology/creator>(uri,"http://dbpedia.org/resource/C._E._Webber"),<http://dbpedia.org/ontology/TelevisionShow>(uri).

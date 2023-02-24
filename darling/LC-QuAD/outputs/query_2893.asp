@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/property/predecessor>("http://dbpedia.org/resource/X_(company)",uri),<http://dbpedia.org/ontology/developer>("http://dbpedia.org/resource/Go_(programming_language)",uri).

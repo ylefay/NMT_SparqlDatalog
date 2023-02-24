@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/Automobile>(x),<http://dbpedia.org/ontology/layout>(x,uri),<http://dbpedia.org/ontology/layout>(x,"http://dbpedia.org/resource/Front-engine,_four-wheel-drive_layout").

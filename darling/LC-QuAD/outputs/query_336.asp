@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/property/knownFor>("http://dbpedia.org/resource/Abhijit_Kunte",uri),<http://dbpedia.org/property/purpose>("http://dbpedia.org/resource/Maharashtra_Chess_Association",uri).

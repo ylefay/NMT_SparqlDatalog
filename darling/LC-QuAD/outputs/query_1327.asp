@@ -1,0 +1,1 @@
+ans(count) :- <http://dbpedia.org/ontology/athletics>(x,"http://dbpedia.org/resource/National_Collegiate_Athletic_Association"),<http://dbpedia.org/property/education>(uri,x),<http://dbpedia.org/ontology/Person>(uri).

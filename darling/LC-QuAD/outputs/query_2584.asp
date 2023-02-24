@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/country>("http://dbpedia.org/resource/Robert_Valentine_(composer)",uri),<http://dbpedia.org/ontology/citizenship>("http://dbpedia.org/resource/J._S._M._Hooper",uri).

@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/Sea>(uri),<http://dbpedia.org/property/outflow>(uri,"http://dbpedia.org/resource/Danish_straits"),<http://dbpedia.org/ontology/inflow>(uri,"http://dbpedia.org/resource/Kemijoki").

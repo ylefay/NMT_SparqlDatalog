@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/BaseballPlayer>(x),<http://dbpedia.org/property/college>(x,uri),<http://dbpedia.org/property/birthPlace>(x,"http://dbpedia.org/resource/Ashton_Historic_District").

@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/nationality>("http://dbpedia.org/resource/Ajahn_Sao_Kantasīlo",uri),<http://dbpedia.org/property/nationality>("http://dbpedia.org/resource/Newin_Chidchob",uri).

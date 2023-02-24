@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/TelevisionShow>(uri),<http://dbpedia.org/property/network>(uri,"http://dbpedia.org/resource/TNT_(TV_channel)"),<http://dbpedia.org/property/artist>(uri,"http://dbpedia.org/resource/Christopher_Franke").

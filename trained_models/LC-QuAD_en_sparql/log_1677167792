@@ -1,0 +1,54 @@
+# log_file=.././trained_models/LC-QuAD_en_sparql/log_1677167792
+# Start step 0, lr 1, Thu Feb 23 16:56:36 2023
+  step 100 lr 1 step-time 0.40s wps 9.96K ppl 6.91 gN 12.41 bleu 0.00, Thu Feb 23 16:57:17 2023
+  step 200 lr 1 step-time 0.40s wps 9.78K ppl 1.80 gN 2.70 bleu 0.00, Thu Feb 23 16:58:00 2023
+  step 300 lr 1 step-time 0.40s wps 9.75K ppl 1.42 gN 1.47 bleu 0.00, Thu Feb 23 16:58:43 2023
+  step 400 lr 1 step-time 0.39s wps 10.02K ppl 1.36 gN 1.15 bleu 0.00, Thu Feb 23 16:59:25 2023
+  step 500 lr 1 step-time 0.40s wps 9.87K ppl 1.35 gN 1.04 bleu 0.00, Thu Feb 23 17:00:07 2023
+  step 600 lr 1 step-time 0.40s wps 9.92K ppl 1.34 gN 0.97 bleu 0.00, Thu Feb 23 17:00:50 2023
+  step 700 lr 1 step-time 0.40s wps 9.77K ppl 1.33 gN 0.92 bleu 0.00, Thu Feb 23 17:01:32 2023
+  step 800 lr 1 step-time 0.39s wps 10.03K ppl 1.32 gN 0.89 bleu 0.00, Thu Feb 23 17:02:14 2023
+  step 900 lr 1 step-time 0.39s wps 10.02K ppl 1.32 gN 0.88 bleu 0.00, Thu Feb 23 17:02:56 2023
+  step 1000 lr 1 step-time 0.39s wps 10.07K ppl 1.32 gN 0.86 bleu 0.00, Thu Feb 23 17:03:38 2023
+  step 1100 lr 1 step-time 0.38s wps 10.29K ppl 1.32 gN 0.83 bleu 28.28, Thu Feb 23 17:04:27 2023
+  step 1200 lr 1 step-time 0.38s wps 10.49K ppl 1.31 gN 0.83 bleu 28.28, Thu Feb 23 17:05:13 2023
+  step 1300 lr 1 step-time 0.39s wps 10.17K ppl 1.31 gN 0.81 bleu 28.28, Thu Feb 23 17:06:01 2023
+  step 1400 lr 1 step-time 0.38s wps 10.27K ppl 1.31 gN 0.81 bleu 28.28, Thu Feb 23 17:06:48 2023
+  step 1500 lr 1 step-time 0.39s wps 10.07K ppl 1.31 gN 0.79 bleu 28.28, Thu Feb 23 17:07:35 2023
+  step 1600 lr 1 step-time 0.39s wps 9.98K ppl 1.31 gN 0.79 bleu 28.28, Thu Feb 23 17:08:24 2023
+  step 1700 lr 1 step-time 0.44s wps 8.86K ppl 1.31 gN 0.80 bleu 28.28, Thu Feb 23 17:09:17 2023
+  step 1800 lr 1 step-time 0.44s wps 8.85K ppl 1.31 gN 0.78 bleu 28.28, Thu Feb 23 17:10:11 2023
+  step 1900 lr 1 step-time 0.41s wps 9.62K ppl 1.31 gN 0.77 bleu 28.28, Thu Feb 23 17:11:01 2023
+  step 2000 lr 1 step-time 0.40s wps 9.94K ppl 1.31 gN 0.78 bleu 28.28, Thu Feb 23 17:11:49 2023
+  step 2100 lr 1 step-time 0.45s wps 8.80K ppl 1.31 gN 0.77 bleu 28.28, Thu Feb 23 17:12:45 2023
+  step 2200 lr 1 step-time 0.42s wps 9.46K ppl 1.31 gN 0.77 bleu 28.28, Thu Feb 23 17:13:36 2023
+  step 2300 lr 1 step-time 0.39s wps 10.21K ppl 1.30 gN 0.78 bleu 28.28, Thu Feb 23 17:14:23 2023
+  step 2400 lr 1 step-time 0.40s wps 9.77K ppl 1.30 gN 0.77 bleu 28.28, Thu Feb 23 17:15:12 2023
+  step 2500 lr 1 step-time 0.37s wps 10.55K ppl 1.30 gN 0.77 bleu 28.28, Thu Feb 23 17:15:58 2023
+  step 2600 lr 1 step-time 0.39s wps 10.15K ppl 1.30 gN 0.76 bleu 28.28, Thu Feb 23 17:16:46 2023
+  step 2700 lr 1 step-time 0.39s wps 10.06K ppl 1.30 gN 0.76 bleu 28.28, Thu Feb 23 17:17:35 2023
+  step 2800 lr 1 step-time 0.38s wps 10.35K ppl 1.30 gN 0.76 bleu 28.28, Thu Feb 23 17:18:22 2023
+  step 2900 lr 1 step-time 0.43s wps 9.07K ppl 1.30 gN 0.75 bleu 28.28, Thu Feb 23 17:19:15 2023
+  step 3000 lr 1 step-time 0.41s wps 9.69K ppl 1.30 gN 0.74 bleu 28.28, Thu Feb 23 17:20:04 2023
+  step 3100 lr 1 step-time 0.37s wps 10.53K ppl 1.30 gN 0.77 bleu 28.28, Thu Feb 23 17:20:53 2023
+  step 3200 lr 1 step-time 0.40s wps 9.90K ppl 1.30 gN 0.75 bleu 28.28, Thu Feb 23 17:21:41 2023
+  step 3300 lr 1 step-time 0.41s wps 9.69K ppl 1.30 gN 0.74 bleu 28.28, Thu Feb 23 17:22:30 2023
+  step 3400 lr 1 step-time 0.40s wps 9.74K ppl 1.30 gN 0.76 bleu 28.28, Thu Feb 23 17:23:19 2023
+  step 3500 lr 1 step-time 0.42s wps 9.37K ppl 1.30 gN 0.74 bleu 28.28, Thu Feb 23 17:24:10 2023
+  step 3600 lr 1 step-time 0.41s wps 9.56K ppl 1.30 gN 0.74 bleu 28.28, Thu Feb 23 17:25:00 2023
+  step 3700 lr 1 step-time 0.41s wps 9.64K ppl 1.30 gN 0.75 bleu 28.28, Thu Feb 23 17:25:50 2023
+  step 3800 lr 1 step-time 0.41s wps 9.58K ppl 1.30 gN 0.74 bleu 28.28, Thu Feb 23 17:26:40 2023
+  step 3900 lr 1 step-time 0.39s wps 9.98K ppl 1.29 gN 0.72 bleu 28.28, Thu Feb 23 17:27:29 2023
+  step 4000 lr 1 step-time 0.45s wps 8.75K ppl 1.29 gN 0.74 bleu 28.28, Thu Feb 23 17:28:23 2023
+  step 4100 lr 1 step-time 0.41s wps 9.68K ppl 1.29 gN 0.73 bleu 28.28, Thu Feb 23 17:29:14 2023
+  step 4200 lr 1 step-time 0.38s wps 10.29K ppl 1.29 gN 0.75 bleu 28.28, Thu Feb 23 17:30:01 2023
+  step 4300 lr 1 step-time 0.35s wps 11.19K ppl 1.29 gN 0.72 bleu 28.28, Thu Feb 23 17:30:46 2023
+  step 4400 lr 1 step-time 0.34s wps 11.48K ppl 1.29 gN 0.74 bleu 28.28, Thu Feb 23 17:31:29 2023
+  step 4500 lr 1 step-time 0.40s wps 9.91K ppl 1.29 gN 0.73 bleu 28.28, Thu Feb 23 17:32:18 2023
+  step 4600 lr 1 step-time 0.39s wps 10.11K ppl 1.29 gN 0.73 bleu 28.28, Thu Feb 23 17:33:06 2023
+  step 4700 lr 1 step-time 0.38s wps 10.25K ppl 1.29 gN 0.74 bleu 28.28, Thu Feb 23 17:33:54 2023
+  step 4800 lr 1 step-time 0.38s wps 10.46K ppl 1.29 gN 0.72 bleu 28.28, Thu Feb 23 17:34:40 2023
+  step 4900 lr 1 step-time 0.40s wps 9.91K ppl 1.29 gN 0.72 bleu 28.28, Thu Feb 23 17:35:29 2023
+  step 5000 lr 1 step-time 0.34s wps 11.70K ppl 1.29 gN 0.73 bleu 28.28, Thu Feb 23 17:36:12 2023
+# Final, step 5000 lr 1 step-time 0.34s wps 11.70K ppl 1.29 gN 0.73 dev ppl 1.30, dev bleu 25.9, test ppl 1.30, test bleu 27.3, Thu Feb 23 17:36:20 2023
+# Best bleu, step 1000 lr 1 step-time 0.34s wps 11.70K ppl 1.29 gN 0.73 dev ppl 1.32, dev bleu 28.3, test ppl 1.31, test bleu 29.2, Thu Feb 23 17:36:24 2023

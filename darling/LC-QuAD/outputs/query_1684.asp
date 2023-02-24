@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/SportsTeam>(x),<http://dbpedia.org/property/mascot>(x,uri),<http://dbpedia.org/property/league>(x,"http://dbpedia.org/resource/Turkish_Handball_Super_League").

@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/TelevisionShow>(uri),<http://dbpedia.org/property/composer>(uri,x),<http://dbpedia.org/ontology/associatedBand>(x,"http://dbpedia.org/resource/Strontium_90_(band)").

@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/GovernmentAgency>(x),<http://dbpedia.org/ontology/leader>(x,uri),<http://dbpedia.org/property/jurisdiction>(x,"http://dbpedia.org/resource/German-occupied_Europe").

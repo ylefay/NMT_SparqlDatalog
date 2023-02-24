@@ -1,0 +1,1 @@
+ans(count) :- <http://dbpedia.org/ontology/associatedMusicalArtist>(x,"http://dbpedia.org/resource/Yes_(band)"),<http://dbpedia.org/ontology/musicComposer>(uri,x),<http://dbpedia.org/ontology/Film>(uri).

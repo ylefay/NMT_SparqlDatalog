@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/Building>(x),<http://dbpedia.org/ontology/municipality>(x,uri),<http://dbpedia.org/ontology/owningOrganisation>(x,"http://dbpedia.org/resource/New_York_City_Housing_Authority").

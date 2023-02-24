@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/Airline>(uri),<http://dbpedia.org/property/hubs>(uri,"http://dbpedia.org/resource/San_Francisco_International_Airport"),<http://dbpedia.org/ontology/hubAirport>(uri,"http://dbpedia.org/resource/Los_Angeles_International_Airport").

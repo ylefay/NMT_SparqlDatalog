@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/property/characters>("http://dbpedia.org/resource/Sherlock_Holmes_(play)",uri),<http://dbpedia.org/property/series>("http://dbpedia.org/resource/The_Lost_Special",uri).

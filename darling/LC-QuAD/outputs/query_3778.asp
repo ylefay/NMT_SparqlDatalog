@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/property/country>("http://dbpedia.org/resource/Tendaho_Dam",uri),<http://dbpedia.org/property/headquarters>("http://dbpedia.org/resource/Ethiopian_People's_Revolutionary_Democratic_Front",uri).

@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/property/distributor>(uri,"http://dbpedia.org/resource/Warner_Bros."),<http://dbpedia.org/property/director>(uri,"http://dbpedia.org/resource/Ridley_Scott"),<http://dbpedia.org/ontology/Film>(uri).

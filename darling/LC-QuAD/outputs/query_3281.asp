@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/GridironFootballPlayer>(x),<http://dbpedia.org/ontology/debutTeam>(x,uri),<http://dbpedia.org/ontology/college>(x,"http://dbpedia.org/resource/UCLA_Bruins_football").

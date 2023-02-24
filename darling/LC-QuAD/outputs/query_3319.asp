@@ -1,0 +1,1 @@
+ans(count) :- <http://dbpedia.org/property/nationalteam>(x,"http://dbpedia.org/resource/Russia_women's_national_volleyball_team"),<http://dbpedia.org/property/placeOfBirth>(x,uri),<http://dbpedia.org/ontology/Country>(uri).

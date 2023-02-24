@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/poleDriver>("http://dbpedia.org/resource/1994_Spanish_Grand_Prix",uri),<http://dbpedia.org/property/poleDriver>("http://dbpedia.org/resource/1997_Canadian_Grand_Prix",uri).

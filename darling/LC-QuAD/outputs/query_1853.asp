@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/Architect>(x),<http://dbpedia.org/ontology/significantBuilding>(x,uri),<http://dbpedia.org/ontology/significantBuilding>(x,"http://dbpedia.org/resource/Krasnye_Vorota_(Moscow_Metro)").

@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/Company>(x),<http://dbpedia.org/ontology/locationCountry>(x,uri),<http://dbpedia.org/property/locationCountry>(x,"http://dbpedia.org/resource/Rancho_Cucamonga,_California").

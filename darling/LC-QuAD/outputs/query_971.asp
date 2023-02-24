@@ -1,0 +1,1 @@
+ans(count) :- <http://dbpedia.org/ontology/associatedBand>(x,"http://dbpedia.org/resource/Lewis_Hamilton"),<http://dbpedia.org/property/creator>(uri,x),<http://dbpedia.org/ontology/TelevisionShow>(uri).

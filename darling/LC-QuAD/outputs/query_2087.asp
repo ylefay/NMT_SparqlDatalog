@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/MusicalArtist>(uri),<http://dbpedia.org/ontology/associatedMusicalArtist>(uri,x),<http://dbpedia.org/ontology/spouse>(x,"http://dbpedia.org/resource/Jessi_Colter").

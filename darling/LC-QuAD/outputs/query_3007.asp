@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/SportsLeague>(x),<http://dbpedia.org/ontology/country>(x,uri),<http://dbpedia.org/ontology/league>("http://dbpedia.org/resource/C.D._Primeiro_de_Agosto_(basketball)",x).

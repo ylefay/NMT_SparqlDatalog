@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/nationality>("http://dbpedia.org/resource/Georgina_Theodora_Wood",uri),<http://dbpedia.org/property/nationality>("http://dbpedia.org/resource/Funny_Face_(comedian)",uri).

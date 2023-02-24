@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/associatedMusicalArtist>("http://dbpedia.org/resource/Tiffany_Villarreal",uri),<http://dbpedia.org/property/writer>("http://dbpedia.org/resource/Same_Song_(Digital_Underground_song)",uri).

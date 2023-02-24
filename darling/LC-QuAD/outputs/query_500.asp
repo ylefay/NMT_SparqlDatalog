@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/formerTeam>("http://dbpedia.org/resource/Joe_Porter_(American_football)",uri),<http://dbpedia.org/ontology/team>("http://dbpedia.org/resource/Eddie_Anderson_(safety)",uri).

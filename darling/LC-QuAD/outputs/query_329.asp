@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/City>(uri),<http://dbpedia.org/ontology/restingPlace>("http://dbpedia.org/resource/Chuck_Connors",uri),<http://dbpedia.org/ontology/restingPlace>("http://dbpedia.org/resource/Martin_Ragaway",uri).

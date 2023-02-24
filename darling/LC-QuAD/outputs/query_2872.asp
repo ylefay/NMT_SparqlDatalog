@@ -1,0 +1,1 @@
+ans(count) :- <http://dbpedia.org/ontology/formerTeam>(uri,"http://dbpedia.org/resource/Indianapolis_Colts"),<http://dbpedia.org/ontology/formerTeam>(uri,"http://dbpedia.org/resource/Carolina_Panthers").

@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/municipality>("http://dbpedia.org/resource/Roberto_Clemente_Bridge",uri),<http://dbpedia.org/ontology/municipality>("http://dbpedia.org/resource/Homestead_Grays_Bridge",uri).

@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/Non-ProfitOrganisation>(x),<http://dbpedia.org/property/keyPeople>(x,uri),<http://dbpedia.org/ontology/keyPerson>(x,"http://dbpedia.org/resource/Donna_Shalala").

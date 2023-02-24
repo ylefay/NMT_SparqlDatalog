@@ -1,0 +1,1 @@
+ans(count) :- <http://dbpedia.org/ontology/launchSite>(x,"http://dbpedia.org/resource/Vandenberg_Air_Force_Base"),<http://dbpedia.org/ontology/manufacturer>(x,uri),<http://dbpedia.org/ontology/Company>(uri).

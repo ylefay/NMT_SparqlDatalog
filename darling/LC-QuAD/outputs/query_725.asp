@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/RailwayLine>(x),<http://dbpedia.org/ontology/operatedBy>(x,uri),<http://dbpedia.org/property/owner>(x,"http://dbpedia.org/resource/Chicago,_St._Paul,_Minneapolis_and_Omaha_Railway").

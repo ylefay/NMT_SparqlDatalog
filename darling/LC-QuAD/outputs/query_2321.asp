@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/Person>(x),<http://dbpedia.org/property/battles>(x,uri),<http://dbpedia.org/property/office>(x,"http://dbpedia.org/resource/Minister_of_Defense_(Saudi_Arabia)").

@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/River>(uri),<http://dbpedia.org/ontology/mouthPlace>(uri,"http://dbpedia.org/resource/Southend-on-Sea"),<http://dbpedia.org/ontology/sourcePlace>(uri,"http://dbpedia.org/resource/Gloucestershire").

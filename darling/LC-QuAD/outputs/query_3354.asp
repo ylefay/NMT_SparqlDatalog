@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/stateOfOrigin>("http://dbpedia.org/resource/Theodor_Hillenhinrichs",uri),<http://dbpedia.org/ontology/ethnicity>("http://dbpedia.org/resource/Maike_Evers",uri).

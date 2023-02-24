@@ -1,0 +1,10 @@
+Translate normalized axiom: <http://www.wikidata.org/entity/Q4989906> <SUB_CONCEPT_OF> <http://dbpedia.org/ontology/Monument>
+Added Datalog rule: <http://dbpedia.org/ontology/Monument>(X) :- <http://www.wikidata.org/entity/Q4989906>(X).
+Translate normalized axiom: <http://dbpedia.org/ontology/Monument> <SUB_CONCEPT_OF> <http://dbpedia.org/ontology/ArchitecturalStructure>
+Added Datalog rule: <http://dbpedia.org/ontology/ArchitecturalStructure>(X) :- <http://dbpedia.org/ontology/Monument>(X).
+Translate normalized axiom: <http://dbpedia.org/ontology/Monument> <SUB_CONCEPT_OF> <http://www.wikidata.org/entity/Q4989906>
+Added Datalog rule: <http://www.wikidata.org/entity/Q4989906>(X) :- <http://dbpedia.org/ontology/Monument>(X).
+Translate normalized axiom: <http://dbpedia.org/ontology/GraveMonument> <SUB_CONCEPT_OF> <http://dbpedia.org/ontology/Monument>
+Added Datalog rule: <http://dbpedia.org/ontology/Monument>(X) :- <http://dbpedia.org/ontology/GraveMonument>(X).
+Translate normalized axiom: <http://dbpedia.org/ontology/Memorial> <SUB_CONCEPT_OF> <http://dbpedia.org/ontology/Monument>
+Added Datalog rule: <http://dbpedia.org/ontology/Monument>(X) :- <http://dbpedia.org/ontology/Memorial>(X).

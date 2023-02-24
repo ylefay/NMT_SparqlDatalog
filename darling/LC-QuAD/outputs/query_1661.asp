@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/property/president>("http://dbpedia.org/resource/William_Carmichael_(diplomat)",uri),<http://dbpedia.org/ontology/associate>("http://dbpedia.org/resource/Thomas_Bryan_Martin",uri).

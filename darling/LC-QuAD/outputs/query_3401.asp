@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/Company>(uri),<http://dbpedia.org/property/developer>("http://dbpedia.org/resource/Facebook_Messenger",uri),<http://dbpedia.org/ontology/computingPlatform>("http://dbpedia.org/resource/Words_of_Gold",uri).

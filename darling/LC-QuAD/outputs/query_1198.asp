@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/AmericanFootballLeague>(uri),<http://dbpedia.org/property/champion>(uri,x),<http://dbpedia.org/property/city>(x,"http://dbpedia.org/resource/Kansas_City,_Missouri").

@@ -1,0 +1,1 @@
+ans(count) :- <http://dbpedia.org/property/champion>(x,"http://dbpedia.org/resource/2015_Alabama_Crimson_Tide_football_team"),<http://dbpedia.org/property/athletics>(uri,x),<http://dbpedia.org/ontology/University>(uri).

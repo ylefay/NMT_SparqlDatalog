@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/locationCity>("http://dbpedia.org/resource/Denver_Broncos",uri),<http://dbpedia.org/property/foundation>("http://dbpedia.org/resource/Young_Americans_Bank",uri).

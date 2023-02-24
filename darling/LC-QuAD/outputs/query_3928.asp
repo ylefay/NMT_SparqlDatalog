@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/predecessor>(uri,"http://dbpedia.org/resource/Henry_E._Catto,_Jr."),<http://dbpedia.org/ontology/almaMater>(uri,"http://dbpedia.org/resource/Harvard-Westlake_School").

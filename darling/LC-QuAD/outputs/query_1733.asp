@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/property/nickname>("http://dbpedia.org/resource/Lyons_Township_High_School",uri),<http://dbpedia.org/property/mascot>("http://dbpedia.org/resource/Galatasaray_Handball_Team",uri).

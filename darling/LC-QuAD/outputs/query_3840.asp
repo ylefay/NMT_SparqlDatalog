@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/property/allegiance>("http://dbpedia.org/resource/Anuruddha_Ratwatte",uri),<http://dbpedia.org/property/allegiance>("http://dbpedia.org/resource/Victor_Gunasekara",uri).

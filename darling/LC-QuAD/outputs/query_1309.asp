@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/Person>(uri),<http://dbpedia.org/property/associatedActs>(uri,x),<http://dbpedia.org/ontology/recordedIn>(x,"http://dbpedia.org/resource/Electric_Lady_Studios").

@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/type>("http://dbpedia.org/resource/Sacred_Heart_Convent_School_(Bangkok)",uri),<http://dbpedia.org/property/meaning>("http://dbpedia.org/resource/Isa_(name)",uri).

@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/property/mascot>("http://dbpedia.org/resource/Galatasaray_Handball_Team",uri),<http://dbpedia.org/property/teamName>("http://dbpedia.org/resource/Cristo_Rey_Jesuit_High_School_(Chicago)",uri).

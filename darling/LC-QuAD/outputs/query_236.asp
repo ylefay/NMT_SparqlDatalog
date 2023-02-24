@@ -1,0 +1,1 @@
+ans(count) :- <http://dbpedia.org/ontology/locationCity>(x,"http://dbpedia.org/resource/Burbank,_California"),<http://dbpedia.org/property/distributor>(uri,x),<http://dbpedia.org/ontology/TelevisionShow>(uri).

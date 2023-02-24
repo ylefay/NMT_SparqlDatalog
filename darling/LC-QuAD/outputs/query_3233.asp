@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/FictionalCharacter>(uri),<http://dbpedia.org/ontology/portrayer>(uri,"http://dbpedia.org/resource/Terminator_Genisys"),<http://dbpedia.org/ontology/creator>(uri,"http://dbpedia.org/resource/Josh_Friedman").

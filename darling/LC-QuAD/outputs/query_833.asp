@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/Person>(x),<http://dbpedia.org/ontology/parent>(x,uri),<http://dbpedia.org/property/children>(x,"http://dbpedia.org/resource/William_Campbell_Preston_Breckinridge").

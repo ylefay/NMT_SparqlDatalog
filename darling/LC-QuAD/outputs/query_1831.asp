@@ -1,0 +1,1 @@
+ans(count) :- <http://dbpedia.org/ontology/executiveProducer>(x,"http://dbpedia.org/resource/Julie_Gardner"),<http://dbpedia.org/ontology/related>(uri,x),<http://dbpedia.org/ontology/TelevisionShow>(uri).

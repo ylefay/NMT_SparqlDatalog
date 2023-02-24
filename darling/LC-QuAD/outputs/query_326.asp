@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/TelevisionStation>(x),<http://dbpedia.org/property/city>(x,uri),<http://dbpedia.org/property/sisterStations>(x,"http://dbpedia.org/resource/Channel_3_(Thailand)").

@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/BasketballTeam>(uri),<http://dbpedia.org/property/president>(uri,x),<http://dbpedia.org/property/college>(x,"http://dbpedia.org/resource/Brockport_Golden_Eagles").

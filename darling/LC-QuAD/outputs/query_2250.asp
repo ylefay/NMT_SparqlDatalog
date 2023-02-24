@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/TelevisionStation>(x),<http://dbpedia.org/property/licensee>(x,uri),<http://dbpedia.org/property/licensee>(x,"http://dbpedia.org/resource/Incorporation_(business)").

@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/Mountain>(uri),<http://dbpedia.org/ontology/parentMountainPeak>(uri,"http://dbpedia.org/resource/Nevado_de_Toluca"),<http://dbpedia.org/ontology/mountainRange>(uri,"http://dbpedia.org/resource/Sierra_Nevada_(U.S.)").

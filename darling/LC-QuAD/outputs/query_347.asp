@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/property/placeOfBirth>("http://dbpedia.org/resource/Samuel_of_Waldebba",uri),<http://dbpedia.org/property/birthPlace>("http://dbpedia.org/resource/Marcus_Samuelsson",uri).

@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/sport>("http://dbpedia.org/resource/Islamic_Azad_University_Central_Tehran_Branch",uri),<http://dbpedia.org/ontology/field>("http://dbpedia.org/resource/Jon_Speelman",uri).

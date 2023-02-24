@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/residence>("http://dbpedia.org/resource/Daisi_Pollard",uri),<http://dbpedia.org/ontology/residence>("http://dbpedia.org/resource/Cherry_Chevapravatdumrong",uri).

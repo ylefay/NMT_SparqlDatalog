@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/series>("http://dbpedia.org/resource/Doctor_Who:_The_Mazes_of_Time",uri),<http://dbpedia.org/ontology/product>("http://dbpedia.org/resource/BBC_Multimedia",uri).

@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/WrittenWork>(x),<http://dbpedia.org/ontology/author>(x,uri),<http://dbpedia.org/ontology/publisher>(x,"http://dbpedia.org/resource/Perkins_School_for_the_Blind").

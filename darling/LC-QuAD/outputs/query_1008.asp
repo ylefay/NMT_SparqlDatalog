@@ -1,0 +1,1 @@
+ans(count) :- <http://dbpedia.org/ontology/restingPlace>(x,"http://dbpedia.org/resource/Convent_of_the_Barefoot_Trinitarians"),<http://dbpedia.org/ontology/author>(uri,x),<http://dbpedia.org/ontology/Book>(uri).

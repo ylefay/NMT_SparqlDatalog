@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/OfficeHolder>(x),<http://dbpedia.org/ontology/deathPlace>(x,uri),<http://dbpedia.org/ontology/religion>(x,"http://dbpedia.org/resource/Episcopal_Church_(United_States)").

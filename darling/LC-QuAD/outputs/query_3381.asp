@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/Politician>(x),<http://dbpedia.org/ontology/birthPlace>(x,uri),<http://dbpedia.org/ontology/party>(x,"http://dbpedia.org/resource/Democratic_Party_(United_States)").

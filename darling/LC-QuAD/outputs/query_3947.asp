@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/draftTeam>("http://dbpedia.org/resource/Dale_Mitchell_(ice_hockey)",uri),<http://dbpedia.org/property/tenants>("http://dbpedia.org/resource/MasterCard_Centre",uri).

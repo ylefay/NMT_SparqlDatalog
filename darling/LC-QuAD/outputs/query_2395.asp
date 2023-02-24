@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/birthPlace>("http://dbpedia.org/resource/B._J._Crombeen",uri),<http://dbpedia.org/property/state>("http://dbpedia.org/resource/Brideun_School_for_Exceptional_Children",uri).

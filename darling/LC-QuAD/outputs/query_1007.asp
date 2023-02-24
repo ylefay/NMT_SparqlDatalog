@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/Company>(uri),<http://dbpedia.org/ontology/foundedBy>(uri,"http://dbpedia.org/resource/Jim_Harris_(entrepreneur)"),<http://dbpedia.org/ontology/subsidiary>(uri,"http://dbpedia.org/resource/Tandem_Computers").

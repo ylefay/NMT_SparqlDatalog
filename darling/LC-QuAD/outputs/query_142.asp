@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/OfficeHolder>(uri),<http://dbpedia.org/property/rank>(uri,"http://dbpedia.org/resource/Colonel_(United_States)"),<http://dbpedia.org/property/allegiance>(uri,"http://dbpedia.org/resource/Colony_of_Virginia").

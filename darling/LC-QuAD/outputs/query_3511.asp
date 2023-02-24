@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/nearestCity>("http://dbpedia.org/resource/Elliott_Bay",uri),<http://dbpedia.org/property/placeOfDeath>("http://dbpedia.org/resource/George_F._Moore_(lieutenant_governor)",uri).

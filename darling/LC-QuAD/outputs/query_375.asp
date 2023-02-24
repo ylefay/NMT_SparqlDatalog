@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/OfficeHolder>(uri),<http://dbpedia.org/ontology/governor>(uri,"http://dbpedia.org/resource/Charles_Willing_Byrd"),<http://dbpedia.org/property/restingplace>(uri,"http://dbpedia.org/resource/William_Henry_Harrison_Tomb_State_Memorial").

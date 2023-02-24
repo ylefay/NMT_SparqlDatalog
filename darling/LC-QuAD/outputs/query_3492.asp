@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/Writer>(uri),<http://dbpedia.org/ontology/notableWork>(uri,"http://dbpedia.org/resource/The_Adventures_of_Tom_Sawyer"),<http://dbpedia.org/ontology/notableWork>(uri,"http://dbpedia.org/resource/Adventures_of_Huckleberry_Finn").

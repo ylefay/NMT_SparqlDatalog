@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/TelevisionShow>(uri),<http://dbpedia.org/property/distributor>(uri,x),<http://dbpedia.org/property/locationCity>(x,"http://dbpedia.org/resource/Burbank,_California").

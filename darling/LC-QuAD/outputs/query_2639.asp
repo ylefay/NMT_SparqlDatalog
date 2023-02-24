@@ -1,0 +1,1 @@
+ans(uri) :- <http://dbpedia.org/ontology/Company>(uri),<http://dbpedia.org/ontology/designer>("http://dbpedia.org/resource/RENFE_Class_333",uri),<http://dbpedia.org/ontology/designer>("http://dbpedia.org/resource/South_African_Class_11E",uri).
