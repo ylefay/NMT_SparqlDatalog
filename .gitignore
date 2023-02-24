@@ -1,0 +1,4 @@
+/darling/outputs/*
+/darling/inputs/query*
+/trained_models/*
+/datasets/LC-QuAD2/

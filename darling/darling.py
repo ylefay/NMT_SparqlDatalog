@@ -73,10 +73,14 @@ if __name__ == '__main__':
 
     #adding to the json the corresponding datalog queries
     for idx, s in enumerate(json_db):
-        with open(f'./outputs/query_{idx}.asp') as query_file:
-            s['datalog_query'] = query_file.read()[:-1]
+        try:
+            with open(f'./outputs/query_{idx}.asp') as query_file:
+                s['datalog_query'] = query_file.read()[:-1]
+                json_db[idx] = s
+        except Exception as e:
+            print(f"Exception {e}")
+            s['datalog_query'] = '.'
             json_db[idx] = s
-
     #export the constructed json
     with open(DATASET_PATH + OUT_FILE, "w") as outfile:
         outfile.write(json.dumps(json_db))  
