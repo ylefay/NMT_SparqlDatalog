@@ -25,10 +25,10 @@ with io.open(sys.argv[1], encoding="utf-8") as f:
 
 vocabulary = set()
 
-lang = sys.argv[1].split('.')[-1].lower()
+lang = sys.argv[1].split(".")[-1].lower()
 # print lang
 
-if lang in {"sparql","datalog"}:
+if lang in {"sparql", "datalog"}:
 
     for x in x_text:
         for t in x.split(" "):
@@ -40,8 +40,7 @@ else:  # any other language
     max_document_length = max([len(x.split(" ")) for x in x_text])
 
     # Create the vocabularyprocessor object, setting the max lengh of the documents.
-    vocab_processor = learn.preprocessing.VocabularyProcessor(
-        max_document_length)
+    vocab_processor = learn.preprocessing.VocabularyProcessor(max_document_length)
 
     # Transform the documents using the vocabulary.
     x = np.array(list(vocab_processor.fit_transform(x_text)))
@@ -51,7 +50,7 @@ else:  # any other language
 
     # Sort the vocabulary dictionary on the basis of values(id).
     # Both statements perform same task.
-    #sorted_vocab = sorted(vocab_dict.items(), key=operator.itemgetter(1))
+    # sorted_vocab = sorted(vocab_dict.items(), key=operator.itemgetter(1))
     sorted_vocab = sorted(list(vocab_dict.items()), key=lambda x: x[1])
 
     # Treat the id's as index into list and create a list of words in the ascending order of id's
