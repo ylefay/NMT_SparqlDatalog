@@ -69,7 +69,7 @@ Usage:
 ```
 python -m nmt.nmt --src=$SRC_EXTENSION --tgt=$TGT_EXTENSION --vocab_prefix=../$DATASET/vocab --dev_prefix=../$DATASET/dev --test_prefix=../$DATASET/test --train_prefix=../$DATASET/train --out_dir=../$MODEL --num_train_steps=$NUM_TRAIN_STEPS --steps_per_stats=100 --num_layers=2 --num_units=128 --dropout=0.2 --metrics=bleu
  
- python -m nmt.nmt  --vocab_prefix=../$MODEL/vocab --model_dir=../$MODEL  --inference_input_file=./to_ask.txt  --inference_output_file=./output.txt --out_dir=../$MODEL --src=$SRC_EXTENSION --tgt=$TGT_EXTENSION | tail -n4
+python -m nmt.nmt  --vocab_prefix=../$MODEL/vocab --model_dir=../$MODEL  --inference_input_file=./to_ask.txt  --inference_output_file=./output.txt --out_dir=../$MODEL --src=$SRC_EXTENSION --tgt=$TGT_EXTENSION | tail -n4
 
  ```
 
@@ -96,7 +96,7 @@ With both a total of 18 tags. The KB tags are the following ones:
 | Abbreviated tags | Tags    | Corresponds to a token    |
 | :-----: | :---: | :---: |
 | N | No   | that is not KB specific   |
-| O | Open bracket  | that starts a KB specific sequence   |
+| O | Open  | that starts a KB specific sequence   |
 | E | End   | that ends a KB specific seq.   |
 | B | Both   | that starts and ends a KB specific seq.   |
 | I | Inner  | that is inside a KB specific seq.   |

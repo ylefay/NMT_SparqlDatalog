@@ -59,7 +59,6 @@ def convert_database(DATASET_PATH, DATASET_FILE, file_paths):
 
     with open(DATASET_PATH + DATASET_FILE, 'w') as outfile:
         outfile.write(json.dumps(json_db))
-    outfile.close()
 
 
 if __name__ == '__main__':

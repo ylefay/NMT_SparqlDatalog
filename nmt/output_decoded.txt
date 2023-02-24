@@ -1,1 +1,1 @@
-ans(count) :- <https://dbpedia.org/ontology/C>("https://dbpedia.org/resource/D",x),<https://dbpedia.org/ontology/C>(x,uri)
+ans(uri) :- <http://dbpedia.org/property/A>("https://dbpedia.org/resource/B",uri
