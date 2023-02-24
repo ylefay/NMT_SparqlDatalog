@@ -1,0 +1,32 @@
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:	<http://dbpedia.org/ontology/> .
+dbo:GraveMonument	rdfs:subClassOf	dbo:Monument .
+dbo:Memorial	rdfs:subClassOf	dbo:Monument .
+dbo:dateUnveiled	rdfs:domain	dbo:Monument .
+dbo:groupCommemorated	rdfs:domain	dbo:Monument .
+@prefix ov:	<http://open.vocab.org/terms/> .
+dbo:	ov:defines	dbo:Monument .
+<http://dbpedia.org/ontology/data/definitions.ttl>	ov:describes	dbo:Monument .
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+dbo:Monument	rdf:type	owl:Class ;
+	rdfs:subClassOf	dbo:ArchitecturalStructure .
+@prefix wikidata:	<http://www.wikidata.org/entity/> .
+dbo:Monument	owl:equivalentClass	wikidata:Q4989906 ;
+	rdfs:label	"monument"@fr ,
+		"\u30E2\u30CB\u30E5\u30E1\u30F3\u30C8"@ja ,
+		"s\u00E9adchomhartha"@ga ,
+		"\u03BC\u03BD\u03B7\u03BC\u03B5\u03AF\u03BF"@el ,
+		"\u06CC\u0627\u062F\u06AF\u0627\u0631"@ur ,
+		"monument"@en ,
+		"Denkmal"@de ,
+		"monument"@nl ;
+	rdfs:isDefinedBy	dbo: ;
+	rdfs:comment	"A type of structure (a statue or an art object) created to commemorate a person or important event, not necessarily of a catastrophic nature."@en ,
+		"\u0627\u06CC\u06A9 \u0642\u0633\u0645 \u06A9\u0627 \u0688\u06BE\u0627\u0646\u0686\u06C1 (\u0627\u06CC\u06A9 \u0645\u062C\u0633\u0645\u06C1 \u06CC\u0627 \u0622\u0631\u0679 \u0622\u0628\u062C\u06CC\u06A9\u0679) \u06A9\u0633\u06CC \u0634\u062E\u0635 \u06CC\u0627 \u0627\u06C1\u0645 \u0648\u0627\u0642\u0639\u06C1 \u06A9\u06CC \u06CC\u0627\u062F \u0645\u06CC\u06BA \u0628\u0646\u0627\u06CC\u0627 \u06AF\u06CC\u0627 \u060C \u0636\u0631\u0648\u0631\u06CC \u0646\u06C1\u06CC\u06BA \u06A9\u06C1 \u062A\u0628\u0627\u06C1 \u06A9\u0646 \u0646\u0648\u0639\u06CC\u062A \u06A9\u0627 \u06C1\u0648\u06D4"@ur .
+@prefix wdrs:	<http://www.w3.org/2007/05/powder-s#> .
+dbo:Monument	wdrs:describedby	<http://dbpedia.org/ontology/data/definitions.ttl> ;
+	owl:sameAs	dbo:Monument .
+@prefix prov:	<http://www.w3.org/ns/prov#> .
+@prefix ns8:	<http://mappings.dbpedia.org/index.php/OntologyClass:> .
+dbo:Monument	prov:wasDerivedFrom	ns8:Monument .

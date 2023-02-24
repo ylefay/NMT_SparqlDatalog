@@ -1,0 +1,9 @@
+/darling/outputs/query*
+/darling/inputs/query*
+/trained_models/*
+/datasets/LC-QuAD2/
+poetry.lock
+/darling/NSpM_monument/input/query*
+/darling/NSpM_monument/input/Monument_ontology_*
+/darling/LC-QuAD/outputs/query*
+/darling/NSpM_monument/outputs/query*
