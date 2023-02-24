@@ -10,16 +10,16 @@ Version 1.0.0
 
 """
 import sys
-from .utils import datalog_invert_preprocessing, sparql_invert_preprocessing
+import utils
 if __name__ == '__main__':
     encoded_prevision = sys.argv[1]
     target_extension = sys.argv[2] if len(sys.argv) >= 2 else 'sparql'
     #Inverse preprocessing
     if target_extension=='sparql':
         #decoded_prevision = fix_URI(decode(encoded_prevision))
-        decoded_prevision = sparql_invert_preprocessing(encoded_prevision)
+        decoded_prevision = utils.sparql_invert_preprocessing(encoded_prevision)
     elif target_extension=='datalog':
-        decoded_prevision = datalog_invert_preprocessing(encoded_prevision)
+        decoded_prevision = utils.datalog_invert_preprocessing(encoded_prevision)
     else:
         decoded_prevision = encoded_prevision
     print(decoded_prevision)

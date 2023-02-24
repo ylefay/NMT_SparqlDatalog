@@ -1,4 +1,4 @@
-from .utils import levenshtein, do_replacements
+import utils
 import json
 import re
 
@@ -40,23 +40,23 @@ def eng(query, mapping):
     mapping_replace = {}
     for term in terms:
         obj = list(mapping)[0]
-        min_lev = levenshtein(term, obj)
+        min_lev = utils.levenshtein(term, obj)
         for _obj in mapping.keys():
-            if levenshtein(_obj, term) < min_lev:
-                min_lev = levenshtein(_obj, term)
+            if utils.levenshtein(_obj, term) < min_lev:
+                min_lev = utils.levenshtein(_obj, term)
                 obj = _obj
         mapping_replace[term] = mapping[obj]
-    query = do_replacements(query, mapping_replace)
+    query = utils.do_replacements(query, mapping_replace)
     return query, mapping_replace
 
 
 def sparql(query, mapping):
-    query = do_replacements(query, mapping)
+    query = utils.do_replacements(query, mapping)
     return query
 
 
 def datalog(query, mapping):
-    query = do_replacements(query, mapping)
+    query = utils.do_replacements(query, mapping)
     return query
 
 
@@ -69,13 +69,13 @@ def blind_sparql(query, mapping):
     for field in urls_quotient.keys():
         for url in urls_quotient[field]:
             term = list(mapping)[0]
-            min_lev = levenshtein(url, term)
+            min_lev = utils.levenshtein(url, term)
             for _term in mapping.keys():
-                if levenshtein(_term, url) < min_lev:
-                    min_lev = levenshtein(_term, url)
+                if utils.levenshtein(_term, url) < min_lev:
+                    min_lev = utils.levenshtein(_term, url)
                     term = _term
             mapping_replace[url] = f"db{field[0]}_{mapping[term]}"
-    query = do_replacements(query, mapping_replace)
+    query = utils.do_replacements(query, mapping_replace)
     return query, mapping_replace
 
 
@@ -90,13 +90,13 @@ def blind_datalog(query, mapping):
     for field in urls_quotient.keys():
         for url in urls_quotient[field]:
             term = list(mapping)[0]
-            min_lev = levenshtein(url, term)
+            min_lev = utils.levenshtein(url, term)
             for _term in mapping.keys():
-                if levenshtein(_term, url) < min_lev:
-                    min_lev = levenshtein(_term, url)
+                if utils.levenshtein(_term, url) < min_lev:
+                    min_lev = utils.levenshtein(_term, url)
                     term = _term
             mapping_replace[url] = f"db{field[0]}_{mapping[term]}"
-    query = do_replacements(query, mapping_replace)
+    query = utils.do_replacements(query, mapping_replace)
     return query, mapping_replace
 
 

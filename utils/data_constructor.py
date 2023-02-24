@@ -1,5 +1,5 @@
 import json
-from .utils import datalog_preprocessing, sparql_preprocessing
+import utils
 #Construct the data.{en,datalog} file.. used by nmt from json.
 
 #Create the data files.
@@ -13,8 +13,8 @@ def create_data_files(DATASET_PATH, file_paths, json_db):
                 break
         for s in json_db:
             file_en.write(f"{s[q]}\n")
-            file_datalog.write(f"{datalog_preprocessing(s['datalog_query'])}\n")
-            file_sparql.write(f"{sparql_preprocessing(s['sparql_query'])}\n")
+            file_datalog.write(f"{utils.datalog_preprocessing(s['datalog_query'])}\n")
+            file_sparql.write(f"{utils.sparql_preprocessing(s['sparql_query'])}\n")
 
 #for bert, br tags
 def create_data_files_tags(DATASET_PATH, file_paths, json_db):
