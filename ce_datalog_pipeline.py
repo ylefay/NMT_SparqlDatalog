@@ -66,7 +66,7 @@ if __name__ == "__main__":
     DATASET_FILE = "train-data-datalog.json"
     OUTPUT_FILE = DATASET_NAME+"OUTPUT.json"
     json_db = json.load(open(DATASET_PATH+DATASET_FILE))
-    json_db = json_db[501:min(len(json_db), N)]
+    json_db = json_db[:min(len(json_db), N)]
     run_pipeline_on_db(OUTPUT_FILE, json_db)
     ce_untagged_query = "What is the alumnus of of the fashion designer whose death place is Stony Brook University Hospital ?"
     print(full_pipeline(ce_untagged_query))

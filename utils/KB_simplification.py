@@ -1,4 +1,4 @@
-from utils import levenshtein, do_replacements
+from .utils import levenshtein, do_replacements
 import json
 import re
 

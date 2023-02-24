@@ -1,5 +1,5 @@
 import json
-from utils import datalog_preprocessing, sparql_preprocessing
+from .utils import datalog_preprocessing, sparql_preprocessing
 #Construct the data.{en,datalog} file.. used by nmt from json.
 
 #Create the data files.

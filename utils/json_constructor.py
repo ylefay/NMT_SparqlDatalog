@@ -1,11 +1,6 @@
 import json
-from generator_utils import reverse_shorten_query, reverse_replacements
-
-
-def do_replacements(string, mapping_replace):
-    for to_replace in mapping_replace.keys():
-        string = string.replace(to_replace, mapping_replace[to_replace])
-    return string
+from ..datasets.templates.generator_utils import reverse_shorten_query, reverse_replacements
+from .utils import do_replacements
 
 # Construct the darling-adapted json file.
 
@@ -79,7 +74,7 @@ def convert_database(DATASET_PATH, DATASET_FILE, file_paths):
 if __name__ == '__main__':
     example_query = 'select wildcard where brack_open brack_open dbr_Diana_the_Huntress_Fountain var_a var_b sep_dot dbr_Pausanias_ attr_open geographer attr_close var_a var_b brack_close UNION brack_open brack_open dbr_Diana_the_Huntress_Fountain var_a var_b sep_dot dbr_Pausanias_(geographer) var_a var_b brack_close UNION brack_open var_c var_d dbr_Diana_the_Huntress_Fountain sep_dot var_c var_d dbr_Pausanias_(geographer) brack_close brack_close UNION brack_open var_c var_d dbr_Diana_the_Huntress_Fountain sep_dot var_c var_d dbr_Pausanias_ attr_open geographer attr_close brack_close brack_close'
     
-    DATASET_PATH = "../monument_600/"
+    DATASET_PATH = "../datasets/monument_600/"
     DATASET_NAME = "monument_600"
     DATASET_FILE = "monument_600.json"
     file_paths = [

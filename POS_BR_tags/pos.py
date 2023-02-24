@@ -10,15 +10,7 @@ model = AutoModelForTokenClassification.from_pretrained(model_name)
 
 pipeline = TokenClassificationPipeline(model=model, tokenizer=tokenizer)
 
-# Data sources
 
-DATASET_PATH = "../datasets/LC-QuAD/"
-DATASET_NAME = "LC-QuAD"
-DATASET_FILE = "train-data-datalog.json"
-
-N = 100000  # restricting the db
-json_db = json.load(open(DATASET_PATH+DATASET_FILE))
-json_db = json_db[:min(len(json_db), N)]
 
 def drop_brackets(query: str):
     return query.replace('<', '').replace('>', '')
@@ -100,9 +92,7 @@ def br_tagging(untagged_query: str, piped_untagged_query, tags):
             shift += 1
     return tagged_query
 
-
-if __name__ == "__main__":
-
+def create_bert_tag_database(DATASET_PATH, DATASET_NAME, json_db):
     out_training_db = [{} for i in range(len(json_db))]
     for idx, s in enumerate(json_db):
         piped_query = fix_pipeline(pipeline((s['intermediary_question'])))
@@ -116,6 +106,18 @@ if __name__ == "__main__":
         out_training_db[idx]['_id'] = s['_id']
     with open(f'{DATASET_PATH}/{DATASET_NAME}_bert_tag.json', 'w+') as outfile:
         outfile.write(json.dumps(out_training_db))
+
+if __name__ == "__main__":
+
+    # Data sources
+    DATASET_PATH = "../datasets/LC-QuAD/"
+    DATASET_NAME = "LC-QuAD"
+    DATASET_FILE = "train-data-datalog.json"
+
+    N = 100000  # restricting the db
+    json_db = json.load(open(DATASET_PATH+DATASET_FILE))
+    json_db = json_db[:min(len(json_db), N)]
+    create_bert_tag_database(DATASET_PATH, DATASET_NAME, json_db)
 
     # s = "What is the alumnus of of the fashion designer whose death place is Stony Brook University Hospital ?"
     # end_s = "What is the <alumnus of> of the <fashion designer> whose <death place> is <Stony Brook University Hospital> ?"

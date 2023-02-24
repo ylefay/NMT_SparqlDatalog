@@ -1,1 +1,1 @@
-ans par_open uri par_close :- br_open dbo_C br_close par_open quote dbr_D quote float uri par_close float br_open dbo_A br_close par_open quote dbr_B quote float
+ans(count) :- <https://dbpedia.org/ontology/C>(x,"https://dbpedia.org/resource/C"),<https://dbpedia.org/ontology/C>(x,
