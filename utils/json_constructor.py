@@ -1,9 +1,10 @@
 import json
-from ..datasets.templates.generator_utils import (
+import sys; sys.path.append('../')
+from datasets.templates.generator_utils import (
     reverse_shorten_query,
     reverse_replacements,
 )
-import utils
+from utils import do_replacements
 
 # Construct the darling-adapted json file.
 
@@ -20,7 +21,7 @@ def preprocessing(query):
         "geo_long": "<http://www.w3.org/2003/01/geo/wgs84_pos#long>",
         "rdf_type": "<http://www.w3.org/1999/02/22-rdf-syntax-ns#>",
     }
-    query = utils.do_replacements(query, mapping_replace)
+    query = do_replacements(query, mapping_replace)
     startswith_add_to_the_end = (
         "<https://dbpedia.org/ontology/",
         "<https://dbpedia.org/resource/",
@@ -31,7 +32,7 @@ def preprocessing(query):
         for w in query.split(" ")
         if w.startswith(startswith_add_to_the_end) and ")" == w[-1] and "(" not in w
     }
-    # query = utils.do_replacements(query, mapping_replace)
+    # query = do_replacements(query, mapping_replace)
     mapping_replace = {
         w: w + ">"
         for w in query.split(" ")
@@ -46,7 +47,7 @@ def preprocessing(query):
     )
     print(mapping_replace)
     # print([w for w in query.split(' ') if w.startswith(startswith_add_to_the_end)])
-    query = utils.do_replacements(query, mapping_replace)
+    query = do_replacements(query, mapping_replace)
     query = reverse_shorten_query(query)
     query = reverse_replacements(query)
     mapping_replace = {
@@ -54,7 +55,7 @@ def preprocessing(query):
         for word in query.split(" ")
         if word.startswith(startswith_add_to_the_end) and ",_" in word and ")" in word
     }
-    query = utils.do_replacements(query, mapping_replace)
+    query = do_replacements(query, mapping_replace)
     mapping_replace = {
         ")}order": ")} order",
         "orde by": "order by",
@@ -63,7 +64,7 @@ def preprocessing(query):
         " ) ": ")>",
         " where{ ": " where { ",
     }
-    query = utils.do_replacements(query, mapping_replace)
+    query = do_replacements(query, mapping_replace)
     return query
 
 

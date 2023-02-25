@@ -1,4 +1,5 @@
-from utils.utils import levenshtein, do_replacements
+
+from utils import levenshtein, do_replacements
 import json
 import re
 
@@ -72,11 +73,12 @@ def blind_sparql(query, mapping):
         ]
     for field in urls_quotient.keys():
         for url in urls_quotient[field]:
+            _url = url.split('/')[-1]
             term = list(mapping)[0]
-            min_lev = levenshtein(url, term)
+            min_lev = levenshtein(_url, term)
             for _term in mapping.keys():
-                if levenshtein(_term, url) < min_lev:
-                    min_lev = levenshtein(_term, url)
+                if levenshtein(_term, _url) < min_lev:
+                    min_lev = levenshtein(_term, _url)
                     term = _term
             mapping_replace[url] = f"db{field[0]}_{mapping[term]}"
     query = do_replacements(query, mapping_replace)
@@ -101,11 +103,12 @@ def blind_datalog(query, mapping):
         ]
     for field in urls_quotient.keys():
         for url in urls_quotient[field]:
+            _url = url.split('/')[-1]
             term = list(mapping)[0]
-            min_lev = levenshtein(url, term)
+            min_lev = levenshtein(_url, term)
             for _term in mapping.keys():
-                if levenshtein(_term, url) < min_lev:
-                    min_lev = levenshtein(_term, url)
+                if levenshtein(_term, _url) < min_lev:
+                    min_lev = levenshtein(_term, _url)
                     term = _term
             mapping_replace[url] = f"db{field[0]}_{mapping[term]}"
     query = do_replacements(query, mapping_replace)
@@ -116,7 +119,7 @@ def simplify_english_request(eng_query):
     return eng(eng_query, blind_create_mapping(eng_query))
 
 
-def simplify_database(DATASET_PATH, DATASET_FILE, json_db):
+def simplify_database(DATASET_PATH, json_db, OUT_FILE):
     possible_english_labels = ["intermediary_question"]
     for label in possible_english_labels:
         if label in json_db[0].keys():
@@ -135,7 +138,6 @@ def simplify_database(DATASET_PATH, DATASET_FILE, json_db):
         mapping = blind_create_mapping(s[english_label])
         eng_query, _ = eng(s[english_label], mapping)
         converted_query = {"_id": s["_id"], english_label: eng_query}
-
         if sparql_bool:
             # sparql_query = (sparql(s['sparql_query'], mapping))
             sparql_query, _ = blind_sparql(s["sparql_query"], mapping)
@@ -147,7 +149,7 @@ def simplify_database(DATASET_PATH, DATASET_FILE, json_db):
             converted_query["datalog_query"] = datalog_query
         converted_queries.append(converted_query)
 
-    with open(f"{DATASET_PATH}/KB_simplified_{DATASET_FILE[:-5]}.json", "w") as out:
+    with open(f"{DATASET_PATH}/{OUT_FILE}", "w") as out:
         out.write(json.dumps(converted_queries))
 
 
@@ -155,7 +157,7 @@ if __name__ == "__main__":
     DATASET_PATH = "../datasets/LC-QuAD/"
     DATASET_NAME = "LC-QuAD"
     DATASET_FILE = "train-data-datalog.json"
-
+    OUT_FILE = "KB_simplified_train-data-datalog.json"
     # Data sources
     N = 1000000
     json_db = json.load(open(DATASET_PATH + DATASET_FILE))
@@ -163,4 +165,4 @@ if __name__ == "__main__":
     # some queries arent correctly processed by darling, remove them
     json_db = [s for s in json_db if s["datalog_query"] != "."]
 
-    simplify_database(DATASET_PATH, DATASET_FILE, json_db)
+    simplify_database(DATASET_PATH, json_db, OUT_FILE)

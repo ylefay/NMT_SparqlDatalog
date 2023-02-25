@@ -79,13 +79,13 @@ def run_pipeline_on_db(OUTPUT_FILE, json_db):
 
 
 if __name__ == "__main__":
-    N = 100000
+    N = 100
     DATASET_PATH = "./datasets/LC-QuAD/"
     DATASET_NAME = "LC-QuAD"
     DATASET_FILE = "train-data-datalog.json"
     OUTPUT_FILE = DATASET_NAME + "_OUTPUT.json"
     json_db = json.load(open(DATASET_PATH + DATASET_FILE))
-    json_db = json_db[: min(len(json_db), N)]
+    json_db = json_db[:min(N, len(json_db))]
     run_pipeline_on_db(OUTPUT_FILE, json_db)
     # ce_untagged_query = "What is the alumnus of of the fashion designer whose death place is Stony Brook University Hospital ?"
     # print(full_pipeline(ce_untagged_query))
