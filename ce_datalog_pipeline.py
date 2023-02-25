@@ -36,7 +36,6 @@ def full_pipeline(ce_untagged_query, silent=False):
     datalog_file = open(f"{temp_file}", "r").read()
     os.remove(f"{temp_file}")
     datalog_query = datalog_file.split("\n")[-3]
-
     # Replace back
     mapping_replace = {
         mapping_replace[key]: do_replacements(key, {" ": "_"})

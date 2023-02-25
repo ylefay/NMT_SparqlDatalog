@@ -1,0 +1,702 @@
+[
+    {
+        "_id": "1501",
+        "intermediary_question": "How many <movies> are there whose <director> is <Stanley Kubrick>?",
+        "datalog_query": "ans(count) :- <http://dbpedia.org/ontology/director>(uri,\"http://dbpedia.org/resource/Stanley_Kubrick\").",
+        "datalog_prev": "ans(count) :- <http://dbpedia.org/property/director>(uri,\"https://dbpedia.org/resource/Stanley_Kubrick\"),<https://dbpedia.org/ontology/movies",
+        "dist": 44
+    },
+    {
+        "_id": "2586",
+        "intermediary_question": "What <city>'s <founded by> is <John Forbes (British Army officer)>",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/City>(uri),<http://dbpedia.org/ontology/founder>(uri,\"http://dbpedia.org/resource/John_Forbes_(British_Army_officer)\").",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/city>(uri",
+        "dist": 112
+    },
+    {
+        "_id": "2653",
+        "intermediary_question": "What is the <river> whose <river mouth> is <Dead Sea>?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/River>(uri),<http://dbpedia.org/ontology/riverMouth>(uri,\"http://dbpedia.org/resource/Dead_Sea\").",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/river>(uri),<http://dbpedia.org/property/river_mouth>(",
+        "dist": 55
+    },
+    {
+        "_id": "1055",
+        "intermediary_question": "What is the <allegiance> of <John Kotelawala> ?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/property/allegiance>(\"http://dbpedia.org/resource/John_Kotelawala\",uri).",
+        "datalog_prev": "ans(uri) :- <http://dbpedia.org/property/allegiance>(\"https://dbpedia.org/resource/John_Kotelawala\",uri",
+        "dist": 3
+    },
+    {
+        "_id": "705",
+        "intermediary_question": "What is the total number of <race> of the <race horses> whose <breeder> is <Jacques  Van't  Hart>> ?",
+        "datalog_query": "ans(count) :- <http://dbpedia.org/ontology/breeder>(x,\"http://dbpedia.org/resource/Jacques_Van't_Hart\"),<http://dbpedia.org/property/race>(x,uri).",
+        "datalog_prev": "ans(count) :- <https://dbpedia.org/ontology/breeder>(x,\"https://dbpedia.org/resource/Jacques__Van't__Hart\"),<http://dbpedia.org/property/race>(x,uri).",
+        "dist": 4
+    },
+    {
+        "_id": "106",
+        "intermediary_question": "What is the <incumbent> of the <Al Gore presidential campaign, 2000> and <president> of the <Ann Lewis>",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/president>(\"http://dbpedia.org/resource/Ann_Lewis\",uri),<http://dbpedia.org/ontology/incumbent>(\"http://dbpedia.org/resource/Al_Gore_presidential_campaign,_2000\",uri).",
+        "datalog_prev": "ans(uri) :- <http://dbpedia.org/property/president>(\"https://dbpedia.org/resource/Ann_Lewis\",uri),<https://dbpedia.org/ontology/incumbent>(\"https://dbpedia.org/resource/Al_Gore_presidential_campaign,_2000\",",
+        "dist": 15
+    },
+    {
+        "_id": "589",
+        "intermediary_question": "What is the <region> of <Tom Perriello> ?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/region>(\"http://dbpedia.org/resource/Tom_Perriello\",uri).",
+        "datalog_prev": "ans(uri) :- <http://dbpedia.org/property/region>(\"https://dbpedia.org/resource/Tom_Perriello\",uri",
+        "dist": 10
+    },
+    {
+        "_id": "2468",
+        "intermediary_question": "What is the <layout> of the <automobiles> whose <related> is <Subaru Outback>?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/Automobile>(x),<http://dbpedia.org/ontology/layout>(x,uri),<http://dbpedia.org/property/related>(x,\"http://dbpedia.org/resource/Subaru_Outback\").",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/automobiles>(x),<http://dbpedia.org/property/layout>(x,uri),<",
+        "dist": 95
+    },
+    {
+        "_id": "2413",
+        "intermediary_question": "What is the <address> of the <hotels> whose <operator> is <Starwood Hotels and Resorts Worldwide>?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/property/address>(x,uri),<http://dbpedia.org/property/operator>(x,\"http://dbpedia.org/resource/Starwood_Hotels_and_Resorts_Worldwide\").",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/hotels>(x),<http://dbpedia.org/property/address>(x,uri),<",
+        "dist": 89
+    },
+    {
+        "_id": "1600",
+        "intermediary_question": "What is the <mascot> of <Austin College> ?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/property/mascot>(\"http://dbpedia.org/resource/Austin_College\",uri).",
+        "datalog_prev": "ans(uri) :- <http://dbpedia.org/property/mascot>(\"https://dbpedia.org/resource/Austin_College\",uri",
+        "dist": 3
+    },
+    {
+        "_id": "2464",
+        "intermediary_question": "What is the <university> of the <rugby player> who is the <headcoach> of <190617 Stanford rugby teams> ?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/property/headcoach>(\"http://dbpedia.org/resource/1906\u201317_Stanford_rugby_teams\",x),<http://dbpedia.org/ontology/university>(x,uri).",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/university>(x,uri),<http://dbpedia.org/property/headcoach>(\"https://dbpedia.org/resource/190617_Stanford_rugby_teams\",x).",
+        "dist": 99
+    },
+    {
+        "_id": "228",
+        "intermediary_question": "Give me a count of <people> whose <official residence> is <Wilton, Connecticut>?",
+        "datalog_query": "ans(count) :- <http://dbpedia.org/property/residence>(uri,\"http://dbpedia.org/resource/Wilton,_Connecticut\").",
+        "datalog_prev": "ans(count) :- <https://dbpedia.org/ontology/official_residence>(uri,\"https://dbpedia.org/resource/Wilton,_Connecticut\"),<https://dbpedia.org/ontology/people>(",
+        "dist": 56
+    },
+    {
+        "_id": "915",
+        "intermediary_question": "What is the <honors> of the <person> who is the <film director> of <The Haunted House (1929 film)> ?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/award>(x,uri),<http://dbpedia.org/ontology/director>(\"http://dbpedia.org/resource/The_Haunted_House_(1929_film)\",x).",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/honors>(x,uri),<http://dbpedia.org/property/film_director>(\"https://dbpedia.org/resource/The_Haunted_House_(1929_film)\",x).",
+        "dist": 19
+    },
+    {
+        "_id": "794",
+        "intermediary_question": "What is the <origin> of <Henry Cluney> ?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/property/origin>(\"http://dbpedia.org/resource/Henry_Cluney\",uri).",
+        "datalog_prev": "ans(uri) :- <http://dbpedia.org/property/origin>(\"https://dbpedia.org/resource/Henry_Cluney\",uri",
+        "dist": 3
+    },
+    {
+        "_id": "3021",
+        "intermediary_question": "List the <known for> of the <models> whose <place of birth> is <New Orleans>.",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/Person>(x),<http://dbpedia.org/property/knownFor>(x,uri),<http://dbpedia.org/property/placeOfBirth>(x,\"http://dbpedia.org/resource/New_Orleans\").",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/models>(x),<https://dbpedia.org/ontology/known_for>(x,uri)",
+        "dist": 106
+    },
+    {
+        "_id": "3543",
+        "intermediary_question": "What is the <sport> of the <schools> whose <region> is <Capital region>?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/School>(x),<http://dbpedia.org/ontology/sport>(x,uri),<http://dbpedia.org/property/region>(x,\"http://dbpedia.org/resource/Capital_region\").",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/schools>(x),<http://dbpedia.org/property/sport>(x,uri),<",
+        "dist": 93
+    },
+    {
+        "_id": "1073",
+        "intermediary_question": "What is the <developer> of the <Batch Monitor> and <distributed by> of the <Riddim Ribbon feat. The Black Eyed Peas>",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/property/distributor>(\"http://dbpedia.org/resource/Riddim_Ribbon_feat._The_Black_Eyed_Peas\",uri),<http://dbpedia.org/property/developer>(\"http://dbpedia.org/resource/Batch_Monitor\",uri).",
+        "datalog_prev": "ans(uri) :- <http://dbpedia.org/property/distributed_by>(\"https://dbpedia.org/resource/Riddim_Ribbon_feat._The_Black_Eyed_Peas\",uri),<https://dbpedia.org/ontology/developer>(\"https://dbpedia.org/resource/Batch_Monitor\",",
+        "dist": 20
+    },
+    {
+        "_id": "3351",
+        "intermediary_question": "What is the <origin> of the <Xynisteri> and <Mavro>",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/origin>(\"http://dbpedia.org/resource/Mavro\",uri),<http://dbpedia.org/ontology/origin>(\"http://dbpedia.org/resource/Xynisteri\",uri).",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/origin>(\"https://dbpedia.org/resource/Mavro\",uri),<https://dbpedia.org/ontology/origin",
+        "dist": 50
+    },
+    {
+        "_id": "1744",
+        "intermediary_question": "What is the <honors> of the <military people> whose <conflict> is <Battle of France>?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/Person>(x),<http://dbpedia.org/ontology/award>(x,uri),<http://dbpedia.org/ontology/battle>(x,\"http://dbpedia.org/resource/Battle_of_France\").",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/military_people>(x),<http://dbpedia.org/property/honors>(x,uri),<",
+        "dist": 104
+    },
+    {
+        "_id": "1084",
+        "intermediary_question": "What is the <restingplace> of <Charles Edward Magoon> ?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/property/restingplace>(\"http://dbpedia.org/resource/Charles_Edward_Magoon\",uri).",
+        "datalog_prev": "ans(uri) :- <http://dbpedia.org/property/restingplace>(\"https://dbpedia.org/resource/Charles_Edward_Magoon\",uri",
+        "dist": 3
+    },
+    {
+        "_id": "926",
+        "intermediary_question": "What is the <builder> of the <stadium> whose <tenant> is <2013 Copa Centroamericana> ?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/Stadium>(x),<http://dbpedia.org/ontology/builder>(x,uri),<http://dbpedia.org/ontology/tenant>(x,\"http://dbpedia.org/resource/2013_Copa_Centroamericana\").",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/stadium>(x),<http://dbpedia.org/property/builder>(x,uri),<http://dbpedia.org/property/tenant>",
+        "dist": 76
+    },
+    {
+        "_id": "3049",
+        "intermediary_question": "Who is the <siler medalist> of <Gymnastics at the 2008 Summer Olympics  Women's artistic individual all-around> ?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/silverMedalist>(\"http://dbpedia.org/resource/Gymnastics_at_the_2008_Summer_Olympics_\u2013_Women's_artistic_individual_all-around\",uri).",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/siler_medalist_of>(\"https://dbpedia.org/resource/at_the_2008_Summer_Olympics__Women's_artistic_individual_all-around\",uri",
+        "dist": 22
+    },
+    {
+        "_id": "1117",
+        "intermediary_question": "What are the <given names> whose <gender> is <Female>?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/property/gender>(uri,\"http://dbpedia.org/resource/Female\").",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/given_names>(uri),<http://dbpedia.org/property/gender>(",
+        "dist": 31
+    },
+    {
+        "_id": "642",
+        "intermediary_question": "What is the <parent> of the <automobile> whose <products> is <Edsel Ranger> ?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/property/products>(x,\"http://dbpedia.org/resource/Edsel_Ranger\"),<http://dbpedia.org/property/parent>(x,uri).",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/automobile>(x),<http://dbpedia.org/property/parent>(x,uri),<http://dbpedia.org/property/products>",
+        "dist": 49
+    },
+    {
+        "_id": "4767",
+        "intermediary_question": "What is the total number of other <board> of the <people> whose <board> is <Creative Commons>?",
+        "datalog_query": "ans(count) :- <http://dbpedia.org/ontology/board>(x,\"http://dbpedia.org/resource/Creative_Commons\"),<http://dbpedia.org/ontology/board>(x,uri).",
+        "datalog_prev": "ans(count) :- <https://dbpedia.org/ontology/board>(x,\"https://dbpedia.org/resource/Creative_Commons\"),<https://dbpedia.org/ontology/board>(x,uri).",
+        "dist": 3
+    },
+    {
+        "_id": "501",
+        "intermediary_question": "Who is the <leader> of <United States House of Representatives elections, 1788 and 1789> ?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/property/leader>(\"http://dbpedia.org/resource/United_States_House_of_Representatives_elections,_1788_and_1789\",uri).",
+        "datalog_prev": "ans(uri) :- <http://dbpedia.org/property/leader>(\"https://dbpedia.org/resource/United_States_House_of_Representatives_elections,_1788_and_1789\",uri",
+        "dist": 3
+    },
+    {
+        "_id": "4066",
+        "intermediary_question": "Who is the <writer> of the <The Fugitive Kind> and <written by> of the <The Notebook of Trigorin>",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/author>(\"http://dbpedia.org/resource/The_Notebook_of_Trigorin\",uri),<http://dbpedia.org/property/writer>(\"http://dbpedia.org/resource/The_Fugitive_Kind\",uri).",
+        "datalog_prev": "ans(uri) :- <http://dbpedia.org/property/written_by>(\"https://dbpedia.org/resource/The_Notebook_of_Trigorin\",uri),<https://dbpedia.org/ontology/writer>(\"https://dbpedia.org/resource/The_Fugitive_Kind\",",
+        "dist": 31
+    },
+    {
+        "_id": "333",
+        "intermediary_question": "What is the <mountain> whose <mountain range> is <Sierra Nevada (U.S.)> and <parent mountain peak> is <Nevado de Toluca>?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/Mountain>(uri),<http://dbpedia.org/ontology/parentMountainPeak>(uri,\"http://dbpedia.org/resource/Nevado_de_Toluca\"),<http://dbpedia.org/ontology/mountainRange>(uri,\"http://dbpedia.org/resource/Sierra_Nevada_(U.S.)\").",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/mountain>(uri),<https://dbpedia.org/ontology/parent_mountain_peak>(uri,\"https://dbpedia.org/resource/Nevado_de_Toluca\"),<",
+        "dist": 107
+    },
+    {
+        "_id": "4684",
+        "intermediary_question": "What is the <PLACE OF DEATH> of the <architect> who is the <designer> of <Monument to Salavat Yulaev> ?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/property/placeOfDeath>(x,uri),<http://dbpedia.org/ontology/designer>(\"http://dbpedia.org/resource/Monument_to_Salavat_Yulaev\",x).",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/PLACE_OF_DEATH>(x,uri),<http://dbpedia.org/property/designer>(\"https://dbpedia.org/resource/Monument_to_Salavat_Yulaev\",x).",
+        "dist": 28
+    },
+    {
+        "_id": "486",
+        "intermediary_question": "How many <mammals> are there whose <phylum> is <Chordate>?",
+        "datalog_query": "ans(count) :- <http://dbpedia.org/property/phylum>(uri,\"http://dbpedia.org/resource/Chordate\"),<http://dbpedia.org/ontology/Mammal>(uri).",
+        "datalog_prev": "ans(count) :- <http://dbpedia.org/property/phylum>(uri,\"https://dbpedia.org/resource/Chordate\"),<https://dbpedia.org/ontology/mammals",
+        "dist": 10
+    },
+    {
+        "_id": "1962",
+        "intermediary_question": "What is the <battles> of <Roh Tae-woo> ?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/property/battles>(\"http://dbpedia.org/resource/Roh_Tae-woo\",uri).",
+        "datalog_prev": "ans(uri) :- <http://dbpedia.org/property/battles>(\"https://dbpedia.org/resource/Roh_Tae-woo\",uri",
+        "dist": 3
+    },
+    {
+        "_id": "393",
+        "intermediary_question": "What is the <subject> of the <books> whose <publisher> is <Random House>?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/property/publisher>(x,\"http://dbpedia.org/resource/Random_House\"),<http://dbpedia.org/property/subject>(x,uri),<http://dbpedia.org/ontology/Book>(x).",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/books>(x),<http://dbpedia.org/property/subject>(x,uri),<",
+        "dist": 94
+    },
+    {
+        "_id": "4842",
+        "intermediary_question": "What is the <founders> of the <Pittsburgh> and <appointer> of the <William Cushing>",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/appointer>(\"http://dbpedia.org/resource/William_Cushing\",uri),<http://dbpedia.org/ontology/founder>(\"http://dbpedia.org/resource/Pittsburgh\",uri).",
+        "datalog_prev": "ans(uri) :- <http://dbpedia.org/property/appointer>(\"https://dbpedia.org/resource/William_Cushing\",uri),<https://dbpedia.org/ontology/founders>(\"https://dbpedia.org/resource/Pittsburgh\",",
+        "dist": 16
+    },
+    {
+        "_id": "4866",
+        "intermediary_question": "What are the <newspapers> whose <owners>'s <key person> is <Rolv  Erik  Ryssdal>>?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/Newspaper>(uri),<http://dbpedia.org/property/owners>(uri,x),<http://dbpedia.org/ontology/keyPerson>(x,\"http://dbpedia.org/resource/Rolv_Erik_Ryssdal\").",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/newspapers>(uri),<http://dbpedia.org/property/owners>(uri,",
+        "dist": 97
+    },
+    {
+        "_id": "1755",
+        "intermediary_question": "What is the <series> of the <The Lost Special> and <characters> of the <Sherlock Holmes (play)>",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/property/characters>(\"http://dbpedia.org/resource/Sherlock_Holmes_(play)\",uri),<http://dbpedia.org/property/series>(\"http://dbpedia.org/resource/The_Lost_Special\",uri).",
+        "datalog_prev": "ans(uri) :- <http://dbpedia.org/property/characters>(\"https://dbpedia.org/resource/Sherlock_Holmes_(play)\",uri),<https://dbpedia.org/ontology/series>(\"https://dbpedia.org/resource/The_Lost_Special\",",
+        "dist": 15
+    },
+    {
+        "_id": "2515",
+        "intermediary_question": "What is the <known for> of the <models> whose <place of birth> is <Louisiana>?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/Model>(x),<http://dbpedia.org/property/knownFor>(x,uri),<http://dbpedia.org/property/placeOfBirth>(x,\"http://dbpedia.org/resource/Louisiana\").",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/models>(x),<http://dbpedia.org/property/known_for>(x,uri),<",
+        "dist": 90
+    },
+    {
+        "_id": "3585",
+        "intermediary_question": "What is the <official language> of the <Ladonia (micronation)> and <Empire of Atlantium>",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/officialLanguage>(\"http://dbpedia.org/resource/Empire_of_Atlantium\",uri),<http://dbpedia.org/ontology/officialLanguage>(\"http://dbpedia.org/resource/Ladonia_(micronation)\",uri).",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/official_language>(\"https://dbpedia.org/resource/Empire_of_Atlantium\",uri),<https://dbpedia.org/ontology/official_language",
+        "dist": 66
+    },
+    {
+        "_id": "4315",
+        "intermediary_question": "What is the <prize awarded> of the <person> who is the <animator> of <The Skeleton Dance> ?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/award>(x,uri),<http://dbpedia.org/ontology/animator>(\"http://dbpedia.org/resource/The_Skeleton_Dance\",x).",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/prize_awarded>(x,uri),<http://dbpedia.org/property/animator>(\"https://dbpedia.org/resource/The_Skeleton_Dance\",x).",
+        "dist": 17
+    },
+    {
+        "_id": "4966",
+        "intermediary_question": "What is the <office holder> whose <constituency> is <Haight-Ashbury> and <military unit> is <USS Kittiwake (ASR-13)>?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/OfficeHolder>(uri),<http://dbpedia.org/ontology/militaryUnit>(uri,\"http://dbpedia.org/resource/USS_Kittiwake_(ASR-13)\"),<http://dbpedia.org/property/constituency>(uri,\"http://dbpedia.org/resource/Haight-Ashbury\").",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/office_holder>(uri),<https://dbpedia.org/ontology/military_unit>(uri,\"https://dbpedia.org/resource/USS_Kittiwake_(ASR-13)\"),<",
+        "dist": 100
+    },
+    {
+        "_id": "2099",
+        "intermediary_question": "What is the <region> of the <ethnic group> which is the <language> of <Arkansas> ?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/EthnicGroup>(x),<http://dbpedia.org/property/region>(x,uri),<http://dbpedia.org/ontology/language>(\"http://dbpedia.org/resource/Arkansas\",x).",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/region>(x,uri),<http://dbpedia.org/property/language>(\"https://dbpedia.org/resource/Arkansas\",x).",
+        "dist": 54
+    },
+    {
+        "_id": "3599",
+        "intermediary_question": "What is the <religion> of the <member of parliament> whose <relation> is <Sarathchandra Rajakaruna> ?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/MemberOfParliament>(x),<http://dbpedia.org/ontology/religion>(x,uri),<http://dbpedia.org/ontology/relation>(x,\"http://dbpedia.org/resource/Sarathchandra_Rajakaruna\").",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/member_of_parliament>(x),<http://dbpedia.org/property/religion>(x,uri),<http://dbpedia.org/property/relation>",
+        "dist": 79
+    },
+    {
+        "_id": "4121",
+        "intermediary_question": "What is the <tenant> of <New Sanno Hotel> ?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/tenant>(\"http://dbpedia.org/resource/New_Sanno_Hotel\",uri).",
+        "datalog_prev": "ans(uri) :- <http://dbpedia.org/property/tenant>(\"https://dbpedia.org/resource/New_Sanno_Hotel\",uri",
+        "dist": 10
+    },
+    {
+        "_id": "29",
+        "intermediary_question": "What is the <name> of the <200001 Aston Villa F.C. season> and <manager> of the <200910 Middlesbrough F.C. season>",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/property/name>(\"http://dbpedia.org/resource/2000\u201301_Aston_Villa_F.C._season\",uri),<http://dbpedia.org/ontology/manager>(\"http://dbpedia.org/resource/2009\u201310_Middlesbrough_F.C._season\",uri).",
+        "datalog_prev": "ans(uri) :- <http://dbpedia.org/property/manager>(\"https://dbpedia.org/resource/200910_Middlesbrough_F.C._season\",uri),<https://dbpedia.org/ontology/name>(\"https://dbpedia.org/resource/200001_Aston_Villa_F.C._season\",",
+        "dist": 48
+    },
+    {
+        "_id": "65",
+        "intermediary_question": "Is <Galileo Galilei> the <discoverer> of <Ganymede (moon)>?",
+        "datalog_query": ".",
+        "datalog_prev": "ans(count) :- <http://dbpedia.org/property/Galileo_Galilei>(\"https://dbpedia.org/resource/discoverer\"",
+        "dist": 100
+    },
+    {
+        "_id": "838",
+        "intermediary_question": "What is the <Formula One racer> whose <relatives> is <Ralf Schumacher> and <has child> is <Mick Schumacher>?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/FormulaOneRacer>(uri),<http://dbpedia.org/ontology/child>(uri,\"http://dbpedia.org/resource/Mick_Schumacher\"),<http://dbpedia.org/property/relatives>(uri,\"http://dbpedia.org/resource/Ralf_Schumacher\").",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/Formula_One_racer>(uri),<https://dbpedia.org/ontology/has_child>(uri,\"https://dbpedia.org/resource/Mick_Schumacher\"),<",
+        "dist": 100
+    },
+    {
+        "_id": "3906",
+        "intermediary_question": "Is <Front-engine design> the <automobile platform> of <Toyota Verossa>?",
+        "datalog_query": ".",
+        "datalog_prev": "ans(count) :- <http://dbpedia.org/property/Front-engine_design>(\"https://dbpedia.org/resource/automobile_platform\"",
+        "dist": 113
+    },
+    {
+        "_id": "3773",
+        "intermediary_question": "What is the <products> of the <banks> whose <product> is <Postbanken>?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/Bank>(x),<http://dbpedia.org/property/products>(x,uri),<http://dbpedia.org/ontology/product>(x,\"http://dbpedia.org/resource/Postbanken\").",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/banks>(x),<http://dbpedia.org/property/products>(x,uri),<",
+        "dist": 84
+    },
+    {
+        "_id": "4635",
+        "intermediary_question": "What is the <employment> of the <Irving Chernev> and <Karen Grigorian>",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/occupation>(\"http://dbpedia.org/resource/Karen_Grigorian\",uri),<http://dbpedia.org/ontology/occupation>(\"http://dbpedia.org/resource/Irving_Chernev\",uri).",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/employment>(\"https://dbpedia.org/resource/Karen_Grigorian\",uri),<https://dbpedia.org/ontology/employment",
+        "dist": 71
+    },
+    {
+        "_id": "3161",
+        "intermediary_question": "What is the <producer (of product)> of the <trains> whose <operator> is <MTR>?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/Train>(x),<http://dbpedia.org/ontology/manufacturer>(x,uri),<http://dbpedia.org/ontology/operator>(x,\"http://dbpedia.org/resource/MTR\").",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/trains>(x),<http://dbpedia.org/property/producer_(of_product)>(x,uri),<",
+        "dist": 93
+    },
+    {
+        "_id": "2659",
+        "intermediary_question": "What is the <television show> whose <distributor> is <Broadcast syndication> and <theme music composer> is <Primus (band)>?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/TelevisionShow>(uri),<http://dbpedia.org/property/themeMusicComposer>(uri,\"http://dbpedia.org/resource/Primus_(band)\"),<http://dbpedia.org/ontology/distributor>(uri,\"http://dbpedia.org/resource/Broadcast_syndication\").",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/television_show>(uri),<https://dbpedia.org/ontology/theme_music_composer>(uri,\"https://dbpedia.org/resource/Primus_(band)\"),<",
+        "dist": 115
+    },
+    {
+        "_id": "4615",
+        "intermediary_question": "What is the <nationality> of the <writers> whose <movement> is <Feminism>?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/Writer>(x),<http://dbpedia.org/ontology/nationality>(x,uri),<http://dbpedia.org/ontology/movement>(x,\"http://dbpedia.org/resource/Feminism\").",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/writers>(x),<http://dbpedia.org/property/nationality>(x,uri),<",
+        "dist": 90
+    },
+    {
+        "_id": "4628",
+        "intermediary_question": "What is the <former team> of the <ice hockey players> whose <position> is <Defenceman>?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/formerTeam>(x,uri),<http://dbpedia.org/property/position>(x,\"http://dbpedia.org/resource/Defenceman\").",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/ice_hockey_players>(x),<http://dbpedia.org/property/former_team>(x,uri),<",
+        "dist": 68
+    },
+    {
+        "_id": "2451",
+        "intermediary_question": "What is the <band member> of the <Bands> whose <current members> is <Hynief>>?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/Band>(x),<http://dbpedia.org/ontology/bandMember>(x,uri),<http://dbpedia.org/property/currentMembers>(x,\"http://dbpedia.org/resource/Hynief\").",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/Bands>(x),<http://dbpedia.org/property/band_member>(x,uri),<",
+        "dist": 93
+    },
+    {
+        "_id": "2846",
+        "intermediary_question": "What is the <route end> of the <Mumbai Vadodara Expressway> and <line> of the <Vadodara Junction railway station>",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/property/line>(\"http://dbpedia.org/resource/Vadodara_Junction_railway_station\",uri),<http://dbpedia.org/ontology/routeEnd>(\"http://dbpedia.org/resource/Mumbai_Vadodara_Expressway\",uri).",
+        "datalog_prev": "ans(uri) :- <http://dbpedia.org/property/line>(\"https://dbpedia.org/resource/Vadodara_Junction_railway_station\",uri),<https://dbpedia.org/ontology/route_end>(\"https://dbpedia.org/resource/Mumbai_Vadodara_Expressway\",",
+        "dist": 10
+    },
+    {
+        "_id": "1144",
+        "intermediary_question": "What is the <author> of the <owls> whose <magazine> is <Jump Square>?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/property/author>(x,uri),<http://dbpedia.org/property/magazine>(x,\"http://dbpedia.org/resource/Jump_Square\").",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/owls>(x),<http://dbpedia.org/property/author>(x,uri),<",
+        "dist": 66
+    },
+    {
+        "_id": "3078",
+        "intermediary_question": "Give me a count of <television shows> whose <network> is <BBC HD>?",
+        "datalog_query": "ans(count) :- <http://dbpedia.org/ontology/network>(uri,\"http://dbpedia.org/resource/BBC_HD\").",
+        "datalog_prev": "ans(count) :- <https://dbpedia.org/ontology/network>(uri,\"https://dbpedia.org/resource/BBC_HD\"),<https://dbpedia.org/ontology/television_shows>(",
+        "dist": 50
+    },
+    {
+        "_id": "1103",
+        "intermediary_question": "What is the <area> of the <The Chess Monthly> and <work> of the <Craig Van Tilbury>",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/occupation>(\"http://dbpedia.org/resource/Craig_Van_Tilbury\",uri),<http://dbpedia.org/property/discipline>(\"http://dbpedia.org/resource/The_Chess_Monthly\",uri).",
+        "datalog_prev": "ans(uri) :- <http://dbpedia.org/property/work>(\"https://dbpedia.org/resource/Craig_Van_Tilbury\",uri),<https://dbpedia.org/ontology/area>(\"https://dbpedia.org/resource/The_Chess_Monthly\",",
+        "dist": 42
+    },
+    {
+        "_id": "168",
+        "intermediary_question": "What is the <location> of the <religious> who is the <successor> of <Thongsuk Samdaengpan> ?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/location>(x,uri),<http://dbpedia.org/property/successor>(\"http://dbpedia.org/resource/Thongsuk_Samdaengpan\",x).",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/location>(x,uri),<http://dbpedia.org/property/successor>(\"https://dbpedia.org/resource/Thongsuk_Samdaengpan\",x).",
+        "dist": 2
+    },
+    {
+        "_id": "1670",
+        "intermediary_question": "What is the <location city> of the <Denver Broncos> and <place of birth> of the <William C. Cramer>",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/property/placeOfBirth>(\"http://dbpedia.org/resource/William_C._Cramer\",uri),<http://dbpedia.org/ontology/locationCity>(\"http://dbpedia.org/resource/Denver_Broncos\",uri).",
+        "datalog_prev": "ans(uri) :- <http://dbpedia.org/property/place_of_birth>(\"https://dbpedia.org/resource/William_C._Cramer\",uri),<https://dbpedia.org/ontology/location_city>(\"https://dbpedia.org/resource/Denver_Broncos\",",
+        "dist": 14
+    },
+    {
+        "_id": "2570",
+        "intermediary_question": "Is <Mark Twain> the <characters> of <Mark Twain Tonight>?",
+        "datalog_query": ".",
+        "datalog_prev": "ans(count) :- <http://dbpedia.org/property/Mark_Twain>(\"https://dbpedia.org/resource/characters\"",
+        "dist": 95
+    },
+    {
+        "_id": "2377",
+        "intermediary_question": "What are the <bacterias> whose <order (taxonomy)> is <Bacillales> and <domain> is <Bacteria>?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/Bacteria>(uri),<http://dbpedia.org/property/domain>(uri,\"http://dbpedia.org/resource/Bacteria\"),<http://dbpedia.org/ontology/order>(uri,\"http://dbpedia.org/resource/Bacillales\").",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/bacterias>(uri),<https://dbpedia.org/ontology/domain>(uri,\"https://dbpedia.org/resource/Bacteria\"),<",
+        "dist": 93
+    },
+    {
+        "_id": "4395",
+        "intermediary_question": "What is the <place> of the <Geography Club (play)> and <official residence> of the <Scott Berkun>",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/property/residence>(\"http://dbpedia.org/resource/Scott_Berkun\",uri),<http://dbpedia.org/property/place>(\"http://dbpedia.org/resource/Geography_Club_(play)\",uri).",
+        "datalog_prev": "ans(uri) :- <http://dbpedia.org/property/official_residence>(\"https://dbpedia.org/resource/Scott_Berkun\",uri),<https://dbpedia.org/ontology/place>(\"https://dbpedia.org/resource/Geography_Club_(play)\",",
+        "dist": 24
+    },
+    {
+        "_id": "4257",
+        "intermediary_question": "What are the <fictional characters> whose <series>'s <executive producer> is <Ricky Gervais>?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/series>(uri,x),<http://dbpedia.org/ontology/executiveProducer>(x,\"http://dbpedia.org/resource/Ricky_Gervais\").",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/fictional_characters>(uri),<http://dbpedia.org/property/series>(uri,",
+        "dist": 77
+    },
+    {
+        "_id": "3862",
+        "intermediary_question": "Is <The Next Step (James Brown album)> the <Album> of <Killing Is Out, School Is In>?",
+        "datalog_query": ".",
+        "datalog_prev": "ans(count) :- <http://dbpedia.org/property/The_Next_Step_(James_Brown_album)>(\"https://dbpedia.org/resource/Album\"",
+        "dist": 113
+    },
+    {
+        "_id": "23",
+        "intermediary_question": "What is the <Band> whose <former band member> is <Kevin Jonas> and <past members> is <Joe Jonas>?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/Band>(uri),<http://dbpedia.org/property/pastMembers>(uri,\"http://dbpedia.org/resource/Joe_Jonas\"),<http://dbpedia.org/ontology/formerBandMember>(uri,\"http://dbpedia.org/resource/Kevin_Jonas\").",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/Band>(uri),<https://dbpedia.org/ontology/past_members>(uri,\"https://dbpedia.org/resource/Joe_Jonas\"),<",
+        "dist": 105
+    },
+    {
+        "_id": "2633",
+        "intermediary_question": "How many <owls> are there whose <youthclubs>'s <team manager> is <Luis Enrique (footballer)> ?",
+        "datalog_query": "ans(count) :- <http://dbpedia.org/property/manager>(x,\"http://dbpedia.org/resource/Luis_Enrique_(footballer)\"),<http://dbpedia.org/property/youthclubs>(uri,x).",
+        "datalog_prev": "ans(count) :- <http://dbpedia.org/property/team_manager>(x,\"https://dbpedia.org/resource/Luis_Enrique_(footballer)\"),<http://dbpedia.org/property/youthclubs>(uri,",
+        "dist": 9
+    },
+    {
+        "_id": "3340",
+        "intermediary_question": "Is <Chordate> the <phylum> of <Camel>?",
+        "datalog_query": ".",
+        "datalog_prev": "ans(count) :- <http://dbpedia.org/property/Chordate>(\"https://dbpedia.org/resource/phylum\"",
+        "dist": 89
+    },
+    {
+        "_id": "2215",
+        "intermediary_question": "What is the <purpose> of the <Maharashtra Chess Association> and <kind of music> of the <PyChess>",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/genre>(\"http://dbpedia.org/resource/PyChess\",uri),<http://dbpedia.org/property/purpose>(\"http://dbpedia.org/resource/Maharashtra_Chess_Association\",uri).",
+        "datalog_prev": "ans(uri) :- <http://dbpedia.org/property/kind_of_music>(\"https://dbpedia.org/resource/PyChess\",uri),<https://dbpedia.org/ontology/purpose>(\"https://dbpedia.org/resource/Maharashtra_Chess_Association\",",
+        "dist": 34
+    },
+    {
+        "_id": "3682",
+        "intermediary_question": "What are the <american football players> whose <former teams> are <Indianapolis Colts> and <Carolina Panthers>?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/formerTeam>(uri,\"http://dbpedia.org/resource/Carolina_Panthers\"),<http://dbpedia.org/ontology/formerTeam>(uri,\"http://dbpedia.org/resource/Indianapolis_Colts\").",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/former_teams>(uri,\"https://dbpedia.org/resource/Carolina_Panthers\"),<https://dbpedia.org/ontology/former_teams>(",
+        "dist": 62
+    },
+    {
+        "_id": "4724",
+        "intermediary_question": "What is the <language> of <All I Need Is Your Sweet Lovin'> ?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/property/language>(\"http://dbpedia.org/resource/All_I_Need_Is_Your_Sweet_Lovin'\",uri).",
+        "datalog_prev": "ans(uri) :- <http://dbpedia.org/property/language>(\"https://dbpedia.org/resource/All_I_Need_Is_Your_Sweet_Lovin'\",uri",
+        "dist": 3
+    },
+    {
+        "_id": "1907",
+        "intermediary_question": "What is the <office holder> whose <rank> is <Colonel (United States)> and <consort> is <Dolley Madison>?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/property/spouse>(uri,\"http://dbpedia.org/resource/Dolley_Madison\"),<http://dbpedia.org/property/rank>(uri,\"http://dbpedia.org/resource/Colonel_(United_States)\").",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/office_holder>(uri),<https://dbpedia.org/ontology/consort>(uri,\"https://dbpedia.org/resource/Dolley_Madison\"),<",
+        "dist": 89
+    },
+    {
+        "_id": "84",
+        "intermediary_question": "What is the <title> of the <Zaman Shah Durrani> and <nationality> of the <Salahuddin Rabbani>",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/nationality>(\"http://dbpedia.org/resource/Salahuddin_Rabbani\",uri),<http://dbpedia.org/property/title>(\"http://dbpedia.org/resource/Zaman_Shah_Durrani\",uri).",
+        "datalog_prev": "ans(uri) :- <http://dbpedia.org/property/nationality>(\"https://dbpedia.org/resource/Salahuddin_Rabbani\",uri),<https://dbpedia.org/ontology/title>(\"https://dbpedia.org/resource/Zaman_Shah_Durrani\",",
+        "dist": 22
+    },
+    {
+        "_id": "227",
+        "intermediary_question": "Is <Cibao International Airport> the <hub airport> of <Merlin Express>?",
+        "datalog_query": ".",
+        "datalog_prev": "ans(count) :- <http://dbpedia.org/property/Cibao_International_Airport>(\"https://dbpedia.org/resource/hub_airport\"",
+        "dist": 113
+    },
+    {
+        "_id": "296",
+        "intermediary_question": "Is <Gibson Les Paul> the <notable instruments> of <Duane Allman>?",
+        "datalog_query": ".",
+        "datalog_prev": "ans(count) :- <http://dbpedia.org/property/Gibson_Les_Paul>(\"https://dbpedia.org/resource/notable_instruments\"",
+        "dist": 109
+    },
+    {
+        "_id": "1001",
+        "intermediary_question": "What is the <judges> of the <Rising Star (U.S. TV series)> and <Artist> of the <Brad Paisley discography>",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/property/artist>(\"http://dbpedia.org/resource/Brad_Paisley_discography\",uri),<http://dbpedia.org/property/judges>(\"http://dbpedia.org/resource/Rising_Star_(U.S._TV_series)\",uri).",
+        "datalog_prev": "ans(uri) :- <http://dbpedia.org/property/Artist>(\"https://dbpedia.org/resource/Brad_Paisley_discography\",uri),<https://dbpedia.org/ontology/judges>(\"https://dbpedia.org/resource/Rising_Star_(U.S._TV_series)\",",
+        "dist": 16
+    },
+    {
+        "_id": "2138",
+        "intermediary_question": "Who are the <people> whose <denomination>'s <headquarters> is <Gold Base>?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/religion>(uri,x),<http://dbpedia.org/property/headquarters>(x,\"http://dbpedia.org/resource/Gold_Base\").",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/people>(uri,x),<http://dbpedia.org/property/headquarters>(",
+        "dist": 51
+    },
+    {
+        "_id": "711",
+        "intermediary_question": "What is the <member of political party> of the <Iqbal Singh (politician)> and <B. Shiva Rao>",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/property/party>(\"http://dbpedia.org/resource/B._Shiva_Rao\",uri),<http://dbpedia.org/property/party>(\"http://dbpedia.org/resource/Iqbal_Singh_(politician)\",uri).",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/member_of_political_party>(\"https://dbpedia.org/resource/B._Shiva_Rao\",uri),<https://dbpedia.org/ontology/member_of_political_party",
+        "dist": 86
+    },
+    {
+        "_id": "2801",
+        "intermediary_question": "What is the <state> of the <school> which is the <alma mater> of <Ben Ysursa> ?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/state>(x,uri),<http://dbpedia.org/property/almaMater>(\"http://dbpedia.org/resource/Ben_Ysursa\",x).",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/state>(x,uri),<http://dbpedia.org/property/alma_mater>(\"https://dbpedia.org/resource/Ben_Ysursa\",x).",
+        "dist": 4
+    },
+    {
+        "_id": "2527",
+        "intermediary_question": "What is the <sport> of the <Lagos Preparatory School> and <profession> of the <William Garne>",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/occupation>(\"http://dbpedia.org/resource/William_Garne\",uri),<http://dbpedia.org/ontology/sport>(\"http://dbpedia.org/resource/Lagos_Preparatory_School\",uri).",
+        "datalog_prev": "ans(uri) :- <http://dbpedia.org/property/profession>(\"https://dbpedia.org/resource/William_Garne\",uri),<https://dbpedia.org/ontology/sport>(\"https://dbpedia.org/resource/Lagos_Preparatory_School\",",
+        "dist": 22
+    },
+    {
+        "_id": "3752",
+        "intermediary_question": "What are the <beverages> whose <origin> is <England>?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/origin>(uri,\"http://dbpedia.org/resource/England\").",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/beverages>(uri),<http://dbpedia.org/property/origin>(",
+        "dist": 26
+    },
+    {
+        "_id": "3321",
+        "intermediary_question": "What is the <current members> of the <Insects vs Robots> and <music composer> of the <Kenny Dies>",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/musicComposer>(\"http://dbpedia.org/resource/Kenny_Dies\",uri),<http://dbpedia.org/property/currentMembers>(\"http://dbpedia.org/resource/Insects_vs_Robots\",uri).",
+        "datalog_prev": "ans(uri) :- <http://dbpedia.org/property/music_composer>(\"https://dbpedia.org/resource/Kenny_Dies\",uri),<https://dbpedia.org/ontology/current_members>(\"https://dbpedia.org/resource/Insects_vs_Robots\",",
+        "dist": 26
+    },
+    {
+        "_id": "3181",
+        "intermediary_question": "What are the <television shows> whose <distributed by> is <HBO>?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/TelevisionShow>(uri),<http://dbpedia.org/property/distributor>(uri,\"http://dbpedia.org/resource/HBO\").",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/television_shows>(uri),<http://dbpedia.org/property/distributed_by>(",
+        "dist": 46
+    },
+    {
+        "_id": "4183",
+        "intermediary_question": "What is the <distributing label> of <StandBy Records> ?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/distributingLabel>(\"http://dbpedia.org/resource/StandBy_Records\",uri).",
+        "datalog_prev": "ans(uri) :- <http://dbpedia.org/property/distributing_label>(\"https://dbpedia.org/resource/StandBy_Records\",uri",
+        "dist": 12
+    },
+    {
+        "_id": "1615",
+        "intermediary_question": "Who is the <film starring> of <On Air with Ryan Seacrest> ?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/starring>(\"http://dbpedia.org/resource/On_Air_with_Ryan_Seacrest\",uri).",
+        "datalog_prev": "ans(uri) :- <http://dbpedia.org/property/film_starring>(\"https://dbpedia.org/resource/On_Air_with_Ryan_Seacrest\",uri",
+        "dist": 15
+    },
+    {
+        "_id": "3024",
+        "intermediary_question": "What is the <office holder> whose <childrens> are <James Roosevelt> and <Franklin Delano Roosevelt, Jr.>?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/property/children>(uri,\"http://dbpedia.org/resource/James_Roosevelt\"),<http://dbpedia.org/property/children>(uri,\"http://dbpedia.org/resource/Franklin_Delano_Roosevelt,_Jr.\").",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/office_holder>(uri),<http://dbpedia.org/property/childrens>(uri,\"https://dbpedia.org/resource/Franklin_Delano_Roosevelt,_Jr.",
+        "dist": 65
+    },
+    {
+        "_id": "1413",
+        "intermediary_question": "Count the <location> of the <waterway tunnels> whose <is owned by> is <Canal & River Trust>.",
+        "datalog_query": "ans(count) :- <http://dbpedia.org/ontology/owner>(x,\"http://dbpedia.org/resource/Canal_&_River_Trust\"),<http://dbpedia.org/ontology/location>(x,uri).",
+        "datalog_prev": "ans(count) :- <http://dbpedia.org/property/is_owned_by>(x,\"https://dbpedia.org/resource/Canal_&_River_Trust\"),<http://dbpedia.org/property/location>(",
+        "dist": 29
+    },
+    {
+        "_id": "763",
+        "intermediary_question": "What is the total number of other <launch site> of the <rockets> whose <launch site> is <Cape Canaveral Air Force Station>?",
+        "datalog_query": "ans(count) :- <http://dbpedia.org/ontology/launchSite>(x,\"http://dbpedia.org/resource/Cape_Canaveral_Air_Force_Station\"),<http://dbpedia.org/ontology/launchSite>(x,uri).",
+        "datalog_prev": "ans(count) :- <https://dbpedia.org/ontology/launch_site>(x,\"https://dbpedia.org/resource/Cape_Canaveral_Air_Force_Station\"),<https://dbpedia.org/ontology/launch_site>(x,uri).",
+        "dist": 7
+    },
+    {
+        "_id": "655",
+        "intermediary_question": "What is the <leader name> of the <settlements> whose <time zone> is <Indian Standard Time>?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/Place>(x),<http://dbpedia.org/ontology/leaderName>(x,uri),<http://dbpedia.org/ontology/timeZone>(x,\"http://dbpedia.org/resource/Indian_Standard_Time\").",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/settlements>(x),<http://dbpedia.org/property/leader_name>(x,uri),<",
+        "dist": 109
+    },
+    {
+        "_id": "4797",
+        "intermediary_question": "Who are the <comics characters> whose <sculptors> is <Bruce Timm>?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/creator>(uri,\"http://dbpedia.org/resource/Bruce_Timm\").",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/comics_characters>(uri),<http://dbpedia.org/property/sculptors>(",
+        "dist": 35
+    },
+    {
+        "_id": "3849",
+        "intermediary_question": "What is the <alma mater> of the <Patty Lin> and <university attended> of the <Franklin W. Olin>",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/property/education>(\"http://dbpedia.org/resource/Franklin_W._Olin\",uri),<http://dbpedia.org/property/almaMater>(\"http://dbpedia.org/resource/Patty_Lin\",uri).",
+        "datalog_prev": "ans(uri) :- <http://dbpedia.org/property/university_attended>(\"https://dbpedia.org/resource/Franklin_W._Olin\",uri),<https://dbpedia.org/ontology/alma_mater>(\"https://dbpedia.org/resource/Patty_Lin\",",
+        "dist": 32
+    },
+    {
+        "_id": "4153",
+        "intermediary_question": "What is the <associate> of the <Thomas Bryan Martin> and <is founded by> of the <Pittsburgh>",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/founder>(\"http://dbpedia.org/resource/Pittsburgh\",uri),<http://dbpedia.org/ontology/associate>(\"http://dbpedia.org/resource/Thomas_Bryan_Martin\",uri).",
+        "datalog_prev": "ans(uri) :- <http://dbpedia.org/property/is_founded_by>(\"https://dbpedia.org/resource/Pittsburgh\",uri),<https://dbpedia.org/ontology/associate>(\"https://dbpedia.org/resource/Thomas_Bryan_Martin\",",
+        "dist": 22
+    },
+    {
+        "_id": "468",
+        "intermediary_question": "What is the <licensee> of <WXXV-DT2> ?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/property/licensee>(\"http://dbpedia.org/resource/WXXV-DT2\",uri).",
+        "datalog_prev": "ans(uri) :- <http://dbpedia.org/property/licensee>(\"https://dbpedia.org/resource/WXXV-DT2\",uri",
+        "dist": 3
+    },
+    {
+        "_id": "157",
+        "intermediary_question": "Count the other <sport> of the <schools> whose <sport> is <Hockey>.",
+        "datalog_query": "ans(count) :- <http://dbpedia.org/ontology/sport>(x,\"http://dbpedia.org/resource/Hockey\"),<http://dbpedia.org/ontology/sport>(x,uri).",
+        "datalog_prev": "ans(count) :- <http://dbpedia.org/property/sport>(x,\"https://dbpedia.org/resource/Hockey\"),<http://dbpedia.org/property/sport>(x,",
+        "dist": 20
+    },
+    {
+        "_id": "1295",
+        "intermediary_question": "List the other <tomb> of the <royalties> whose <burial place> is <Little Easton>.",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/Royalty>(x),<http://dbpedia.org/property/placeOfBurial>(x,uri),<http://dbpedia.org/property/placeOfBurial>(x,\"http://dbpedia.org/resource/Little_Easton\").",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/royalties>(x),<http://dbpedia.org/property/tomb>(x,uri),<",
+        "dist": 107
+    },
+    {
+        "_id": "497",
+        "intermediary_question": "What is the <relation> of the <military people> whose <in conflict> is <Operation Barbarossa>?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/Person>(x),<http://dbpedia.org/ontology/relation>(x,uri),<http://dbpedia.org/ontology/battle>(x,\"http://dbpedia.org/resource/Operation_Barbarossa\").",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/military_people>(x),<http://dbpedia.org/property/relation>(x,uri),<",
+        "dist": 106
+    },
+    {
+        "_id": "4740",
+        "intermediary_question": "What is the total number of <awards> of the <artists> whose <career> is <Screenwriter> ?",
+        "datalog_query": "ans(count) :- <http://dbpedia.org/property/occupation>(x,\"http://dbpedia.org/resource/Screenwriter\"),<http://dbpedia.org/property/awards>(x,uri).",
+        "datalog_prev": "ans(count) :- <https://dbpedia.org/ontology/career>(x,\"https://dbpedia.org/resource/Screenwriter\"),<http://dbpedia.org/property/awards>(x,uri).",
+        "dist": 17
+    },
+    {
+        "_id": "2940",
+        "intermediary_question": "What is the <builder> of <Estadio Nacional de Costa Rica (2011)> ?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/builder>(\"http://dbpedia.org/resource/Estadio_Nacional_de_Costa_Rica_(2011)\",uri).",
+        "datalog_prev": "ans(uri) :- <http://dbpedia.org/property/builder>(\"https://dbpedia.org/resource/Estadio_Nacional_de_Costa_Rica_(2011)\",uri",
+        "dist": 10
+    },
+    {
+        "_id": "3456",
+        "intermediary_question": "How many <software> are there whose <operating system> is <Microsoft Windows>?",
+        "datalog_query": "ans(count) :- <http://dbpedia.org/ontology/operatingSystem>(uri,\"http://dbpedia.org/resource/Microsoft_Windows\"),<http://dbpedia.org/ontology/Software>(uri).",
+        "datalog_prev": "ans(count) :- <http://dbpedia.org/property/operating_system>(uri,\"https://dbpedia.org/resource/Microsoft_Windows\"),<https://dbpedia.org/ontology/software",
+        "dist": 19
+    },
+    {
+        "_id": "373",
+        "intermediary_question": "What is the <honours> of the <race horse> which is the <grandsire> of <Counterpoint (horse)> ?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/Horse>(x),<http://dbpedia.org/ontology/honours>(x,uri),<http://dbpedia.org/property/grandsire>(\"http://dbpedia.org/resource/Counterpoint_(horse)\",x).",
+        "datalog_prev": "ans(uri) :- <https://dbpedia.org/ontology/honours>(x,uri),<http://dbpedia.org/property/grandsire>(\"https://dbpedia.org/resource/Counterpoint_(horse)\",x).",
+        "dist": 39
+    },
+    {
+        "_id": "79",
+        "intermediary_question": "What is the <location> of <Swedish Covenant Hospital> ?",
+        "datalog_query": "ans(uri) :- <http://dbpedia.org/ontology/location>(\"http://dbpedia.org/resource/Swedish_Covenant_Hospital\",uri).",
+        "datalog_prev": "ans(uri) :- <http://dbpedia.org/property/location>(\"https://dbpedia.org/resource/Swedish_Covenant_Hospital\",uri",
+        "dist": 10
+    }
+]

@@ -1,3 +1,4 @@
+import re
 def levenshtein(mot1, mot2):
     ligne_i = [k for k in range(len(mot1) + 1)]
     for i in range(1, len(mot2) + 1):
@@ -15,10 +16,10 @@ def forget_tokens(tokens, forget_list):
     return [token for token in tokens if token not in forget_list]
 
 
-def do_replacements(string, mapping_replace):
-    for to_replace in sorted(mapping_replace, key=len, reverse=True):
-        string = string.replace(to_replace, mapping_replace[to_replace])
-    return string
+
+def do_replacements(string, rep_dict):
+    pattern = re.compile("|".join([re.escape(k) for k in sorted(rep_dict,key=len,reverse=True)]), flags=re.DOTALL)
+    return pattern.sub(lambda x: rep_dict[x.group(0)], string)
 
 
 def do_replacements_except(string, mapping_replace, split, exceptions):

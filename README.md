@@ -1,5 +1,5 @@
 # NMT
-A NMT pipeline between english and Sparql/Datalog queries.
+An NMT pipeline between english and Sparql/Datalog queries.
 
 A fork from https://github.com/LiberAI/NSpM that aims to mitigate the issue that comes from the absence, in the training database, of terms specific to the ontology, resources or the properties we are learning on. Those terms are called Knowledge-Base specific terms.
 
