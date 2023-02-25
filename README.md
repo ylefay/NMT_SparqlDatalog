@@ -123,8 +123,8 @@ is mapped to
 {
         "_id": "54",
         "intermediary_question": "What is the <A> whose <B> is <C> and <D> is <E>?",
-        "sparql_query": "SELECT DISTINCT ?uri WHERE {?uri <dbo_B> <dbr_B> . ?uri <dbp_D> <dbr_E>  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <dbo_E>}",
-        "datalog_query": "ans(uri) :- <dbo_E>(uri),<dbp_D>(uri,\"dbr_E\"),<dbo_B>(uri,\"dbr_B\")."
+        "sparql_query": "SELECT DISTINCT ?uri WHERE {?uri <dbo_B> <dbr_C> . ?uri <dbp_D> <dbr_E>  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <dbo_A>}",
+        "datalog_query": "ans(uri) :- <dbo_A>(uri),<dbp_D>(uri,\"dbr_E\"),<dbo_B>(uri,\"dbr_C\")."
 }
 ```
 The simplification is done by replacing each term in brackets in the intermediary question with variables, replacing their occurences in the sparql and datalog query with the corresponding variable, using Levenshtein distance.
