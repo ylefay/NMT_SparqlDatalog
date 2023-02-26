@@ -1,4 +1,6 @@
 import re
+
+
 def levenshtein(mot1, mot2):
     ligne_i = [k for k in range(len(mot1) + 1)]
     for i in range(1, len(mot2) + 1):
@@ -12,20 +14,16 @@ def levenshtein(mot1, mot2):
     return ligne_i[len(mot1)]
 
 
-def forget_tokens(tokens, forget_list):
-    return [token for token in tokens if token not in forget_list]
-
-
-
 def do_replacements(string, rep_dict):
-    pattern = re.compile("|".join([re.escape(k) for k in sorted(rep_dict,key=len,reverse=True)]), flags=re.DOTALL)
+    pattern = re.compile("|".join([re.escape(k) for k in sorted(
+        rep_dict, key=len, reverse=True)]), flags=re.DOTALL)
     return pattern.sub(lambda x: rep_dict[x.group(0)], string)
 
 
 def do_replacements_except(string, mapping_replace, split, exceptions):
     words = string.split(split)
     for idx, word in enumerate(words):
-        if word not in exceptions:
+        if not sum([exception in word for exception in exceptions]) :
             words[idx] = do_replacements(word, mapping_replace)
     return split.join(words)
 
@@ -146,16 +144,16 @@ def sparql_preprocessing(query):
 
 
 def sparql_invert_preprocessing(query):
-    mapping_replace = {" dot ": ".", " float ": ","}
+    mapping_replace = {" dot ": " . ", " float ": ","}
     query = do_replacements(query, mapping_replace)
     mapping_replace = {
-        "{": " br_open ",
-        "}": " br_close ",
-        "<": " cr_open ",
-        ">": " cr_close ",
-        "(": " par_open ",
-        ")": " par_close ",
-        '"': " quote ",
+        "{": "br_open",
+        "}": "br_close",
+        "<": "cr_open",
+        ">": "cr_close",
+        "(": "par_open",
+        ")": "par_close",
+        '"': "quote",
         "https://dbpedia.org/resource/": "dbr_",
         "https://dbpedia.org/ontology/": "dbo_",
         "http://dbpedia.org/property/": "dbp_",
@@ -169,14 +167,5 @@ def sparql_invert_preprocessing(query):
     mapping_replace = {mapping_replace[key]: key for key in mapping_replace.keys()}
     query = do_replacements(query, mapping_replace)
     # since we remove successive spaces, we need to replace par_open, dot etc
-    mapping_replace = {
-        "par_open": "(",
-        "par_close": ")",
-        " quote": '"',
-        ")dot": ").",
-        " br_close": "}",
-        "cr_close": ">",
-        "cr_open": "<",
-    }
-    query = do_replacements(query, mapping_replace)
+    query = do_replacements(query, {'  ':' ', '< ': '<', ' >':'>'})
     return query

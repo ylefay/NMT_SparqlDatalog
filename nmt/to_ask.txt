@@ -1,1 +1,1 @@
-What is the <A> of <B> ?
+How many <A> are there whose <B> is <C>?

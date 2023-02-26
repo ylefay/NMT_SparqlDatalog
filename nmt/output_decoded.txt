@@ -1,1 +1,1 @@
-ans(uri) :- <http://dbpedia.org/property/A>("https://dbpedia.org/resource/B",uri
+SELECT DISTINCT COUNT ( ?uri ) WHERE { ?uri <https://dbpedia.org/ontology/B> <https://dbpedia.org/resource/C> . }
