@@ -1,4 +1,3 @@
-
 from utils import levenshtein, do_replacements
 import json
 import re
@@ -40,7 +39,7 @@ def eng(query, mapping):
     terms = [u[1:-1] for u in re.split("(\<.+?\>)", query) if u.startswith("<")]
     mapping_replace = {}
     for term in terms:
-        _lev = {_obj:levenshtein(term, _obj) for _obj in mapping.keys()}
+        _lev = {_obj: levenshtein(term, _obj) for _obj in mapping.keys()}
         obj = min(_lev, key=_lev.get)
         mapping_replace[term] = mapping[obj]
     query = do_replacements(query, mapping_replace)
@@ -64,12 +63,14 @@ def blind_sparql(query, mapping):
         urls_quotient[field] = [
             u[1:-1]
             for u in re.split("(\<.+?\>)", query)
-            if u.startswith((f"<http://dbpedia.org/{field}",f"<https://dbpedia.org/{field}"))
+            if u.startswith(
+                (f"<http://dbpedia.org/{field}", f"<https://dbpedia.org/{field}")
+            )
         ]
     for field in urls_quotient.keys():
         for url in urls_quotient[field]:
-            _url = url.split('/')[-1]
-            _lev = {_term:levenshtein(_term, _url) for _term in mapping.keys()}
+            _url = url.split("/")[-1]
+            _lev = {_term: levenshtein(_term, _url) for _term in mapping.keys()}
             term = min(_lev, key=_lev.get)
             mapping_replace[url] = f"db{field[0]}_{mapping[term]}"
     query = do_replacements(query, mapping_replace)
@@ -82,13 +83,15 @@ def blind_datalog(query, mapping):
     for field in urls_quotient.keys():
         urls_quotient[field] = [
             u[1:-1]
-            for u in re.split("(\<.+?\>)", query)+re.split('(".+?")', query)
-            if u.startswith((f"<http://dbpedia.org/{field}", f"<https://dbpedia.org/{field}"))
+            for u in re.split("(\<.+?\>)", query) + re.split('(".+?")', query)
+            if u.startswith(
+                (f"<http://dbpedia.org/{field}", f"<https://dbpedia.org/{field}")
+            )
         ]
     for field in urls_quotient.keys():
         for url in urls_quotient[field]:
-            _url = url.split('/')[-1]
-            _lev = {_term:levenshtein(_term, _url) for _term in mapping.keys()}
+            _url = url.split("/")[-1]
+            _lev = {_term: levenshtein(_term, _url) for _term in mapping.keys()}
             term = min(_lev, key=_lev.get)
             mapping_replace[url] = f"db{field[0]}_{mapping[term]}"
     query = do_replacements(query, mapping_replace)

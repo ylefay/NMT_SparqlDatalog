@@ -1,5 +1,7 @@
 import json
-import sys; sys.path.append('../')
+import sys
+
+sys.path.append("../")
 from datasets.templates.generator_utils import (
     reverse_shorten_query,
     reverse_replacements,
@@ -45,8 +47,6 @@ def preprocessing(query):
             if w.startswith(startswith_add_to_the_end) and w[-1] == ")"
         }
     )
-    print(mapping_replace)
-    # print([w for w in query.split(' ') if w.startswith(startswith_add_to_the_end)])
     query = do_replacements(query, mapping_replace)
     query = reverse_shorten_query(query)
     query = reverse_replacements(query)

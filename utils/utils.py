@@ -15,15 +15,19 @@ def levenshtein(mot1, mot2):
 
 
 def do_replacements(string, rep_dict):
-    pattern = re.compile("|".join([re.escape(k) for k in sorted(
-        rep_dict, key=len, reverse=True)]), flags=re.DOTALL)
-    return pattern.sub(lambda x: rep_dict[x.group(0)], string)
+    if rep_dict:
+        pattern = re.compile(
+            "|".join([re.escape(k) for k in sorted(rep_dict, key=len, reverse=True)]),
+            flags=re.DOTALL,
+        )
+        return pattern.sub(lambda x: rep_dict[x.group(0)], string)
+    return string
 
 
 def do_replacements_except(string, mapping_replace, split, exceptions):
     words = string.split(split)
     for idx, word in enumerate(words):
-        if not sum([exception in word for exception in exceptions]) :
+        if not sum([exception in word for exception in exceptions]):
             words[idx] = do_replacements(word, mapping_replace)
     return split.join(words)
 
@@ -167,5 +171,5 @@ def sparql_invert_preprocessing(query):
     mapping_replace = {mapping_replace[key]: key for key in mapping_replace.keys()}
     query = do_replacements(query, mapping_replace)
     # since we remove successive spaces, we need to replace par_open, dot etc
-    query = do_replacements(query, {'  ':' ', '< ': '<', ' >':'>'})
+    query = do_replacements(query, {"  ": " ", "< ": "<", " >": ">"})
     return query

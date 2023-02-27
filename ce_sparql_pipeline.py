@@ -41,7 +41,9 @@ def full_pipeline(ce_untagged_query, silent=False):
         mapping_replace[key]: do_replacements(key, {" ": "_"})
         for key in mapping_replace.keys()
     }
-    datalog_query = do_replacements_except(datalog_query, mapping_replace, ' ', ['SELECT', 'DISTINCT', 'COUNT', 'WHERE'])
+    datalog_query = do_replacements_except(
+        datalog_query, mapping_replace, " ", ["SELECT", "DISTINCT", "COUNT", "WHERE"]
+    )
 
     if not silent:
         print(datalog_query)
@@ -84,7 +86,7 @@ if __name__ == "__main__":
     DATASET_FILE = "train-data-datalog.json"
     OUTPUT_FILE = DATASET_NAME + "_OUTPUT_s.json"
     json_db = json.load(open(DATASET_PATH + DATASET_FILE))
-    json_db = json_db[:min(N, len(json_db))]
+    json_db = json_db[: min(N, len(json_db))]
     run_pipeline_on_db(OUTPUT_FILE, json_db)
     # ce_untagged_query = "What is the alumnus of of the fashion designer whose death place is Stony Brook University Hospital ?"
     # print(full_pipeline(ce_untagged_query))
