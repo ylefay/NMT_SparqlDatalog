@@ -1,1 +1,2 @@
-SELECT DISTINCT COUNT ( ?uri ) WHERE { ?uri <https://dbpedia.org/ontology/B> <https://dbpedia.org/resource/C> . }
+N N N O N N O E N B N B N
+open var_uri par_close WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_C cr_close var_uri br_close

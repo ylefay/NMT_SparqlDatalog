@@ -1,71 +1,43 @@
 import json
 import sys
+import re
 
 sys.path.append("../")
 from datasets.templates.generator_utils import (
     reverse_shorten_query,
     reverse_replacements,
 )
-from utils import do_replacements
+from utils import do_replacements, sparql_invert_preprocessing
 
 # Construct the darling-adapted json file.
 
 
 # Process the query so that it is darling compatible
+# not the same as sparql_invert_preprocessing function since it depends on the template..
 def preprocessing(query):
     mapping_replace = {
-        "dbo_": "<https://dbpedia.org/ontology/",
-        "dbr_": "<https://dbpedia.org/resource/",
-        "dbp_": "<http://dbpedia.org/property/",
-        "dct_subject": "<http://purl.org/dc/terms/subject>",
-        "geo_lat": "<http://www.w3.org/2003/01/geo/wgs84_pos#lat>",
-        "georss_point": "<http://www.georss.org/georss/point>",
-        "geo_long": "<http://www.w3.org/2003/01/geo/wgs84_pos#long>",
-        "rdf_type": "<http://www.w3.org/1999/02/22-rdf-syntax-ns#>",
+        "dbo_": "https://dbpedia.org/ontology/",
+        "dbr_": "https://dbpedia.org/resource/",
+        "dbp_": "http://dbpedia.org/property/",
+        "dbc_": "http://dbpedia.org/resource/Category/",
+        "dct_subject": "http://purl.org/dc/terms/subject",
+        "geo_lat": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+        "georss_point": "http://www.georss.org/georss/point",
+        "geo_long": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+        "rdf_type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "var_": "?",
+        "sep_dot": ".",
+        "wildcard": "*",
+        "select": "SELECT",
+        "where":"WHERE"
     }
     query = do_replacements(query, mapping_replace)
-    startswith_add_to_the_end = (
-        "<https://dbpedia.org/ontology/",
-        "<https://dbpedia.org/resource/",
-        "<http://dbpedia.org/property/",
-    )
-    mapping_replace = {
-        w: w[:-1]
-        for w in query.split(" ")
-        if w.startswith(startswith_add_to_the_end) and ")" == w[-1] and "(" not in w
-    }
-    # query = do_replacements(query, mapping_replace)
-    mapping_replace = {
-        w: w + ">"
-        for w in query.split(" ")
-        if w.startswith(startswith_add_to_the_end) and w[-1] != ")" and w[-1] != "_"
-    }
-    mapping_replace.update(
-        {
-            w: w[:-1] + ">)"
-            for w in query.split(" ")
-            if w.startswith(startswith_add_to_the_end) and w[-1] == ")"
-        }
-    )
-    query = do_replacements(query, mapping_replace)
-    query = reverse_shorten_query(query)
-    query = reverse_replacements(query)
-    mapping_replace = {
-        word: word[:-1]
-        for word in query.split(" ")
-        if word.startswith(startswith_add_to_the_end) and ",_" in word and ")" in word
-    }
-    query = do_replacements(query, mapping_replace)
-    mapping_replace = {
-        ")}order": ")} order",
-        "orde by": "order by",
-        "where{<": "where { <",
-        "{{": "{ {",
-        " ) ": ")>",
-        " where{ ": " where { ",
-    }
-    query = do_replacements(query, mapping_replace)
+    urls = [u for u in re.split(" ", query) if u.startswith("http")]
+    query = do_replacements(query, {url:"<"+url+">" for url in urls})
+    query = do_replacements(query, {'brack_close':'', 'brack_open':''})
+    query = re.sub(' +', ' ', query)
     return query
+
 
 
 # Create the json file.

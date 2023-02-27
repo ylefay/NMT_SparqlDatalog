@@ -80,7 +80,7 @@ def run_pipeline_on_db(OUTPUT_FILE, json_db):
 
 
 if __name__ == "__main__":
-    N = 1
+    N = 200
     DATASET_PATH = "./datasets/LC-QuAD/"
     DATASET_NAME = "LC-QuAD"
     DATASET_FILE = "train-data-datalog.json"

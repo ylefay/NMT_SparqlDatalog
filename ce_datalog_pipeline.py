@@ -1,4 +1,5 @@
 import os
+import re
 from POS_BR_tags.pos import br_tagging, pipeline, fix_pipeline, drop_brackets
 from utils.utils import do_replacements, levenshtein
 from utils.KB_simplification import simplify_english_request
@@ -38,7 +39,7 @@ def full_pipeline(ce_untagged_query, silent=False):
     datalog_query = datalog_file.split("\n")[-3]
     # Replace back
     mapping_replace = {
-        mapping_replace[key]: do_replacements(key, {" ": "_"})
+        mapping_replace[key]: re.sub(' +', '_', key)
         for key in mapping_replace.keys()
     }
     datalog_query = do_replacements(datalog_query, mapping_replace)
@@ -78,13 +79,14 @@ def run_pipeline_on_db(OUTPUT_FILE, json_db):
 
 
 if __name__ == "__main__":
-    N = 100
+    N = 200
     DATASET_PATH = "./datasets/LC-QuAD/"
     DATASET_NAME = "LC-QuAD"
     DATASET_FILE = "train-data-datalog.json"
     OUTPUT_FILE = DATASET_NAME + "_OUTPUT.json"
     json_db = json.load(open(DATASET_PATH + DATASET_FILE))
     json_db = json_db[: min(N, len(json_db))]
+    json_db = [s for s in json_db if s['datalog_query']!="."]
     run_pipeline_on_db(OUTPUT_FILE, json_db)
     # ce_untagged_query = "What is the alumnus of of the fashion designer whose death place is Stony Brook University Hospital ?"
     # print(full_pipeline(ce_untagged_query))
