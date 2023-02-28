@@ -1,2 +1,1 @@
-N N N O N N O E N B N B N
-open var_uri par_close WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_C cr_close var_uri br_close
+SELECT DISTINCT ?uri WHERE { ?uri <https://dbpedia.org/ontology/B> <https://dbpedia.org/resource/C> . ?uri <https://dbpedia.org/ontology/D> <https://dbpedia.org/resource/E> . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type

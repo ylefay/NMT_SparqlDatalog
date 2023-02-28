@@ -23,12 +23,12 @@ def full_pipeline(ce_untagged_query, silent=False):
     br_tags_file = open(f"{temp_file}", "r").read()
     br_tags = br_tags_file.split("\n")[-3]
     if not silent:
-        print(f"BR_TAGS: {br_tags}")
+        print(f"BR TAGS: {br_tags}")
     os.remove(f"{temp_file}")
     ce_query = br_tagging(ce_untagged_query, piped_query, br_tags.split(" "))
     kb_simplified_query, mapping_replace = simplify_english_request(ce_query)
     if not silent:
-        print(f"KBs Query:{kb_simplified_query}")
+        print(f"KBs Query: {kb_simplified_query}")
 
     # Use NMT model to translate the KB-simplified CE english request to KB-simplified Datalog request
     os.system(
@@ -37,15 +37,18 @@ def full_pipeline(ce_untagged_query, silent=False):
     datalog_file = open(f"{temp_file}", "r").read()
     os.remove(f"{temp_file}")
     datalog_query = datalog_file.split("\n")[-3]
+    if not silent:
+        print(f"Prev. KBs datalog query: {datalog_query}")
     # Replace back
     mapping_replace = {
         mapping_replace[key]: re.sub(' +', '_', key)
         for key in mapping_replace.keys()
     }
+    print(mapping_replace)
     datalog_query = do_replacements(datalog_query, mapping_replace)
 
     if not silent:
-        print(datalog_query)
+        print(f"Prev. datalog query: {datalog_query}")
     return datalog_query
 
 
@@ -62,7 +65,7 @@ def run_pipeline_on_db(OUTPUT_FILE, json_db):
                 english_label: s[english_label],
                 "datalog_query": s["datalog_query"],
                 "datalog_prev": full_pipeline(
-                    drop_brackets(s[english_label]), silent=True
+                    drop_brackets(s[english_label]), silent=False
                 ),
             }
             out_json[idx].update(

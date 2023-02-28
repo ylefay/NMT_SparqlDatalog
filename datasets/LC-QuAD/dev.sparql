@@ -1,371 +1,371 @@
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbo_C cr_close var_x dot var_x cr_open dbo_A cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbo_C cr_close var_x dot var_x cr_open dbp_B cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbo_B cr_close cr_open dbr_D cr_close dot br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbp_C cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_C cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_B cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_B cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbp_C cr_close var_x dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbp_C cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_C cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_C cr_close cr_open dbo_A cr_close var_uri dot br_close
-SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbp_B cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_uri cr_open dbp_B cr_close var_x dot var_uri cr_open rdf_typetype cr_close cr_open dbo_C cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbp_D cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbp_C cr_close var_x dot var_x cr_open dbo_A cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_uri cr_open rdf_typetype cr_close cr_open dbo_C cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbp_C cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbp_C cr_close var_x dot var_x cr_open dbp_A cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_D cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
 SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbo_B cr_close cr_open dbr_D cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_C cr_close cr_open dbo_A cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_C cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbo_A cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbo_C cr_close var_x dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_D cr_close cr_open dbr_C cr_close dot var_uri cr_open dbo_D cr_close cr_open dbr_D cr_close dot br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
-SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbo_C cr_close var_x dot var_x cr_open dbo_A cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_A cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_A cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbp_C cr_close var_uri dot var_uri cr_open rdf_typetype cr_close cr_open dbo_C cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri dot cr_open dbr_C cr_close cr_open dbp_A cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbp_D cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbp_D cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri dot cr_open dbr_C cr_close cr_open dbp_A cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbo_C cr_close var_x dot var_x cr_open dbp_A cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_D cr_close cr_open dbr_C cr_close dot var_uri cr_open dbp_D cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbp_C cr_close var_x dot var_x cr_open dbo_A cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbp_D cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbp_C cr_close var_x dot var_x cr_open dbo_C cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbp_C cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbp_C cr_close var_uri br_close
 SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_uri cr_open dbp_B cr_close var_x dot br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_A cr_close cr_open dbr_C cr_close dot var_x cr_open dbo_A cr_close var_uri dot br_close
-SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbo_A cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_C cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_C cr_close var_uri dot br_close
-SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbo_A cr_close cr_open dbr_C cr_close dot var_x cr_open dbp_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbo_C cr_close var_x dot var_x cr_open dbo_A cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_A cr_close cr_open dbr_C cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_uri cr_open dbp_B cr_close var_x dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_C cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbp_D cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot br_close
-SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbo_A cr_close cr_open dbr_C cr_close dot var_x cr_open dbo_A cr_close var_uri br_close
-SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_uri cr_open dbp_B cr_close var_x dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbp_C cr_close var_x dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_A cr_close cr_open dbr_C cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbo_D cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_C cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_uri cr_open dbp_B cr_close var_x dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbp_C cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbp_C cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_C cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_C cr_close var_uri dot cr_open dbr_D cr_close cr_open dbp_C cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbp_C cr_close var_x dot var_x cr_open dbo_B cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_C cr_close cr_open dbo_A cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
-SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbp_A cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbo_C cr_close var_x dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_B cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbp_D cr_close cr_open dbr_E cr_close dot br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbp_D cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbo_D cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_uri cr_open dbo_B cr_close var_x dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_C cr_close var_uri br_close
-SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_B cr_close var_uri dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbp_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_C cr_close cr_open dbo_A cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri dot cr_open dbr_C cr_close cr_open dbo_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_B cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_B cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbp_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_uri cr_open dbo_B cr_close var_x dot br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_B cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbp_D cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_A cr_close cr_open dbr_C cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_C cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbo_B cr_close var_x dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_C cr_close var_uri dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_C cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbo_B cr_close var_x dot var_x cr_open dbo_A cr_close var_uri dot br_close
-SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbo_A cr_close cr_open dbr_D cr_close dot var_uri cr_open dbo_B cr_close var_x dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
-SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot br_close
-SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri br_close
-SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_A cr_close cr_open dbr_C cr_close dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_B cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbp_C cr_close var_x dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbo_C cr_close var_x dot var_x cr_open dbo_A cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_uri cr_open dbp_B cr_close var_x dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbo_C cr_close var_x dot var_x cr_open dbo_A cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_C cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_uri cr_open dbo_B cr_close var_x dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_C cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbp_C cr_close var_x dot var_x cr_open dbo_A cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_C cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_C cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_A cr_close cr_open dbr_C cr_close dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_uri cr_open dbo_C cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_A cr_close cr_open dbr_B cr_close dot var_uri cr_open dbp_A cr_close cr_open dbr_C cr_close dot br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbo_C cr_close var_x dot var_x cr_open dbp_A cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_A cr_close cr_open dbr_D cr_close dot var_uri cr_open dbp_B cr_close var_x dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_C cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_C cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_B cr_close var_uri br_close
-SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_C cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbp_C cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbo_B cr_close var_x dot var_x cr_open dbo_A cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbp_D cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbo_D cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbp_C cr_close var_uri br_close
-SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_C cr_close var_uri dot cr_open dbr_D cr_close cr_open dbp_C cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbp_C cr_close var_x dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_uri cr_open dbo_B cr_close var_x dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbo_C cr_close var_x dot var_x cr_open dbo_A cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_C cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_A cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_B cr_close var_uri dot cr_open dbr_C cr_close cr_open dbo_B cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbo_D cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbo_D cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
-SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbp_B cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_uri cr_open dbo_B cr_close var_x dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbo_B cr_close cr_open dbr_E cr_close dot br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbp_C cr_close var_uri br_close
-SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot br_close
-SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_A cr_close cr_open dbr_C cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_uri cr_open dbo_B cr_close var_x dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_uri cr_open dbp_B cr_close var_x dot br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_C cr_close var_uri br_close
-SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot var_uri cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri br_close
-SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbp_C cr_close var_x dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbp_D cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbp_D cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_uri cr_open dbo_B cr_close var_x dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_uri cr_open dbp_B cr_close var_x dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_uri cr_open dbo_B cr_close var_x dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_A cr_close cr_open dbr_C cr_close dot var_uri cr_open dbo_A cr_close cr_open dbr_D cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbo_C cr_close var_x dot var_x cr_open dbp_A cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_A cr_close cr_open dbr_B cr_close dot var_uri cr_open dbo_A cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri dot cr_open dbr_C cr_close cr_open dbp_A cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_B cr_close cr_open dbr_D cr_close dot var_uri cr_open dbp_B cr_close var_x dot br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_C cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbo_A cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_C cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbp_D cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot br_close
-SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbo_A cr_close cr_open dbr_C cr_close dot var_x cr_open dbo_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbo_B cr_close cr_open dbr_D cr_close dot br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_uri cr_open dbp_B cr_close var_x dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbp_D cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_B cr_close cr_open dbr_D cr_close dot var_uri cr_open dbp_B cr_close var_x dot br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_C cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_uri cr_open dbp_B cr_close var_x dot br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_uri cr_open dbo_B cr_close var_x dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_uri cr_open dbo_B cr_close var_x dot br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbo_B cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_C cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbo_D cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_C cr_close cr_open dbo_B cr_close var_x dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_D cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_C cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbo_C cr_close var_x dot var_x cr_open dbo_A cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_A cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_uri cr_open dbo_B cr_close var_x dot br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbp_D cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_A cr_close cr_open dbr_B cr_close dot var_uri cr_open dbo_A cr_close cr_open dbr_C cr_close dot br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot br_close
 SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_B cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbo_B cr_close cr_open dbr_D cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_B cr_close var_uri dot var_uri cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_uri cr_open dbo_B cr_close var_x dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbo_C cr_close var_x dot var_x cr_open dbo_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbp_A cr_close var_uri dot var_uri cr_open rdf_typetype cr_close cr_open dbo_C cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_uri cr_open dbp_B cr_close var_x dot br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbo_C cr_close var_x dot var_x cr_open dbp_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_C cr_close cr_open dbo_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbo_D cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbp_A cr_close cr_open dbr_C cr_close dot var_x cr_open dbp_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_B cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbp_C cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbp_D cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
 SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
-SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_uri cr_open dbo_B cr_close var_x dot br_close
 SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_uri cr_open dbp_B cr_close var_x dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_B cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbo_D cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_C cr_close var_uri br_close
 SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_uri cr_open dbp_B cr_close var_x dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_C cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri dot cr_open dbr_C cr_close cr_open dbp_A cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_B cr_close var_uri br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_C cr_close var_uri dot var_uri cr_open rdf_typetype cr_close cr_open dbo_C cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_A cr_close cr_open dbr_C cr_close dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
 SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_A cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_uri cr_open dbo_A cr_close var_x dot br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbo_C cr_close var_x dot var_x cr_open dbp_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_C cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbp_C cr_close var_x dot var_x cr_open dbo_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_uri cr_open dbo_B cr_close var_x dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbo_A cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbo_C cr_close var_x dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_C cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_C cr_close cr_open dbr_C cr_close dot var_uri cr_open dbo_D cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbo_D cr_close cr_open dbr_E cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_C cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_A cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbp_D cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbp_B cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbo_C cr_close var_x dot var_x cr_open dbo_B cr_close var_uri dot br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbo_C cr_close var_x dot var_x cr_open dbo_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_C cr_close cr_open dbo_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_C cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_A cr_close cr_open dbr_B cr_close dot var_uri cr_open dbo_A cr_close cr_open dbr_C cr_close dot br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_C cr_close var_uri dot cr_open dbr_C cr_close cr_open dbo_C cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbp_C cr_close var_x dot var_x cr_open dbo_B cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_B cr_close var_uri br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_uri cr_open dbo_B cr_close var_x dot br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbo_B cr_close cr_open dbr_D cr_close dot br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbo_D cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_A cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbo_A cr_close cr_open dbr_C cr_close dot var_x cr_open dbo_A cr_close var_uri br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbo_D cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_D cr_close cr_open dbr_C cr_close dot var_uri cr_open dbo_D cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_C cr_close cr_open dbo_A cr_close var_uri dot br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_B cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_uri cr_open dbp_B cr_close var_x dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_A cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbo_C cr_close var_x dot var_x cr_open dbp_C cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_C cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbp_B cr_close cr_open dbr_D cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbp_D cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_A cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbp_D cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_C cr_close var_uri br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_uri cr_open dbo_B cr_close var_x dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_C cr_close var_uri br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_C cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbp_C cr_close var_x dot var_x cr_open dbo_C cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_B cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_B cr_close var_uri dot var_uri cr_open rdf_typetype cr_close cr_open dbo_D cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbp_D cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_B cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_A cr_close cr_open dbr_C cr_close dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_C cr_close cr_open dbp_B cr_close var_x dot var_x cr_open dbo_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_uri cr_open dbp_B cr_close var_x dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbp_C cr_close var_x dot var_x cr_open dbp_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbp_D cr_close cr_open dbr_E cr_close dot br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_C cr_close cr_open dbo_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbp_C cr_close var_x dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbp_C cr_close var_x dot var_x cr_open dbo_B cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbo_B cr_close var_x dot var_x cr_open dbp_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbp_C cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_C cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbp_D cr_close cr_open dbr_E cr_close dot br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri dot cr_open dbr_C cr_close cr_open dbp_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbo_D cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_C cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_C cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_C cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_C cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbp_C cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbp_D cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbp_B cr_close cr_open dbr_D cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbo_C cr_close var_x dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_B cr_close var_uri br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_uri cr_open dbp_B cr_close var_x dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbo_D cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_B cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_D cr_close br_close
 SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbp_B cr_close cr_open dbr_D cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
 SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_C cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbo_B cr_close cr_open dbr_D cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_A cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri br_close
 SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_C cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_D cr_close cr_open dbr_C cr_close dot var_uri cr_open dbo_D cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot br_close
-SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbo_A cr_close cr_open dbr_C cr_close dot var_x cr_open dbp_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_uri cr_open dbp_B cr_close var_x dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_uri cr_open dbp_B cr_close var_x dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbo_B cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot br_close
 SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_C cr_close cr_open dbo_A cr_close var_uri dot br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_uri cr_open dbp_B cr_close var_x dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbo_D cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbo_D cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbo_B cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
 SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbp_C cr_close var_x dot var_x cr_open dbo_A cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri br_close
 SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbp_C cr_close var_uri br_close
 SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_C cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_C cr_close var_uri dot cr_open dbr_C cr_close cr_open dbo_C cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_uri cr_open dbo_C cr_close var_x dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbp_B cr_close var_x dot var_x cr_open dbp_A cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_A cr_close cr_open dbr_C cr_close dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbo_A cr_close cr_open dbr_C cr_close dot var_x cr_open dbo_A cr_close var_uri br_close
-SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_uri cr_open dbp_B cr_close var_x dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbo_C cr_close var_x dot var_x cr_open dbp_A cr_close var_uri dot br_close
-SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot var_uri cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_C cr_close cr_open dbo_A cr_close var_uri dot br_close
-SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_C cr_close cr_open dbo_A cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_C cr_close cr_open dbo_A cr_close var_uri dot br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
-SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbp_A cr_close cr_open dbr_C cr_close dot var_x cr_open dbp_A cr_close var_uri br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_uri cr_open dbo_B cr_close var_x dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_A cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbo_C cr_close var_x dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_C cr_close br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_uri cr_open dbp_B cr_close var_x dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_C cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
 SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot br_close
-SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbo_C cr_close cr_open dbr_E cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_C cr_close cr_open dbo_A cr_close var_x dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_A cr_close cr_open dbr_C cr_close dot var_x cr_open dbo_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbo_B cr_close cr_open dbr_D cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_C cr_close var_uri br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbo_C cr_close var_x dot var_x cr_open dbp_A cr_close var_uri dot br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbp_C cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbp_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_C cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbp_D cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbp_C cr_close var_uri dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbo_D cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_C cr_close var_uri dot cr_open dbr_D cr_close cr_open dbp_C cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbo_B cr_close cr_open dbr_D cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_C cr_close var_uri dot cr_open dbr_D cr_close cr_open dbp_C cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbo_D cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_uri cr_open dbo_B cr_close var_x dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbo_C cr_close var_x dot var_x cr_open dbp_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_C cr_close cr_open dbo_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_C cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbp_C cr_close var_x dot var_x cr_open dbo_B cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbp_C cr_close var_x dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_C cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_C cr_close var_uri dot br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_C cr_close var_uri br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbp_B cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri dot br_close
 SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri br_close
 SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_C cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
-SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_B cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close br_close
 SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbp_C cr_close var_x dot var_x cr_open dbp_B cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_C cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_A cr_close cr_open dbr_C cr_close dot br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_C cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbp_C cr_close var_x dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_B cr_close var_uri dot var_uri cr_open rdf_typetype cr_close cr_open dbo_D cr_close br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_A cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
 SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_A cr_close cr_open dbr_C cr_close dot var_uri cr_open dbo_A cr_close cr_open dbr_D cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbp_C cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_uri cr_open dbp_B cr_close var_x dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbo_C cr_close var_x dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_A cr_close cr_open dbr_B cr_close dot var_uri cr_open dbp_A cr_close cr_open dbr_C cr_close dot br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_C cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_C cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbp_B cr_close var_x dot var_x cr_open dbp_B cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_C cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_C cr_close var_uri br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_B cr_close cr_open dbr_D cr_close dot var_uri cr_open dbp_B cr_close var_x dot br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_C cr_close cr_open dbo_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_C cr_close cr_open dbr_C cr_close dot var_uri cr_open dbp_D cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbo_B cr_close cr_open dbr_D cr_close dot br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbp_C cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbp_C cr_close var_x dot var_x cr_open dbo_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_uri cr_open dbo_B cr_close var_x dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbo_C cr_close var_x dot var_x cr_open dbp_B cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_D cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_B cr_close cr_open dbr_D cr_close dot var_uri cr_open dbo_B cr_close var_x dot br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_uri cr_open dbo_B cr_close var_x dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbp_C cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbo_C cr_close var_x dot var_x cr_open dbo_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_C cr_close cr_open dbo_B cr_close var_x dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_uri cr_open dbo_B cr_close var_x dot br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbo_E cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_C cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbo_D cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbo_A cr_close cr_open dbr_C cr_close dot var_x cr_open dbo_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_C cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbo_D cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbp_B cr_close cr_open dbr_D cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_A cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbp_D cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri dot cr_open dbr_C cr_close cr_open dbo_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_C cr_close var_uri br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbp_D cr_close cr_open dbr_E cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbp_D cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbp_C cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri dot cr_open dbr_C cr_close cr_open dbp_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbo_A cr_close var_x dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbp_D cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbp_D cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbp_B cr_close cr_open dbr_D cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbo_C cr_close var_x dot var_x cr_open dbo_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_C cr_close var_uri br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_uri cr_open dbo_A cr_close cr_open dbr_C cr_close dot br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_C cr_close cr_open dbo_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbp_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbp_B cr_close cr_open dbr_D cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_uri cr_open dbo_B cr_close var_x dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbp_C cr_close var_x dot var_x cr_open dbo_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_C cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot var_uri cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbp_C cr_close var_uri br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_uri cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbp_C cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbp_C cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_C cr_close cr_open dbo_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri dot cr_open dbr_C cr_close cr_open dbp_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_D cr_close cr_open dbp_C cr_close var_x dot var_x cr_open dbp_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open dbp_D cr_close cr_open dbr_E cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT COUNT par_open var_uri par_close WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_A cr_close cr_open dbr_B cr_close dot var_uri cr_open dbo_A cr_close cr_open dbr_C cr_close dot br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_A cr_close cr_open dbr_C cr_close dot var_x cr_open dbo_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open var_uri cr_open dbo_B cr_close cr_open dbr_C cr_close dot var_uri cr_open rdf_typetype cr_close cr_open dbo_A cr_close br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbo_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbo_A cr_close var_uri dot cr_open dbr_C cr_close cr_open dbo_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri dot cr_open dbr_C cr_close cr_open dbp_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open cr_open dbr_B cr_close cr_open dbp_A cr_close var_uri dot cr_open dbr_D cr_close cr_open dbp_A cr_close var_uri br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbp_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbo_A cr_close var_uri dot br_close
+SELECT DISTINCT var_uri WHERE br_open var_x cr_open dbo_C cr_close cr_open dbr_D cr_close dot var_x cr_open dbp_A cr_close var_uri dot var_x cr_open rdf_typetype cr_close cr_open dbo_B cr_close br_close

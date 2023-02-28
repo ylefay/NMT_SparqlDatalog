@@ -26,6 +26,15 @@ def fix_1():
                 splitted = re.split("(\>.+?\?)", s["intermediary_question"])
                 splitted[-2] = "> of <" + splitted[-2][5:-2] + "> ?"
                 s["intermediary_question"] = "".join(splitted)
+            s["intermediary_question"] = re.sub(
+                '>+', '>', s["intermediary_question"])
+            s["intermediary_question"] = re.sub(
+                '<+', '<', s["intermediary_question"])
+            if ("What is the" in s["intermediary_question"]
+            or "Who is the" in s["intermediary_question"]
+            or "Who are the" in s["intermediary_question"]
+            or "What are the" in s["intermediary_question"]) and ("?" not in s["intermediary_question"]):
+                s["intermediary_question"]+="?"
             dbs[i][idx] = s
     return dbs
 
