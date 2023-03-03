@@ -1,0 +1,1 @@
+SELECT DISTINCT ?uri WHERE {?uri <http://dbpedia.org/ontology/presenter> <http://dbpedia.org/resource/Ryan_Seacrest>  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/TelevisionShow>}

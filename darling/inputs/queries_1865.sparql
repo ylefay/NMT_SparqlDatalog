@@ -1,0 +1,1 @@
+SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/ontology/subsequentWork> <http://dbpedia.org/resource/If_We_Were_a_Movie> . ?uri <http://dbpedia.org/ontology/openingTheme> ?x  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/TelevisionShow>}

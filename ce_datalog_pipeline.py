@@ -62,7 +62,7 @@ def run_pipeline_on_db(OUTPUT_FILE, json_db):
         try:
             out_json[idx] = {
                 "_id": s["_id"],
-                english_label: s[english_label],
+                english_label: drop_brackets(s[english_label]),
                 "datalog_query": s["datalog_query"],
                 "datalog_prev": full_pipeline(
                     drop_brackets(s[english_label]), silent=False
@@ -85,7 +85,7 @@ if __name__ == "__main__":
     N = 200
     DATASET_PATH = "./datasets/LC-QuAD/"
     DATASET_NAME = "LC-QuAD"
-    DATASET_FILE = "train-data-datalog.json"
+    DATASET_FILE = "data-datalog.json"
     OUTPUT_FILE = DATASET_NAME + "_OUTPUT.json"
     json_db = json.load(open(DATASET_PATH + DATASET_FILE))
     json_db = json_db[: min(N, len(json_db))]

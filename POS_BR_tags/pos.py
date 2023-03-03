@@ -127,7 +127,7 @@ if __name__ == "__main__":
     # Data sources
     DATASET_PATH = "../datasets/LC-QuAD/"
     DATASET_NAME = "LC-QuAD"
-    DATASET_FILE = "train-data-datalog.json"
+    DATASET_FILE = "data-datalog.json"
 
     N = 100000  # restricting the db
     json_db = json.load(open(DATASET_PATH + DATASET_FILE))

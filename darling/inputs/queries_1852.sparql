@@ -1,0 +1,1 @@
+SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/ontology/region> <http://dbpedia.org/resource/Kalutara_Electoral_District> . ?x <http://dbpedia.org/ontology/religion> ?uri  . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MemberOfParliament>}

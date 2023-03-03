@@ -78,23 +78,31 @@ def blind_sparql(query, mapping):
 
 
 def blind_datalog(query, mapping):
+    print("prout")
+    print(mapping)
     urls_quotient = {"ontology": [], "resource": [], "property": []}
     mapping_replace = {}
     for field in urls_quotient.keys():
         urls_quotient[field] = [
             u[1:-1]
-            for u in re.split("(\<.+?\>)", query) + re.split('(".+?")', query)
+            for u in re.split("(\<.+?\>)", query)
             if u.startswith(
                 (f"<http://dbpedia.org/{field}", f"<https://dbpedia.org/{field}")
             )
         ]
+        urls_quotient[field] = urls_quotient[field] + [u[1:-1] for u in re.split('(\".+?\")', query) if u.startswith(
+            f'"http://dbpedia.org/{field}') or u.startswith(f'"https://dbpedia.org/{field}')]
+        
+       
     for field in urls_quotient.keys():
         for url in urls_quotient[field]:
             _url = url.split("/")[-1]
             _lev = {_term: levenshtein(_term, _url) for _term in mapping.keys()}
+            print(_lev)
             term = min(_lev, key=_lev.get)
             mapping_replace[url] = f"db{field[0]}_{mapping[term]}"
     query = do_replacements(query, mapping_replace)
+    print(mapping_replace)
     return query, mapping_replace
 
 
@@ -139,8 +147,8 @@ def simplify_database(DATASET_PATH, json_db, OUT_FILE):
 if __name__ == "__main__":
     DATASET_PATH = "../datasets/LC-QuAD/"
     DATASET_NAME = "LC-QuAD"
-    DATASET_FILE = "train-data-datalog.json"
-    OUT_FILE = "KB_simplified_train-data-datalog.json"
+    DATASET_FILE = "data-datalog.json"
+    OUT_FILE = "KB_simplified_data-datalog.json"
     # Data sources
     N = 1000000
     json_db = json.load(open(DATASET_PATH + DATASET_FILE))

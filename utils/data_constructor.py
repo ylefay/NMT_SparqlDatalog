@@ -39,7 +39,7 @@ if __name__ == "__main__":
     # For KB-simplified requests:
     DATASET_PATH = "../datasets/LC-QuAD/"
     DATASET_NAME = "LC-QuAD"
-    DATASET_FILE = "KB_simplified_train-data-datalog.json"
+    DATASET_FILE = "KB_simplified_data-datalog.json"
     file_paths = [
         "data.en",
         "data.datalog",

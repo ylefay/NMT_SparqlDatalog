@@ -62,24 +62,28 @@ if __name__ == "__main__":
     # Data sources
 
     # for the monument dataset:
-    DATASET_PATH = "../datasets/monument_600/"
-    DATASET_NAME = "monument_600"
-    DATASET_FILE = "monument_600.json"
-    ontology_name = (
-        "Monument_ontology.ttl"  # expected location: ./inputs/{ontology_name}
-    )
-    json_db = json.load(open(DATASET_PATH + DATASET_FILE))
-    sparql_txt = [s["sparql_query"] for s in json_db]
+    #DATASET_PATH = "../datasets/monument_600/"
+    #DATASET_NAME = "monument_600"
+    #DATASET_FILE = "monument_600.json"
+    #ontology_name = (
+    #    "Monument_ontology.ttl"  # expected location: ./inputs/{ontology_name}
+    #)
+    #json_db = json.load(open(DATASET_PATH + DATASET_FILE))
+    #sparql_txt = [s["sparql_query"] for s in json_db]
 
     # for the LC-QuAD dataset:
-    # DATASET_PATH = "../datasets/LC-QuAD/"
-    # DATASET_NAME = "LC-QuAD"
-    # DATASET_FILE = "train-data.json"
-    # ontology_name = 'ontology--DEV_type=parsed.ttl' #expected location : ./inputs/{ontology_name}
-    # json_db = json.load(open(DATASET_PATH+DATASET_FILE))
-    # sparql_txt = [s['sparql_query'] for s in json_db]
+    DATASET_PATH = "../datasets/LC-QuAD/"
+    ontology_name = 'ontology--DEV_type=parsed.ttl' #expected location : ./inputs/{ontology_name}
+    DATASET_NAME = "LC-QuAD"
 
-    OUT_FILE = "train-data-datalog.json"
+    DATASET_FILE = "data.json"
+    json_db = json.load(open(DATASET_PATH+DATASET_FILE))
+
+    sparql_txt = [s['sparql_query'] for s in json_db]
+    #sparql_txt = [s['sparql_query'] for s in json_db]
+
+    OUT_FILE = "data-datalog.json"
+   
 
     force_idx = None  # force run darling_run over force_idx
 

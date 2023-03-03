@@ -6,8 +6,8 @@ import re
 
 test = json.load(open("./original_json_files/test-data.json"))
 train = json.load(open("./original_json_files/train-data.json"))
-
-dbs = [test, train]
+both = json.load(open("./original_json_files/data.json"))
+dbs = [test, train, both]
 
 
 def fix_1():
@@ -41,12 +41,13 @@ def fix_1():
 
 if __name__ == "__main__":
     dbs = fix_1()
-    test, train = dbs[0], dbs[1]
+    test, train, both = dbs[0], dbs[1], dbs[2]
     with open("./test-data.json", "w+") as out_test, open(
         "./train-data.json", "w+"
-    ) as out_train:
+    ) as out_train, open("./data.json", "w+") as out_both:
         out_test.write(json.dumps(test))
         out_train.write(json.dumps(train))
+        out_both.write(json.dumps(both))
     json_db = json.load(open("./train-data-datalog.json"))
     for idx, s in enumerate(train):
         json_db[idx]["intermediary_question"] = s["intermediary_question"]
