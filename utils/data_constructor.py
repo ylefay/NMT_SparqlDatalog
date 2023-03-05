@@ -13,9 +13,8 @@ def create_data_files(DATASET_PATH, file_paths, json_db):
             "corrected_question",
             "question",
         ]
-        s = json_db[0]
         for label in possible_english_labels:
-            if label in s.keys():
+            if label in json_db[0].keys():
                 q = label
                 break
         for s in json_db:
