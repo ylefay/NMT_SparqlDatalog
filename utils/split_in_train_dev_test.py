@@ -14,9 +14,6 @@ import random
 import os
 import io
 
-TRAINING_PERCENTAGE = 80
-TEST_PERCENTAGE = 10
-DEV_PERCENTAGE = 10
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -44,8 +41,22 @@ if __name__ == "__main__":
         help="datalog or sparql for example",
         required=True,
     )
+    requiredNamed.add_argument(
+        "--trainingpercentage",
+        dest="trainingpercentage",
+        help="training percentage",
+        default=80,
+    )
+    requiredNamed.add_argument(
+        "--testpercentage",
+        dest="testpercentage",
+        help="test percentage",
+        default=10,
+    )
     args = parser.parse_args()
-
+    TRAINING_PERCENTAGE = int(args.trainingpercentage)
+    TEST_PERCENTAGE = int(args.testpercentage)
+    DEV_PERCENTAGE = 100-TRAINING_PERCENTAGE-TEST_PERCENTAGE
     lines = int(args.lines)
     dataset_file = os.path.splitext(args.dataset)[0]
     tgtextension = args.tgtextension

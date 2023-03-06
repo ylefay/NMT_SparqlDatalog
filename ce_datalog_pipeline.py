@@ -91,6 +91,6 @@ if __name__ == "__main__":
     json_db = json_db[: min(N, len(json_db))]
     json_db = [s for s in json_db if s['datalog_query']!="."]
     run_pipeline_on_db(OUTPUT_FILE, json_db)
-    # ce_untagged_query = "What is the alumnus of of the fashion designer whose death place is Stony Brook University Hospital ?"
-    # print(full_pipeline(ce_untagged_query))
+    #ce_untagged_query = "What is the alumnus of of the fashion designer whose death place is Stony Brook University Hospital ?"
+    #print(full_pipeline(ce_untagged_query))
     pass

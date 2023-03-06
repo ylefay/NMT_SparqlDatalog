@@ -1,1 +1,1 @@
-ans(uri) :- <https://dbpedia.org/ontology/A>(uri),<http://dbpedia.org/property/D>(uri,"https://dbpedia.org/resource/E"),<
+ans(uri) :- <https://dbpedia.org/ontology/B>(x),<https://dbpedia.org/ontology/A>(x,uri),<https://dbpedia.org/ontology/C>
