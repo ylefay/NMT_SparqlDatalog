@@ -1,1 +1,1 @@
-ans(count) :- <https://dbpedia.org/ontology/B>(uri,"https://dbpedia.org/resource/C"),<https://dbpedia.org/ontology/A
+N N B N N N B N O E N

@@ -39,7 +39,7 @@ def run_pipeline_on_db(OUTFILE_PATH, json_db):
             )
         except:
             print(f"Exception:{s['_id']}")
-    with open(OUTPUT_FILE, "w+") as out_file:
+    with open(OUTFILE_PATH, "w+") as out_file:
         out_file.write(json.dumps(out_json))
 
 

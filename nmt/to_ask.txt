@@ -1,1 +1,1 @@
-How many <A> are there whose <B> is <C>?
+WP NN VBZ VBZ VBN IN VBZ NNP NNP -LRB- NNP NNP NN -RRB-
