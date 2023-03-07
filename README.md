@@ -75,7 +75,7 @@ python -m nmt.nmt  --vocab_prefix=../$MODEL/vocab --model_dir=../$MODEL  --infer
 
 This part is used by `../train.sh` and `../ask.sh`.
 
-## /POS_BR_tags/: From an existing database with tagged knowledge-base specific terms in the english queries, this script creates a mapping between grammar classes (BERT POS tags) and KB-specific tags.
+## /utils/pos.py: From an existing database with tagged knowledge-base specific terms in the english queries, this script creates a mapping between grammar classes (BERT POS tags) and KB-specific tags.
 The purpose of this part is to then use the Seq2Seq model to learn how to detect KB specific terms in order to simplify them.
 
 `./pos.py` creates `../datasets/LC-QuAD_bert_tag.json` file that contains the mapping between BERT POS tags and KB tags. 
@@ -105,6 +105,9 @@ The extension of the files containing KB tags is ".br" for brackets.
 
 
 ## /utils/: Contains important utilitaries functions, with datalog and sparql preprocessing/tokenization and inverse preprocessing functions as well as the KB simplification script.
+
+
+
 Running `python ./KB_simplification.py` creates `../datasets/LC-QuAD/KB_simplified_train-data-datalog.json` that contains KB simplified requests.
 
 For example 

@@ -174,3 +174,8 @@ def sparql_invert_preprocessing(query):
     query = do_replacements(query, {"< ": "<", " >": ">"})
     query = re.sub(" +", " ", query)
     return query
+
+
+def drop_brackets(query: str):
+    return query.replace("<", "").replace(">", "")
+

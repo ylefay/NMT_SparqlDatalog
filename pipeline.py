@@ -1,5 +1,5 @@
 import os
-from POS_BR_tags.pos import br_tagging, pipeline
+from utils.pos import br_tagging, pipeline
 from utils.utils import do_replacements, do_replacements_except
 from utils.KB_simplification import simplify_english_request
 import tempfile

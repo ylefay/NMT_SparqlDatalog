@@ -1,4 +1,4 @@
-from POS_BR_tags.pos import drop_brackets
+from utils.pos import drop_brackets
 from utils.utils import levenshtein
 import json
 from pipeline import full_pipeline as _full_pipeline

@@ -8,6 +8,7 @@ from transformers import (
 )
 import json
 import re
+from utils import drop_brackets
 
 model_name = "QCRI/bert-base-multilingual-cased-pos-english"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
@@ -15,9 +16,6 @@ model = AutoModelForTokenClassification.from_pretrained(model_name)
 
 _pipeline = TokenClassificationPipeline(model=model, tokenizer=tokenizer)
 
-
-def drop_brackets(query: str):
-    return query.replace("<", "").replace(">", "")
 
 
 # function to fix pipeline: idk why it splits some words into different part with ## and same entity
@@ -129,8 +127,8 @@ if __name__ == "__main__":
     DATASET_PATH = "../datasets/LC-QuAD/"
     DATASET_NAME = "LC-QuAD"
     DATASET_FILE = "data-datalog.json"
-    OUTFILE_PATH = DATASET_PATH+"/"+DATASET_NAME+"_bert_tag.json"
-    N = 100000  # restricting the db
+    OUTFILE_PATH = DATASET_PATH+"/"+DATASET_NAME+"_bert_tag_test.json"
+    N = 1  # restricting the db
     json_db = json.load(open(DATASET_PATH + DATASET_FILE))
     json_db = json_db[: min(len(json_db), N)]
     create_bert_tag_database(json_db, OUTFILE_PATH)
