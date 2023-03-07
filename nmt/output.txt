@@ -1,1 +1,1 @@
-ans par_open uri par_close :- br_open dbo_B br_close par_open x par_close float br_open dbo_A br_close par_open x float uri par_close float br_open dbo_C br_close
+ans par_open count par_close :- br_open dbo_B br_close par_open uri float quote dbr_C quote par_close float br_open dbo_A

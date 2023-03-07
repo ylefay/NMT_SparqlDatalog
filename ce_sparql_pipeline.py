@@ -1,54 +1,14 @@
-import os
-from POS_BR_tags.pos import br_tagging, pipeline, fix_pipeline, drop_brackets
-from utils.utils import do_replacements, levenshtein, do_replacements_except
-from utils.KB_simplification import simplify_english_request
+from POS_BR_tags.pos import drop_brackets
+from utils.utils import levenshtein
 import json
-import tempfile
+from pipeline import full_pipeline as _full_pipeline
 
 
-def full_pipeline(ce_untagged_query, silent=False):
-    temp_file = tempfile.NamedTemporaryFile().name
-    if not silent:
-        print(f"Query: {ce_untagged_query}")
-
-    # Tagging KB specific terms
-    piped_query = fix_pipeline(pipeline(ce_untagged_query))
-    bert_pos_tags = " ".join([el["entity"] for el in piped_query])
-    if not silent:
-        print(f"BERT_POS_TAGS: {bert_pos_tags}")
-    os.system(
-        f'./ask.sh ./trained_models/LC-QuAD_bert_br "{bert_pos_tags}" bert br > {temp_file}'
+def full_pipeline(ce_untagged_query):
+    return _full_pipeline(
+        ce_untagged_query,  bert_br_MODEL_PATH=bert_br_MODEL_PATH, src_tgt_MODEL_PATH=src_tgt_MODEL_PATH,
+        exceptions_for_replace=["SELECT", "DISTINCT", "COUNT", "WHERE"], src="en", tgt="sparql", silent=silent
     )
-    br_tags_file = open(f"{temp_file}", "r").read()
-    br_tags = br_tags_file.split("\n")[-3]
-    if not silent:
-        print(f"BR TAGS: {br_tags}")
-    os.remove(f"{temp_file}")
-    ce_query = br_tagging(ce_untagged_query, piped_query, br_tags.split(" "))
-    kb_simplified_query, mapping_replace = simplify_english_request(ce_query)
-    if not silent:
-        print(f"KBs Query: {kb_simplified_query}")
-
-    # Use NMT model to translate the KB-simplified CE english request to KB-simplified Datalog request
-    os.system(
-        f'./ask.sh ./trained_models/LC-QuAD_en_sparql "{kb_simplified_query}" en sparql > {temp_file}'
-    )
-    datalog_file = open(f"{temp_file}", "r").read()
-    os.remove(f"{temp_file}")
-    datalog_query = datalog_file.split("\n")[-3]
-    # Replace back
-    mapping_replace = {
-        mapping_replace[key]: do_replacements(key, {" ": "_"})
-        for key in mapping_replace.keys()
-    }
-    print(mapping_replace)
-    datalog_query = do_replacements_except(
-        datalog_query, mapping_replace, " ", ["SELECT", "DISTINCT", "COUNT", "WHERE"]
-    )
-
-    if not silent:
-        print(f"Prev. datalog query: {datalog_query}")
-    return datalog_query
 
 
 def run_pipeline_on_db(OUTPUT_FILE, json_db):
@@ -64,8 +24,7 @@ def run_pipeline_on_db(OUTPUT_FILE, json_db):
                 english_label: drop_brackets(s[english_label]),
                 "sparql_query": s["sparql_query"],
                 "sparql_prev": full_pipeline(
-                    drop_brackets(s[english_label]), silent=False
-                ),
+                    drop_brackets(s[english_label])),
             }
             out_json[idx].update(
                 {
@@ -81,13 +40,18 @@ def run_pipeline_on_db(OUTPUT_FILE, json_db):
 
 
 if __name__ == "__main__":
-    N = 200
+    N = 1
     DATASET_PATH = "./datasets/LC-QuAD/"
     DATASET_NAME = "LC-QuAD"
     DATASET_FILE = "data-datalog.json"
     OUTPUT_FILE = DATASET_NAME + "_OUTPUT_s.json"
     json_db = json.load(open(DATASET_PATH + DATASET_FILE))
     json_db = json_db[: min(N, len(json_db))]
+
+    bert_br_MODEL_PATH = "./trained_models/LC-QuAD_bert_br"
+    src_tgt_MODEL_PATH = "./trained_models/LC-QuAD_en_sparql"
+    silent = False
+
     run_pipeline_on_db(OUTPUT_FILE, json_db)
     # ce_untagged_query = "What is the alumnus of of the fashion designer whose death place is Stony Brook University Hospital ?"
     # print(full_pipeline(ce_untagged_query))

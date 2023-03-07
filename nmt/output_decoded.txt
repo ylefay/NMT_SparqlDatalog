@@ -1,1 +1,1 @@
-ans(uri) :- <https://dbpedia.org/ontology/B>(x),<https://dbpedia.org/ontology/A>(x,uri),<https://dbpedia.org/ontology/C>
+ans(count) :- <https://dbpedia.org/ontology/B>(uri,"https://dbpedia.org/resource/C"),<https://dbpedia.org/ontology/A
