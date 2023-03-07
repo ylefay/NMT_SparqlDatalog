@@ -8,4 +8,7 @@ poetry.lock
 /darling/LC-QuAD/outputs/query*
 /darling/NSpM_monument/outputs/query*
 learningcurve.txt
-
+learningcurve2.txt
+learningcurve3.txt
+/to_ignore/*
+*.ipynb

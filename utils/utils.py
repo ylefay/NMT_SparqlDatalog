@@ -1,5 +1,5 @@
 import re
-
+from typing import Dict
 
 def levenshtein(mot1, mot2):
     ligne_i = [k for k in range(len(mot1) + 1)]
@@ -14,7 +14,7 @@ def levenshtein(mot1, mot2):
     return ligne_i[len(mot1)]
 
 
-def do_replacements(string, rep_dict):
+def do_replacements(string, rep_dict:Dict[str, str]):
     if rep_dict:
         pattern = re.compile(
             "|".join([re.escape(k) for k in sorted(rep_dict, key=len, reverse=True)]),
@@ -24,7 +24,7 @@ def do_replacements(string, rep_dict):
     return string
 
 
-def do_replacements_except(string, mapping_replace, split, exceptions):
+def do_replacements_except(string, mapping_replace:Dict[str, str], split:str, exceptions:Dict[str, str]):
     words = string.split(split)
     for idx, word in enumerate(words):
         if not sum([exception in word for exception in exceptions]):

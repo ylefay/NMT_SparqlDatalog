@@ -14,7 +14,7 @@ import utils
 
 if __name__ == "__main__":
     encoded_prevision = sys.argv[1]
-    target_extension = sys.argv[2] if len(sys.argv) >= 2 else "sparql"
+    target_extension = sys.argv[2]
     # Inverse preprocessing
     if target_extension == "sparql":
         # decoded_prevision = fix_URI(decode(encoded_prevision))

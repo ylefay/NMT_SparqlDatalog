@@ -16,7 +16,7 @@ def full_pipeline(ce_untagged_query):
     )
 
 
-def run_pipeline_on_db(OUTPUT_FILE, json_db):
+def run_pipeline_on_db(OUTFILE_PATH, json_db):
     possible_english_labels = ["intermediary_question"]
     for label in possible_english_labels:
         if label in json_db[0].keys():
@@ -39,7 +39,7 @@ def run_pipeline_on_db(OUTPUT_FILE, json_db):
             )
         except:
             print(f"Exception:{s['_id']}")
-    with open(OUTPUT_FILE, "w+") as out_file:
+    with open(OUTFILE_PATH, "w+") as out_file:
         out_file.write(json.dumps(out_json))
 
 
@@ -48,7 +48,7 @@ if __name__ == "__main__":
     DATASET_PATH = "./datasets/LC-QuAD/"
     DATASET_NAME = "LC-QuAD"
     DATASET_FILE = "data-datalog.json"
-    OUTPUT_FILE = DATASET_NAME + "_OUTPUT.json"
+    OUTFILE_PATH = DATASET_NAME + "_OUTPUT.json"
     json_db = json.load(open(DATASET_PATH + DATASET_FILE))
     json_db = json_db[: min(N, len(json_db))]
     json_db = [s for s in json_db if s["datalog_query"] != "."]
@@ -57,7 +57,7 @@ if __name__ == "__main__":
     src_tgt_MODEL_PATH = "./trained_models/LC-QuAD_en_datalog"
     silent = False
 
-    run_pipeline_on_db(OUTPUT_FILE, json_db)
+    run_pipeline_on_db(OUTFILE_PATH, json_db)
     # ce_untagged_query = "What is the alumnus of of the fashion designer whose death place is Stony Brook University Hospital ?"
     # print(full_pipeline(ce_untagged_query))
     pass

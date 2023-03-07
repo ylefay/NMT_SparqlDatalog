@@ -1,17 +1,17 @@
 import os
-from POS_BR_tags.pos import br_tagging, pipeline, fix_pipeline
+from POS_BR_tags.pos import br_tagging, pipeline
 from utils.utils import do_replacements, do_replacements_except
 from utils.KB_simplification import simplify_english_request
 import tempfile
-
+from typing import List
 
 def full_pipeline(
-    ce_untagged_query,
-    src_tgt_MODEL_PATH,
-    src,
-    tgt,
-    exceptions_for_replace,
-    silent,
+    ce_untagged_query: str,
+    src_tgt_MODEL_PATH: str,
+    src: str,
+    tgt: str,
+    exceptions_for_replace: List[str],
+    silent: bool,
     bert_br_MODEL_PATH="./trained_models/LC-QuAD_bert_br",
 ):
     temp_file = tempfile.NamedTemporaryFile().name
@@ -19,11 +19,12 @@ def full_pipeline(
         print(f"Query: {ce_untagged_query}")
 
     # Tagging KB specific terms
-    piped_query = fix_pipeline(pipeline(ce_untagged_query))
+    piped_query = pipeline(ce_untagged_query)
     bert_pos_tags = " ".join([el["entity"] for el in piped_query])
     if not silent:
         print(f"BERT_POS_TAGS: {bert_pos_tags}")
-    os.system(f'./ask.sh {bert_br_MODEL_PATH} "{bert_pos_tags}" bert br > {temp_file}')
+    os.system(
+        f'./ask.sh {bert_br_MODEL_PATH} "{bert_pos_tags}" bert br > {temp_file}')
     br_tags_file = open(f"{temp_file}", "r").read()
     br_tags = br_tags_file.split("\n")[-3]
     if not silent:
@@ -47,7 +48,6 @@ def full_pipeline(
             mapping_replace[key]: do_replacements(key, {" ": "_"})
             for key in mapping_replace.keys()
         }
-        print(mapping_replace)
         datalog_query = do_replacements_except(
             datalog_query, mapping_replace, " ", exceptions_for_replace
         )

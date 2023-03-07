@@ -13,7 +13,7 @@ model_name = "QCRI/bert-base-multilingual-cased-pos-english"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForTokenClassification.from_pretrained(model_name)
 
-pipeline = TokenClassificationPipeline(model=model, tokenizer=tokenizer)
+_pipeline = TokenClassificationPipeline(model=model, tokenizer=tokenizer)
 
 
 def drop_brackets(query: str):
@@ -21,18 +21,20 @@ def drop_brackets(query: str):
 
 
 # function to fix pipeline: idk why it splits some words into different part with ## and same entity
-def fix_pipeline(piped_query):
-    fixed_piped_query = []
-    for idx in range(len(piped_query)):
-        if len(piped_query[idx]["word"]) > 1:
-            if piped_query[idx]["word"][:2] == "##":
-                fixed_piped_query[-1]["word"] += piped_query[idx]["word"][2:]
-                fixed_piped_query[-1]["end"] = piped_query[idx]["end"]
+def pipeline(string):
+    def fix_pipeline(piped_query):
+        fixed_piped_query = []
+        for idx in range(len(piped_query)):
+            if len(piped_query[idx]["word"]) > 1:
+                if piped_query[idx]["word"][:2] == "##":
+                    fixed_piped_query[-1]["word"] += piped_query[idx]["word"][2:]
+                    fixed_piped_query[-1]["end"] = piped_query[idx]["end"]
+                else:
+                    fixed_piped_query.append(piped_query[idx])
             else:
                 fixed_piped_query.append(piped_query[idx])
-        else:
-            fixed_piped_query.append(piped_query[idx])
-    return fixed_piped_query
+        return fixed_piped_query
+    return fix_pipeline(_pipeline(string))
 
 
 def br_tags(tagged_query: str, piped_query):
@@ -104,13 +106,11 @@ def br_tagging(untagged_query: str, piped_untagged_query, tags):
     return tagged_query
 
 
-def create_bert_tag_database(DATASET_PATH, DATASET_NAME, json_db):
+def create_bert_tag_database(json_db, OUTFILE_PATH):
     out_training_db = [{} for i in range(len(json_db))]
     for idx, s in enumerate(json_db):
-        piped_query = fix_pipeline(pipeline((s["intermediary_question"])))
-        piped_query_without_brackets = fix_pipeline(
-            pipeline(drop_brackets(s["intermediary_question"]))
-        )
+        piped_query = pipeline((s["intermediary_question"]))
+        piped_query_without_brackets = pipeline(drop_brackets(s["intermediary_question"]))
         out_training_db[idx]["BERT_POS"] = " ".join(
             [el_of_pipe["entity"] for el_of_pipe in piped_query_without_brackets]
         )
@@ -119,7 +119,7 @@ def create_bert_tag_database(DATASET_PATH, DATASET_NAME, json_db):
         )
         out_training_db[idx]["intermediary_question"] = s["intermediary_question"]
         out_training_db[idx]["_id"] = s["_id"]
-    with open(f"{DATASET_PATH}/{DATASET_NAME}_bert_tag.json", "w+") as outfile:
+    with open(OUTFILE_PATH, "w+") as outfile:
         outfile.write(json.dumps(out_training_db))
 
 
@@ -129,11 +129,11 @@ if __name__ == "__main__":
     DATASET_PATH = "../datasets/LC-QuAD/"
     DATASET_NAME = "LC-QuAD"
     DATASET_FILE = "data-datalog.json"
-
+    OUTFILE_PATH = DATASET_PATH+"/"+DATASET_NAME+"_bert_tag.json"
     N = 100000  # restricting the db
     json_db = json.load(open(DATASET_PATH + DATASET_FILE))
     json_db = json_db[: min(len(json_db), N)]
-    create_bert_tag_database(DATASET_PATH, DATASET_NAME, json_db)
+    create_bert_tag_database(json_db, OUTFILE_PATH)
 
     # s = "What is the alumnus of of the fashion designer whose death place is Stony Brook University Hospital ?"
     # end_s = "What is the <alumnus of> of the <fashion designer> whose <death place> is <Stony Brook University Hospital> ?"

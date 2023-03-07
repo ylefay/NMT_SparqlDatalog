@@ -1,8 +1,8 @@
 #!/usr/bin/env zsh
 DATASET=$1
+MODEL=$2
 SRC_EXTENSION=$3
 TGT_EXTENSION=$4
-MODEL=$2
 NUM_TRAIN_STEPS=$5
 args=("$@")
 for i in {6..${#args[@]}}

@@ -113,7 +113,7 @@ def simplify_english_request(eng_query):
     return eng(eng_query, blind_create_mapping(eng_query))
 
 
-def simplify_database(DATASET_PATH, json_db, OUT_FILE):
+def simplify_database(json_db, OUTFILE_PATH):
     possible_english_labels = ["intermediary_question"]
     for label in possible_english_labels:
         if label in json_db[0].keys():
@@ -143,7 +143,7 @@ def simplify_database(DATASET_PATH, json_db, OUT_FILE):
             converted_query["datalog_query"] = datalog_query
         converted_queries.append(converted_query)
 
-    with open(f"{DATASET_PATH}/{OUT_FILE}", "w") as out:
+    with open(OUTFILE_PATH, "w") as out:
         out.write(json.dumps(converted_queries))
 
 
@@ -151,7 +151,7 @@ if __name__ == "__main__":
     DATASET_PATH = "../datasets/LC-QuAD/"
     DATASET_NAME = "LC-QuAD"
     DATASET_FILE = "data-datalog.json"
-    OUT_FILE = "KB_simplified_data-datalog.json"
+    OUTFILE_PATH = DATASET_PATH+"/KB_simplified_data-datalog.json"
     # Data sources
     N = 1000000
     json_db = json.load(open(DATASET_PATH + DATASET_FILE))
@@ -159,4 +159,4 @@ if __name__ == "__main__":
     # some queries arent correctly processed by darling, remove them
     json_db = [s for s in json_db if s["datalog_query"] != "."]
 
-    simplify_database(DATASET_PATH, json_db, OUT_FILE)
+    simplify_database(json_db, OUTFILE_PATH)
