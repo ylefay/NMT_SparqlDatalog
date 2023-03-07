@@ -49,4 +49,4 @@ def full_pipeline(ce_untagged_query,  src_tgt_MODEL_PATH, src, tgt, exceptions_f
         if not silent:
             print(f"Prev. query: {datalog_query}")
         return datalog_query
-    return kb_simplified_query
+    return ce_query
