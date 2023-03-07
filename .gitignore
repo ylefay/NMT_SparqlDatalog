@@ -7,5 +7,5 @@ poetry.lock
 /darling/NSpM_monument/input/Monument_ontology_*
 /darling/LC-QuAD/outputs/query*
 /darling/NSpM_monument/outputs/query*
-/learningcurve.txt
+learningcurve.txt
 
