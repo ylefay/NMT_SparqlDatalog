@@ -90,10 +90,13 @@ def blind_datalog(query, mapping):
                 (f"<http://dbpedia.org/{field}", f"<https://dbpedia.org/{field}")
             )
         ]
-        urls_quotient[field] = urls_quotient[field] + [u[1:-1] for u in re.split('(\".+?\")', query) if u.startswith(
-            f'"http://dbpedia.org/{field}') or u.startswith(f'"https://dbpedia.org/{field}')]
-        
-       
+        urls_quotient[field] = urls_quotient[field] + [
+            u[1:-1]
+            for u in re.split('(".+?")', query)
+            if u.startswith(f'"http://dbpedia.org/{field}')
+            or u.startswith(f'"https://dbpedia.org/{field}')
+        ]
+
     for field in urls_quotient.keys():
         for url in urls_quotient[field]:
             _url = url.split("/")[-1]

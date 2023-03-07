@@ -6,9 +6,14 @@ from pipeline import full_pipeline as _full_pipeline
 
 def full_pipeline(ce_untagged_query):
     return _full_pipeline(
-                    ce_untagged_query,  bert_br_MODEL_PATH=bert_br_MODEL_PATH, src_tgt_MODEL_PATH=src_tgt_MODEL_PATH,
-                    exceptions_for_replace=[], src="en", tgt="datalog", silent=silent
-                )
+        ce_untagged_query,
+        bert_br_MODEL_PATH=bert_br_MODEL_PATH,
+        src_tgt_MODEL_PATH=src_tgt_MODEL_PATH,
+        exceptions_for_replace=[],
+        src="en",
+        tgt="datalog",
+        silent=silent,
+    )
 
 
 def run_pipeline_on_db(OUTPUT_FILE, json_db):
@@ -23,8 +28,7 @@ def run_pipeline_on_db(OUTPUT_FILE, json_db):
                 "_id": s["_id"],
                 english_label: drop_brackets(s[english_label]),
                 "datalog_query": s["datalog_query"],
-                "datalog_prev": full_pipeline(
-                    drop_brackets(s[english_label])),
+                "datalog_prev": full_pipeline(drop_brackets(s[english_label])),
             }
             out_json[idx].update(
                 {
@@ -47,7 +51,7 @@ if __name__ == "__main__":
     OUTPUT_FILE = DATASET_NAME + "_OUTPUT.json"
     json_db = json.load(open(DATASET_PATH + DATASET_FILE))
     json_db = json_db[: min(N, len(json_db))]
-    json_db = [s for s in json_db if s['datalog_query'] != "."]
+    json_db = [s for s in json_db if s["datalog_query"] != "."]
 
     bert_br_MODEL_PATH = "./trained_models/LC-QuAD_bert_br"
     src_tgt_MODEL_PATH = "./trained_models/LC-QuAD_en_datalog"

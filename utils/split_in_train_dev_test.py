@@ -56,7 +56,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
     TRAINING_PERCENTAGE = int(args.trainingpercentage)
     TEST_PERCENTAGE = int(args.testpercentage)
-    DEV_PERCENTAGE = 100-TRAINING_PERCENTAGE-TEST_PERCENTAGE
+    DEV_PERCENTAGE = 100 - TRAINING_PERCENTAGE - TEST_PERCENTAGE
     lines = int(args.lines)
     dataset_file = os.path.splitext(args.dataset)[0]
     tgtextension = args.tgtextension

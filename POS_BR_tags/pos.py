@@ -86,20 +86,19 @@ def br_tagging(untagged_query: str, piped_untagged_query, tags):
             tagged_query = (
                 tagged_query[: start + shift]
                 + "<"
-                + tagged_query[start + shift: end + shift]
+                + tagged_query[start + shift : end + shift]
                 + ">"
-                + tagged_query[end + shift:]
+                + tagged_query[end + shift :]
             )
             shift += 2
         elif tag == "O":
             tagged_query = (
-                tagged_query[: start + shift] +
-                "<" + tagged_query[start + shift:]
+                tagged_query[: start + shift] + "<" + tagged_query[start + shift :]
             )
             shift += 1
         elif tag == "E":
             tagged_query = (
-                tagged_query[: end + shift] + ">" + tagged_query[end + shift:]
+                tagged_query[: end + shift] + ">" + tagged_query[end + shift :]
             )
             shift += 1
     return tagged_query
@@ -113,8 +112,7 @@ def create_bert_tag_database(DATASET_PATH, DATASET_NAME, json_db):
             pipeline(drop_brackets(s["intermediary_question"]))
         )
         out_training_db[idx]["BERT_POS"] = " ".join(
-            [el_of_pipe["entity"]
-                for el_of_pipe in piped_query_without_brackets]
+            [el_of_pipe["entity"] for el_of_pipe in piped_query_without_brackets]
         )
         out_training_db[idx]["BR_TAGS"] = " ".join(
             br_tags((s["intermediary_question"]), piped_query)

@@ -29,15 +29,14 @@ def preprocessing(query):
         "sep_dot": ".",
         "wildcard": "*",
         "select": "SELECT",
-        "where":"WHERE"
+        "where": "WHERE",
     }
     query = do_replacements(query, mapping_replace)
     urls = [u for u in re.split(" ", query) if u.startswith("http")]
-    query = do_replacements(query, {url:"<"+url+">" for url in urls})
-    query = do_replacements(query, {'brack_close':'', 'brack_open':''})
-    query = re.sub(' +', ' ', query)
+    query = do_replacements(query, {url: "<" + url + ">" for url in urls})
+    query = do_replacements(query, {"brack_close": "", "brack_open": ""})
+    query = re.sub(" +", " ", query)
     return query
-
 
 
 # Create the json file.

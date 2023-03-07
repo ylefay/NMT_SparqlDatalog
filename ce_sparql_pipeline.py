@@ -6,8 +6,13 @@ from pipeline import full_pipeline as _full_pipeline
 
 def full_pipeline(ce_untagged_query):
     return _full_pipeline(
-        ce_untagged_query,  bert_br_MODEL_PATH=bert_br_MODEL_PATH, src_tgt_MODEL_PATH=src_tgt_MODEL_PATH,
-        exceptions_for_replace=["SELECT", "DISTINCT", "COUNT", "WHERE"], src="en", tgt="sparql", silent=silent
+        ce_untagged_query,
+        bert_br_MODEL_PATH=bert_br_MODEL_PATH,
+        src_tgt_MODEL_PATH=src_tgt_MODEL_PATH,
+        exceptions_for_replace=["SELECT", "DISTINCT", "COUNT", "WHERE"],
+        src="en",
+        tgt="sparql",
+        silent=silent,
     )
 
 
@@ -23,8 +28,7 @@ def run_pipeline_on_db(OUTPUT_FILE, json_db):
                 "_id": s["_id"],
                 english_label: drop_brackets(s[english_label]),
                 "sparql_query": s["sparql_query"],
-                "sparql_prev": full_pipeline(
-                    drop_brackets(s[english_label])),
+                "sparql_prev": full_pipeline(drop_brackets(s[english_label])),
             }
             out_json[idx].update(
                 {
