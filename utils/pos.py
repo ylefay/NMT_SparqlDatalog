@@ -79,7 +79,10 @@ def br_tagging(untagged_query: str, piped_untagged_query, tags):
     shift = 0
     tagged_query = untagged_query
     for idx, el_of_pipe in enumerate(piped_untagged_query):
-        tag = tags[idx]
+        try:
+            tag = tags[idx]
+        except: #tags fed may not be correct since we use a NMT model
+            tag = "Error"
         start = el_of_pipe["start"]
         end = el_of_pipe["end"]
         if tag == "B":

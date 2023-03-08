@@ -93,13 +93,14 @@ The function `br_tagging` enables us to create the following tags:
     N N N O E N N O E N O E N O I I E N
 
 With both a total of 18 tags. The KB tags are the following ones:
-| Abbreviated tags | Tags    | Corresponds to a token    |
-| :-----: | :---: | :---: |
-| N | No   | that is not KB specific   |
-| O | Open  | that starts a KB specific sequence   |
-| E | End   | that ends a KB specific seq.   |
-| B | Both   | that starts and ends a KB specific seq.   |
-| I | Inner  | that is inside a KB specific seq.   |
+
+| Abbreviated tag | Tag  |         Corresponds to a token          |
+|:----------------:|:-----:|:---------------------------------------:|
+|        N         |  No   |         that is not KB-specific         |
+|        O         | Open  |   that starts a KB-specific sequence    |
+|        E         |  End  |      that ends a KB-specific seq.       |
+|        B         | Both  | that starts and ends a KB-specific seq. |
+|        I         | Inner |    that is inside a KB-specific seq.    |
 
 The extension of the files containing KB tags is ".br" for brackets.
 
