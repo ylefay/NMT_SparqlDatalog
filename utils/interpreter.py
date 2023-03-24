@@ -17,7 +17,6 @@ if __name__ == "__main__":
     target_extension = sys.argv[2]
     # Inverse preprocessing
     if target_extension == "sparql":
-        # decoded_prevision = fix_URI(decode(encoded_prevision))
         decoded_prevision = utils.sparql_invert_preprocessing(encoded_prevision)
     elif target_extension == "datalog":
         decoded_prevision = utils.datalog_invert_preprocessing(encoded_prevision)

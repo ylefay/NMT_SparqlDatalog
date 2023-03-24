@@ -3,27 +3,8 @@ import json
 import re
 
 
-# specify to which domain the Kb specific term belongs
-# from sparql query
-def create_mapping(query):
-    urls = [u[1:-1] for u in re.split("(\<.+?\>)", query) if u.startswith("<http")]
-    urls_quotient = {"ontology": {}, "resource": {}, "property": {}}
-    for url in urls:
-        for k in urls_quotient.keys():
-            if f"/{k}/" in url:
-                urls_quotient[k][url] = url.split("/")[-1]
-    mapping = {}
-    for k in urls_quotient.keys():
-        for obj in urls_quotient[k]:
-            if obj not in mapping.keys():
-                mapping[obj] = f"db{k[0]}_{chr(65+len(mapping.keys()))}"
-    return mapping
-
-
+# Create a mapping between kb specific terms in the english query and generic symbols, A, B, ...
 # do not specify to which domain the kb specific term belongs
-# from english query
-
-
 def blind_create_mapping(query):
     kb_specific_terms = [
         u[1:-1] for u in re.split("(\<.+?\>)", query) if len(u) > 0 and u[0] == "<"
@@ -34,7 +15,9 @@ def blind_create_mapping(query):
             mapping[term] = f"{chr(65+len(mapping.keys()))}"
     return mapping
 
-
+# Create a mapping between kb specific terms in the english query and generic symbols, A, B, ...
+# Such that the predecessor of the generic symbol by the mapping is the closest to the kb term
+# using the levenshtein distance.
 def eng(query, mapping):
     terms = [u[1:-1] for u in re.split("(\<.+?\>)", query) if u.startswith("<")]
     mapping_replace = {}
@@ -45,17 +28,9 @@ def eng(query, mapping):
     query = do_replacements(query, mapping_replace)
     return query, mapping_replace
 
-
-def sparql(query, mapping):
-    query = do_replacements(query, mapping)
-    return query
-
-
-def datalog(query, mapping):
-    query = do_replacements(query, mapping)
-    return query
-
-
+# Same as the previous function but given a SPARQL query. We keep the 'field' information 
+# For example, if the KB term is dbpedia.org/resource/Jesus_Christ and the mapping gives
+# 'A' for 'Jesus Christ', then the returned mapping will contains 'dbpedia.org/resource/Jesus_Christ':'dbr_A'.
 def blind_sparql(query, mapping):
     urls_quotient = {"ontology": {}, "resource": {}, "property": {}}
     mapping_replace = {}
@@ -76,10 +51,8 @@ def blind_sparql(query, mapping):
     query = do_replacements(query, mapping_replace)
     return query, mapping_replace
 
-
+# Same as the previous function for Datalog queries.
 def blind_datalog(query, mapping):
-    print("prout")
-    print(mapping)
     urls_quotient = {"ontology": [], "resource": [], "property": []}
     mapping_replace = {}
     for field in urls_quotient.keys():
@@ -101,11 +74,9 @@ def blind_datalog(query, mapping):
         for url in urls_quotient[field]:
             _url = url.split("/")[-1]
             _lev = {_term: levenshtein(_term, _url) for _term in mapping.keys()}
-            print(_lev)
             term = min(_lev, key=_lev.get)
             mapping_replace[url] = f"db{field[0]}_{mapping[term]}"
     query = do_replacements(query, mapping_replace)
-    print(mapping_replace)
     return query, mapping_replace
 
 
@@ -126,19 +97,14 @@ def simplify_database(json_db, OUTFILE_PATH):
 
     converted_queries = []
     for s in json_db:
-        # domain specific mapping:
-        # mapping = create_mapping(s['sparql_query'])
-        # blind mapping:
         mapping = blind_create_mapping(s[english_label])
         eng_query, _ = eng(s[english_label], mapping)
         converted_query = {"_id": s["_id"], english_label: eng_query}
         if sparql_bool:
-            # sparql_query = (sparql(s['sparql_query'], mapping))
             sparql_query, _ = blind_sparql(s["sparql_query"], mapping)
             converted_query["sparql_query"] = sparql_query
 
         if datalog_query:
-            # datalog_query = (datalog(s['datalog_query'], mapping))
             datalog_query, _ = blind_datalog(s["datalog_query"], mapping)
             converted_query["datalog_query"] = datalog_query
         converted_queries.append(converted_query)

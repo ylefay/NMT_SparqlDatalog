@@ -1,6 +1,6 @@
-# Construct (BERT POS tags, bracket tags) database for the LC-QuAD database
-# Pipeline for the (BERT POS tags, BR tags) model
-# Construct tagged query given BR tags, utilitaries functions apart from the rest of the project
+# Construct (BERT POS tags, bracket tags) database for the LC-QuAD database.
+# Pipeline for the (BERT POS tags, BR tags) model.
+# Construct tagged question given BR tags and untagged question.
 from transformers import (
     AutoTokenizer,
     AutoModelForTokenClassification,
@@ -18,7 +18,7 @@ _pipeline = TokenClassificationPipeline(model=model, tokenizer=tokenizer)
 
 
 
-# function to fix pipeline: idk why it splits some words into different part with ## and same entity
+# Fixing BERT pipline by merging splitted tokens that correspond to the same word
 def pipeline(string):
     def fix_pipeline(piped_query):
         fixed_piped_query = []
@@ -38,7 +38,7 @@ def pipeline(string):
 def br_tags(tagged_query: str, piped_query):
     splitted = re.split("(\<.+?\>)", tagged_query)
 
-    def get_position(splitted, start):  # not optimal
+    def get_position(splitted, start):  #not optimal
         n = -1
         L = 0
         while L <= start:
@@ -52,16 +52,11 @@ def br_tags(tagged_query: str, piped_query):
         return pos
 
     def tag(split, start_p, end_p):
-        if not (split[0] == "<"):
+        tokens = {(1, 1):"B", (1, 0):"O", (0, 1): "E"}
+        if split[0] != "<":
             return "N"
         else:
-            if split[start_p - 1] == "<" and split[end_p] == ">":
-                return "B"
-            if split[start_p - 1] == "<" and split[end_p] != ">":
-                return "O"
-            if split[start_p - 1] != "<" and split[end_p] == ">":
-                return "E"
-            return "I"
+            return tokens.get((split[start_p - 1] == "<", split[end_p] == ">"), "I")
 
     piped_query_p = filter(lambda x: x["word"] not in {"<", ">"}, piped_query)
     tags = []
@@ -125,8 +120,6 @@ def create_bert_tag_database(json_db, OUTFILE_PATH):
 
 
 if __name__ == "__main__":
-
-    # Data sources
     DATASET_PATH = "../datasets/LC-QuAD/"
     DATASET_NAME = "LC-QuAD"
     DATASET_FILE = "data-datalog.json"

@@ -90,17 +90,6 @@ def datalog_invert_preprocessing(query):
     }
     mapping_replace = {mapping_replace[key]: key for key in mapping_replace.keys()}
     query = do_replacements(query, mapping_replace)
-    # since we remove successive spaces, we need to replace par_open, dot etc
-    # mapping_replace = {
-    #    "par_open": "(",
-    #    "par_close": ")",
-    #    "quote": '"',
-    #    ")dot": ").",
-    #    "br_close": ">",
-    #    "br_open": "<",
-    #    "float": ",",
-    # }
-    # query = do_replacements(query, mapping_replace)
     query = query.replace(" ", "")
     query = query.replace(":-", " :- ")
     return query
@@ -170,7 +159,6 @@ def sparql_invert_preprocessing(query):
     }
     mapping_replace = {mapping_replace[key]: key for key in mapping_replace.keys()}
     query = do_replacements(query, mapping_replace)
-    # since we remove successive spaces, we need to replace par_open, dot etc
     query = do_replacements(query, {"< ": "<", " >": ">"})
     query = re.sub(" +", " ", query)
     return query
