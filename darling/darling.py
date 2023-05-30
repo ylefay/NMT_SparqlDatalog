@@ -82,7 +82,6 @@ if __name__ == "__main__":
     json_db = json.load(open(DATASET_PATH + DATASET_FILE))
 
     sparql_txt = [s["sparql_query"] for s in json_db]
-    # sparql_txt = [s['sparql_query'] for s in json_db]
 
     OUT_FILE = "data-datalog.json"
 

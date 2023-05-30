@@ -13,7 +13,7 @@ from utils import do_replacements, sparql_invert_preprocessing
 
 
 # Process the query so that it is darling compatible
-# not the same as sparql_invert_preprocessing function since it depends on the template..
+# not the same as sparql_invert_preprocessing function since it depends on the template.
 def preprocessing(query):
     mapping_replace = {
         "dbo_": "https://dbpedia.org/ontology/",

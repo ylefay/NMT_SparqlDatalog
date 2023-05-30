@@ -3,7 +3,7 @@ import json
 import re
 
 
-# Create a mapping between kb specific terms in the english query and generic symbols, A, B, ...
+# Create a mapping between kb specific terms in the English query and generic symbols, A, B, ...
 # do not specify to which domain the kb specific term belongs
 def blind_create_mapping(query):
     kb_specific_terms = [
@@ -15,7 +15,7 @@ def blind_create_mapping(query):
             mapping[term] = f"{chr(65+len(mapping.keys()))}"
     return mapping
 
-# Create a mapping between kb specific terms in the english query and generic symbols, A, B, ...
+# Create a mapping between kb specific terms in the English query and generic symbols, A, B, ...
 # Such that the predecessor of the generic symbol by the mapping is the closest to the kb term
 # using the levenshtein distance.
 def eng(query, mapping):

@@ -36,7 +36,7 @@ def full_pipeline(
         print(f"KBs Query: {kb_simplified_query}")
 
     if src_tgt_MODEL_PATH:
-        # Use NMT model to translate the KB-simplified CE english request to KB-simplified request
+        # Use NMT model to translate the KB-simplified CE English request to KB-simplified request
         os.system(
             f'./ask.sh {src_tgt_MODEL_PATH} "{kb_simplified_query}" {src} {tgt} > {temp_file}'
         )
